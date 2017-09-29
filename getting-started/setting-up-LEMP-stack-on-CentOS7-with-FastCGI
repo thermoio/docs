@@ -1,0 +1,6 @@
+## One: Install Nginx
+1. Prep the system by making sure everything is up to date:
+```
+sudo yum update
+```
+2. 
