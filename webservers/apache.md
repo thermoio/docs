@@ -1,5 +1,0 @@
-# Apache
-
-asdf
-asdf
-asdf
