@@ -9,7 +9,7 @@ After installation, you must connect to the Postgres server. PgSQL creates a new
 
 To connect:
 
-1. Switch to the Postgres user before using the *`psql`* command.
+1. Switch to the Postgres user before using the `psql` command.
 ```
 sudo -i -u postgres
 psql
@@ -25,7 +25,7 @@ postgres=#
 ```
 /q
 ```
-Or, you can execute the *`psql`* command with sudo and without changing users with:
+Or, you can execute the `psql` command with sudo and without changing users with:
 ```
 sudo -u postgres psql
 ```
