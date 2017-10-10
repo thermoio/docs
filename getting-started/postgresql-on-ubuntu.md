@@ -57,7 +57,7 @@ postgres=# \l
 ```
 ## Creating new databases and roles
 Next, this guide demonstrates how to create a new database, a new role, and assign the new role to that database. 
-**Attention:**These commands need to be ran as the `postgres` user on the linux system, not from within psql.
+**Attention:** These commands need to be ran as the `postgres` user on the linux system, not from within psql.
 1. Create a new role to later be added to the new database. The `--pwprompt` option will ask you to set the user’s password.
 ```
 createuser testrole --pwprompt
