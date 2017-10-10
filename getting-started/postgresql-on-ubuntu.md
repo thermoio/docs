@@ -1,5 +1,5 @@
 ## Overview
-This guide covers how to install PostgreSQL (PgSQL) server on your new Ubuntu and introduces basic PgSQL commands. We recommend you complete the following steps as a limited sudo user. For more information about setting up limited sudo users, see this article.
+This guide covers how to install PostgreSQL (PgSQL) server on your Ubuntu installation and introduces basic PgSQL commands. We recommend you complete the following steps as a limited sudo user. For more information about setting up limited sudo users, see this article.
 ## Installing PgSQL
 Using the package manager, perform a system update to ensure you are running the most current version of Ubuntu:
 ```
