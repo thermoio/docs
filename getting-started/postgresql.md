@@ -1,11 +1,15 @@
 ## Overview
-This guide covers how to install PostgreSQL (PgSQL) server on your Ubuntu installation and introduces basic PgSQL commands. We recommend you complete the following steps as a limited sudo user. For more information about setting up limited sudo users, see this article.
+This guide covers how to install PostgreSQL (PgSQL) server on your Ubuntu installation and introduces basic PgSQL commands. We recommend you complete the following steps as a limited sudo user. For more information about setting up limited sudo users, see [Creating sudo users on CentOS quickstart](https://github.com/thermoio/docs/blob/master/getting-started/creating-sudo-users-on-centos-quickstart).
+## Installing PgSQL
+- [Ubuntu](https://github.com/thermoio/docs/blob/master/getting-started/installing-pgsql-on-ubuntu.md)
+- [CentOS](https://github.com/thermoio/docs/blob/master/getting-started/installing-pgsql-on-centos.md)
+
 ## Connecting to PgSQL
 After installation, you must connect to the Postgres server. PgSQL creates a new user on installation called postgres, which you will use to connect. 
 
 To connect:
 
-1. Switch to the Postgres user before using the *`psql`* command.
+1. Switch to the Postgres user before using the `psql` command.
 ```
 sudo -i -u postgres
 psql
@@ -21,7 +25,7 @@ postgres=#
 ```
 /q
 ```
-Or, you can execute the *`psql`* command with sudo and without changing users with:
+Or, you can execute the `psql` command with sudo and without changing users with:
 ```
 sudo -u postgres psql
 ```
