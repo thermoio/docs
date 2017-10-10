@@ -1,6 +1,6 @@
-## Overview##
+## Overview
 This guide covers how to install PostgreSQL (PgSQL) server on your new Ubuntu and introduces basic PgSQL commands. We recommend you complete the following steps as a limited sudo user. For more information about setting up limited sudo users, see this article.
-## Installing PgSQL##
+## Installing PgSQL
 Using the package manager, perform a system update to ensure you are running the most current version of Ubuntu:
 ```
 sudo apt-get update
@@ -30,7 +30,7 @@ Or, you can execute the *`psql`* command with sudo and without changing users wi
 ```
 sudo -u postgres psql
 ```
-##Databases and roles
+## Databases and roles
 PgSQL does not use user and group ownership like a traditional Unix-style account. Rather, it uses the term roles as an all-encompassing term. A role can be either a specific user or a larger group, depending on how it is set up. On our new installation of PgSQL, there is only one role, `postgres`. You can see this from the psql prompt with the *`\du`* command in the below example:
 ```
 psql (9.6.2)
