@@ -10,18 +10,19 @@ sudo apt-get install postgresql postgresql-contrib
 After installation, you must connect to the Postgres server. PgSQL creates a new user on installation called postgres, which you will use to connect. 
 
 To connect:
-1. Switch to the Postgres user before using the *`psql`* command.
-```
-sudo -i -u postgres
-psql
-```
-You should see the following prompt:
-```
-psql (9.6.2)
-Type "help" for help.
 
-postgres=#
-```
+ 1. Switch to the Postgres user before using the *`psql`* command.
+ ```
+ sudo -i -u postgres
+ psql
+ ```
+ You should see the following prompt:
+ ```
+ psql (9.6.2)
+ Type "help" for help.
+ 
+ postgres=#
+ ```
 2. To quit, input:
 ```
 /q
