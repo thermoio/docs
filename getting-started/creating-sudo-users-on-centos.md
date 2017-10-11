@@ -16,7 +16,7 @@ adduser <example_user> sudo
 ```
 adduser <example_user> sudo
 ```
-###CentOS/Fedora
+### CentOS/Fedora
 To add the user, issue:
 ```
 useradd <example_user> && passwd <example_user>

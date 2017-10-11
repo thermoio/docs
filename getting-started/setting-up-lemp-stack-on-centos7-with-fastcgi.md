@@ -1,4 +1,4 @@
-## One: Install Nginx
+## 1: Install Nginx
 1. Prep the system by making sure everything is up to date:
 ```
 sudo yum update
@@ -21,7 +21,7 @@ sudo systemctl start nginx.service
 ```
 sudo cystemctl status nginx.service
 ```
-## Two: Configure server blocks (virtual hosts)
+## 2: Configure server blocks (virtual hosts)
 After completing and testing the Nginx install, you will set up your server blocks. These blocks, which are similar to Apache Virtual Hosts, instruct Nginx where to find data and log files for a specific website.
 You can either set up blocks within the primary `/etc/nginx/nginx.conf` file, or create a separate file for each block in the `/etc/nginx/conf.d` directory. The contents of either the file or a block in the main config file will look the same:
 ```
@@ -37,14 +37,14 @@ location / {
 }
 ```
 If you want to host additional websites, you must create a similar entry for each in either its own file in `/etc/nginx/conf.d`, or an additional entry in `/etc/nginx/nginx.conf`.
-## Three: Create Directories
+## 3: Create Directories
 After creating the server block entry for Nginx, create the directories for your website files and logs:
  
 **Attention:** Make sure the Nginx user has correct permissions to access those folders.
 ```
 sudo mkdir -p /var/www/example.com/{public_html,logs}
 ```
-## Four: Install and configure PHP with FastCGI
+## 4: Install and configure PHP with FastCGI
 When using PHP code for your site, you must make sure Nginx can interpret PHP correctly. This can also be installed with yum:
 ```
 sudo yum install php php-mysql php-fpm
@@ -70,7 +70,7 @@ group = nginx
 sudo systemctl start php-fpm
 sudo systemctl enable php-fpm
 ```
-##Five: Configure Nginx for PHP processing
+## 5: Configure Nginx for PHP processing
 To get PHP working with Nginx, you must add additional information to the server block file we edited previously.
 1. Open the PHP-FPM configuration file:
 ```
@@ -90,7 +90,7 @@ location ~ \.php$ {
 ```
 sudo systemctl restart nginx
 ```
-## Six: Install MySQL (MariaDB)
+## 6: Install MySQL (MariaDB)
 Now that the webserver is running with PHP support, the final step is to install a database server. This tutorial uses MariaDB as a drop-in replacement for MySQL.
 1. Install MariaDB:
 ```
