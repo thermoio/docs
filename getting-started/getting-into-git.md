@@ -70,4 +70,4 @@ Replace the angled brackets and everything between them with the indicated infor
 * `git push <remote_name> <branch_name>`.....Move local data in the current branch to the remote repo
 * `git remote show <remote_repo>`............Display information about the remote repo
 * `git remote rename <old_name> <new_name>`..Rename a remo
-* `git remote rm <name>......................Remove the specified remote repo
+* `git remote rm <name>`......................Remove the specified remote repo
