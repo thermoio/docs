@@ -35,7 +35,7 @@ First, reload the grant tables, which you will need for Step 5:
 ```
 FLUSH PRIVILEGES;
 ```
-Then, change the root password with one of the following two commands, but replace <new_password> and the angled brackets with your actual password:
+Then, change the root password with one of the following two commands, but replace `<new_password>` and the angled brackets (`<>`) with your actual password:
 * For MySQL 5.7.6 and later, use:
 ```
 ALTER USER ‘root’@’localhost’ IDENTIFIED BY ‘<new_password>’;
