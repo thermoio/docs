@@ -19,7 +19,7 @@ Before changing the root password, you must first terminate the database server:
 sudo systemctl stop mysql
 ```
 ## Step 3: Restart the database server without permissions
-To gain root access without a password, you can start MySQL or MariaDB while preventing them from loading the grant tables that store user privilege information.
+To gain root access without a password, you can start MySQL while preventing them from loading the grant tables that store user privilege information.
 **Attention:** Because this step contains potential security risk, it is best practice to disable networking as shown below. Additionally, the ampersand at the end is required to allow you to continue to use your console by pushing the process to the background. 
 
 To do so, issue:
