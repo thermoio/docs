@@ -12,7 +12,7 @@ If you're running MariaDB, it will be something like:
 ```
 mysql  Ver 15.1 Distrib 5.5.52-MariaDB, for Linux (x86_64) using readline 5.1
 ```
-If you're using MariaDB, continue to Step 2 below. If you're using MySQL, see Step 2 in [Resetting MySQL root passwords](LINK).
+If you're using MariaDB, continue to Step 2 below. If you're using MySQL, see Step 2 in [Resetting MySQL root passwords](https://github.com/thermoio/docs/blob/master/security/resetting-mysql-root-passwords.md).
 ## Step 2: Stop the database server
 Before changing the root password, you must first terminate the database server:
 ```
