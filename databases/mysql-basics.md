@@ -1,9 +1,7 @@
 MySQL is an open source SQL-based database management system used to store, retrieve, organize, and manipulate data. It is useful for developing web-based software applications. 
-
-This tutorial will introduce you to MySQL. If you have already installed MySQL from one of our getting started or LAMP/LEMP guides, skip to the “Creating a MySQL database” section.
 ## Installing MySQL server
-* For Ubuntu, see <Installing MySQL with Ubuntu>.
-* For CentOS, see <Installing MySQL with CentOS>.
+* For Ubuntu, see [Installing MySQL with Ubuntu](https://github.com/thermoio/docs/blob/master/databases/installing-mysql-with-centos.md).
+* For CentOS, see [Installing MySQL with CentOS](https://github.com/thermoio/docs/blob/master/databases/installing-mysql-with-ubuntu.md).
 ## Accessing the MySQL server
 MySQL comes with a blank password for the MySQL user. You can set a new password by issuing:
 ```
