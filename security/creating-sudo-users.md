@@ -5,7 +5,7 @@ While we observe best security practices and restrict root login to your key pai
 To begin, log in to your server using SSH as the root user using your SSH key. 
 
 **Attention:** In the following examples, replace `<example_user>` with your actual desired username and without the angled brackets.
-## One: Add the user
+## 1: Add the user
 To add the user, choose the below method that applies to your operating system.
 ### Ubuntu
 1. Add the user:
@@ -22,7 +22,7 @@ To add the user, issue:
 useradd <example_user> && passwd <example_user>
 usermod -aG wheel <example_user>
 ```
-## Create and add SSH keys
+## 2:Create and add SSH keys
 Since logins with passwords are disabled by default, you must create SSH keys for this user. If you need assistance with creating a new SSH key, see our guide <here>.
 
 Once you have generated your new SSH key for this user, open the new PUBLIC keyfile on your local computer and copy the contents to your clipboard.
