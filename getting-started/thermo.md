@@ -24,6 +24,7 @@ Thank you for choosing Thermo! This guide will help you create your first virtua
    ![ssh key fields](https://github.com/thermoio/docs/blob/master/images/getting-started-thermo/2017-10-27_16-10-24.png)
    
 7. Enter your hostname.
+   
    ![hostname entry](https://github.com/thermoio/docs/blob/master/images/getting-started-thermo/2017-10-27_16-57-28.png)
 
 8. Check your total, then click **Add Payment Method**.
