@@ -2,39 +2,31 @@
 Thank you for choosing Thermo! This guide will help you create your first virtual machine, find your IP address, and point you toward your next steps. 
 ## Creating your virtual machine
 1. If you haven’t already, go to the [Thermo Sign-Up page](https://www.thermo.io/0) and sign up. Fill the four required fields marked with an asterisk, then click **Sign Up**.
-
    ![Sign up panel](https://github.com/thermoio/docs/blob/master/images/getting-started-thermo/2017-10-27_14-36-44.png)
 
 2. Click **Get Started**.
-
   ![Get Started button](https://github.com/thermoio/docs/blob/master/images/getting-started-thermo/2017-10-27_14-46-09.png)
 
 3. Click your preferred location.
-
    ![Location options](https://github.com/thermoio/docs/blob/master/images/getting-started-thermo/2017-10-27_15-21-57.png)
 
 4. Choose your operating system.
-
    ![Operating system selection](https://github.com/thermoio/docs/blob/master/images/getting-started-thermo/2017-10-27_15-22-37.png)
 
 5. Click your desired plan from the eight available. 
-
    ![plan selection](https://github.com/thermoio/docs/blob/master/images/getting-started-thermo/2017-10-27_15-29-37.png)
 
 6. Add your SSH key by clicking **Add Key**. If you need to create a key, follow the instructions provided in [Generating and uploading SSH keys](https://github.com/thermoio/docs/blob/master/security/generating-and-uploading-ssh-keys.md)
-
    ![ssh keys button](https://github.com/thermoio/docs/blob/master/images/getting-started-thermo/2017-10-27_15-31-37.png)
+
    Enter a name and your SSH key, then click **Add**.
-   
    ![ssh key fields](https://github.com/thermoio/docs/blob/master/images/getting-started-thermo/2017-10-27_16-10-24.png)
    
 7. Enter your hostname.
-
-![hostname entry](https://github.com/thermoio/docs/blob/master/images/getting-started-thermo/2017-10-27_16-57-28.png)
+   ![hostname entry](https://github.com/thermoio/docs/blob/master/images/getting-started-thermo/2017-10-27_16-57-28.png)
 
 8. Check your total, then click **Add Payment Method**.
-
-![add payment method button](https://github.com/thermoio/docs/blob/master/images/getting-started-thermo/2017-10-27_16-59-03.png)
+   ![add payment method button](https://github.com/thermoio/docs/blob/master/images/getting-started-thermo/2017-10-27_16-59-03.png)
 
 9. Fill all required fields, then click **Add**.
 10. In the Add Card panel, fill all fields. If you want to use this card for future payments, select the **Use this for future invoices, and any currently unpaid** checkbox. Click **Add** when done.
