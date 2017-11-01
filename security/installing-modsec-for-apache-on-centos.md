@@ -1,3 +1,4 @@
+# Installing ModSec for Apache on CentOS
 ## Overview
 ModSecurity (ModSec) is a Web Application Firewall (WAF) that can help protect your websites and server from many web-based attacks. This guide will instruct you on how to install ModSecurity on an existing Linux, Apache, MySQL, or PHP (LAMP) installation. 
 ## Requirements
