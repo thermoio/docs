@@ -1,4 +1,4 @@
-# MySQL MySQL
+# MySQL Basics
 MySQL is an open source SQL-based database management system used to store, retrieve, organize, and manipulate data. It is useful for developing web-based software applications. 
 ## Installing MySQL server
 * For Ubuntu, see [Installing MySQL with Ubuntu](https://github.com/thermoio/docs/blob/master/databases/installing-mysql-with-centos.md).
