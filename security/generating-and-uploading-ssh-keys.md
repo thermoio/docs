@@ -1,6 +1,9 @@
 These article shows how to generate a pair of keys: one public, and one private. 
+
 **Attention:** Never share your private key with anyone. 
+
 When a service or a person asks for your SSH key, they are referring to the public key. Find your operating system below, and follow the relevant steps to generate your key pair.
+
 Although the details differ slightly between operating systems, they all involve first generating the key, then uploading the key to the [Thermo Client Portal](https://www.thermo.io/login/).
 ## Windows
 1. Download the freely available and open-source tool, PuttyGen, or the full installation of Putty, which contains PuttyGen. These tools can be downloaded [here](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html).
