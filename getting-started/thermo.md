@@ -25,6 +25,7 @@ Thank you for choosing Thermo! This guide will help you create your first virtua
 
 ![ssh keys button](https://github.com/thermoio/docs/blob/master/images/getting-started-thermo/2017-10-27_15-31-37.png)
    Enter a name and your SSH key, then click **Add**.
+   
    ![ssh key fields](https://github.com/thermoio/docs/blob/master/images/getting-started-thermo/2017-10-27_16-10-24.png)
    
 7. Enter your hostname.
