@@ -1,3 +1,4 @@
+# Installing MySQL with CentOS
 To install MySQL with CentOS, issue:
 ```
 sudo yum install mysql-server

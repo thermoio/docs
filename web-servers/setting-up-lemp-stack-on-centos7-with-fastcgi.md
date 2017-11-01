@@ -1,3 +1,4 @@
+# Setting Up LEMP Stack on CentOS7 with FastCGI
 ## 1: Install Nginx
 1. Prep the system by making sure everything is up to date:
 ```

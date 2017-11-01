@@ -1,3 +1,4 @@
+# Editing your Hosts File
 ## Overview
 This article shows you how to locate and edit your computer’s hosts file so you can test a site without affecting your production site.
 
