@@ -1,3 +1,4 @@
+# Getting into Git
 Git is an essential skill for developers and IT professionals who find themselves consistently working on team projects. Whether it is writing code or collaborating on documentation for a server build, Git is the most popular distributed version control system. Git allows multiple people from all over the world to contribute to open source projects, allowing distant users to come together. 
 
 Setting up Git is fairly easy, so let’s explore the basics: how to set it up locally, and how to contribute to remote repositories.
