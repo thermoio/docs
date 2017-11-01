@@ -1,3 +1,4 @@
+# Setting Up LAMP Stack on CentOS7
 ## One: Getting started
 Follow these steps to make sure your system is up to date and to install and properly configure Apache:
 1. Make sure your system is up to date:
