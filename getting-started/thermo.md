@@ -1,3 +1,4 @@
+#Getting Started with Thermo
 ## Overview
 Thank you for choosing Thermo! This guide will help you create your first virtual machine, find your IP address, and point you toward your next steps. 
 ## Creating your virtual machine
