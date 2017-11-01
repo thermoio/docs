@@ -1,3 +1,4 @@
+# Methods of Reindexing Magento
 ## Overview
 Magento uses a process called reindexing to send its back-end updates to its front-end interface. This is important for keeping business information like customer accounts and product catalog up-to-date. For example, on a given day, product prices might change by customer type. Performing reindexing on an indexer, or table, that stores pricing information by product and consumer type clears the cache of the current table, inserts updated values, and makes those changes visible in the storefront application.
 
