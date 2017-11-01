@@ -1,3 +1,4 @@
+# Updating CentOS
 **Attention:** You must have sudo access to execute the below commands.
 ## CentOS
 1. Create the EPEL YUM repo:
