@@ -2,6 +2,7 @@
 Thank you for choosing Thermo! This guide will help you create your first virtual machine, find your IP address, and point you toward your next steps. 
 ## Creating your virtual machine
 1. If you haven’t already, go to the [Thermo Sign-Up page](https://www.thermo.io/0) and sign up. Fill the four required fields marked with an asterisk, then click **Sign Up**.
+
    ![Sign up panel](https://github.com/thermoio/docs/blob/master/images/getting-started-thermo/2017-10-27_14-36-44.png)
 
 2. Click **Get Started**.
@@ -29,17 +30,20 @@ Thank you for choosing Thermo! This guide will help you create your first virtua
    ![add payment method button](https://github.com/thermoio/docs/blob/master/images/getting-started-thermo/2017-10-27_16-59-03.png)
 
 9. Fill all required fields, then click **Add**.
+
 10. In the Add Card panel, fill all fields. If you want to use this card for future payments, select the **Use this for future invoices, and any currently unpaid** checkbox. Click **Add** when done.
-![add card fields](https://github.com/thermoio/docs/blob/master/images/getting-started-thermo/2017-10-27_17-02-43.png)
+   ![add card fields](https://github.com/thermoio/docs/blob/master/images/getting-started-thermo/2017-10-27_17-02-43.png)
 ## Finding your IP address
 To view your IP address information:
 1. Log in to the [Client Portal](https://www.thermo.io/0).
 2. Click **Service > Cloud Servers**.
-![service to cloud servers](https://github.com/thermoio/docs/blob/master/images/getting-started-thermo/2017-10-31_15-28-44.png)
+   ![service to cloud servers](https://github.com/thermoio/docs/blob/master/images/getting-started-thermo/2017-10-31_15-28-44.png)
+   
 3. Click your desired cloud server.
-![cloud server selection](https://github.com/thermoio/docs/blob/master/images/getting-started-thermo/2017-10-31_15-35-00.png)
+   ![cloud server selection](https://github.com/thermoio/docs/blob/master/images/getting-started-thermo/2017-10-31_15-35-00.png)
+   
 4. See the Networking section for your IP address information.
-![networking section](https://github.com/thermoio/docs/blob/master/images/getting-started-thermo/2017-10-31_15-39-40.png)
+   ![networking section](https://github.com/thermoio/docs/blob/master/images/getting-started-thermo/2017-10-31_15-39-40.png)
 ## Next steps
 Congratulations on creating your first virtual machine with Thermo! For additional guidance about how to manage your cloud server, check the following topics from the Thermo Symposium:
 * [Security](https://github.com/thermoio/docs/tree/master/security)
