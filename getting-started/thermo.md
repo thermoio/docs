@@ -44,6 +44,7 @@ To view your IP address information:
    ![cloud server selection](https://github.com/thermoio/docs/blob/master/images/getting-started-thermo/2017-10-31_15-35-00.png)
    
 4. See the Networking section for your IP address information.
+
    ![networking section](https://github.com/thermoio/docs/blob/master/images/getting-started-thermo/2017-10-31_15-39-40.png)
 ## Next steps
 Congratulations on creating your first virtual machine with Thermo! For additional guidance about how to manage your cloud server, check the following topics from the Thermo Symposium:
