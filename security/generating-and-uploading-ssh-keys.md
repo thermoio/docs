@@ -23,12 +23,16 @@ Although the details differ slightly between operating systems, they all involve
 **Attention:** Replace angled brackets (`<>`) and everything between them with the indicated information.
 1. Open a terminal, then issue:
 ```
-h-keygen -t rsa 4096 -C "<youremail@yourdomain.com>" 
+ssh-keygen -t rsa -b 4096 
 ```
 2. When prompted to save your keys, the default location is `/Users/<yourusername?/.ssh/id_rsa`. Either press Enter to accept the default, or change the directory as desired. 
 3. When prompted to enter a secure passphrase, either type one and press Enter, or just press Enter if you don’t want one. 
-4. To retrieve your key, open Finder and browse to the location you chose in Step 2. 
-5. Open the `.pub` file and copy its contents to your clipboard.
+4. To retrieve your key, open Finder and browse to the location you chose in Step 2. If you used the default location, issue:
+```
+/Users/<your_username>/.ssh/id_rsa
+```
+5. Copy the entire SSH key to your clipboard.
+![ssh key](https://github.com/jasondobry/docs/blob/master/images/generating-and-uploading-ssh-keys/2017-11-02_14-53-39.png)
 6. Log in to the [Client Portal}(https://www.thermo.io/login/).
 7. In the Client Portal, click your account name, then click **SSH Keys**.
 [ssh keys button](https://github.com/thermoio/docs/blob/master/images/placeholder.png)
