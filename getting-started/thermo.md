@@ -4,7 +4,7 @@ Thank you for choosing Thermo! This guide will help you create your first virtua
 ## Creating your virtual machine
 1. If you haven’t already, go to the [Thermo Sign-Up page](https://www.thermo.io/0) and sign up. Fill the four required fields marked with an asterisk, then click **Sign Up**.
 
-   ![Sign up panel](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-10-27_14-36-44.png
+   ![Sign up panel](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-10-27_14-36-44.png)
 
 2. Click **Get Started**.
   ![Get Started button](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-10-27_14-46-09.png)
