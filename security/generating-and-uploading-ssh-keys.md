@@ -1,3 +1,7 @@
+title: Generating and Uploading SSH Keys
+image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-1.svg
+description: Using Windows, Mac, and Linux.
+
 # Generating and Uploading SSH Keys
 These article shows how to generate a pair of keys: one public, and one private.
 

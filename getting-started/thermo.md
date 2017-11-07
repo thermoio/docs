@@ -1,3 +1,7 @@
+title: Getting Started with Thermo
+image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-2.svg
+description: VM creation, how to find your IP address, next steps, and how to navigate the UI.
+
 # Getting Started with Thermo
 ## Overview
 Thank you for choosing Thermo! This guide will help you create your first virtual machine, find your IP address, and point you toward your next steps. 

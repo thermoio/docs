@@ -1,3 +1,7 @@
+title: Creating Sudo Users
+image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-1.svg
+description: User and SSH key creation with Ubuntu, CentOS, Fedora. 
+
 # Creating Sudo Users
 ## Before proceeding
 By default, you will be set up to connect to your virtual machine (VM) as the root user. This user has unlimited privileges and can execute any command on any file in the system. 

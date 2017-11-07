@@ -1,3 +1,6 @@
+title: Resetting MySQL Root Passwords
+image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-4.svg
+
 # Resetting MySQL Root Passwords
 If you forget your password to your MySQL or MariaDB database, this procedure shows you how to gain access in order to reset the password. It requires a user with sudo access to execute.
 ## Step 1: Identify your database version

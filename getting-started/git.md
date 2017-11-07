@@ -1,3 +1,7 @@
+title: Getting into Git
+image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-6.svg
+description: Installation, basic commands and concepts. 
+
 # Getting into Git
 Git is an essential skill for developers and IT professionals who find themselves consistently working on team projects. Whether it is writing code or collaborating on documentation for a server build, Git is the most popular distributed version control system. Git allows multiple people from all over the world to contribute to open source projects, allowing distant users to come together. 
 
