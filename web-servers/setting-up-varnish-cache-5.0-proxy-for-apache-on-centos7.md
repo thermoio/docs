@@ -1,3 +1,6 @@
+title: Setting Up Varnish Cache 5.0 Proxy for Apache on CentOS7 
+image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-3.svg
+
 # Setting Up Varnish Cache 5.0 Proxy for Apache on CentOS7 
 A reverse proxy can help improve a web server’s performance by redirecting some traffic to a middle man service, reducing some of the load on the main web server. Varnish Cache is an open source caching HTTP reverse proxy designed to improve a web server’s performance. 
 
