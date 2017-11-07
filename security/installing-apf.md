@@ -1,3 +1,6 @@
+title: Installing APF
+image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-6.svg
+
 # Installing APF
 ## Overview
 Advanced Policy Firewall (APF) is an iptables-based firewall system. It allows you to more easily manage the ins and outs of the native Linux firewall without having to learn much about how to filter net traffic. This guide covers installation and basic port-access manipulation. 
