@@ -1,3 +1,7 @@
+title: MySQL Basics
+image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-2.svg
+description: Installation, database creation and deletion, using tables, and other fundamentals.
+ 
 # MySQL Basics
 MySQL is an open source SQL-based database management system used to store, retrieve, organize, and manipulate data. It is useful for developing web-based software applications. 
 ## Installing MySQL server
