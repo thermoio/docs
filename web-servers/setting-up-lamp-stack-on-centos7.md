@@ -1,3 +1,6 @@
+title: Setting Up LAMP Stack on CentOS7
+image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-1.svg
+
 # Setting Up LAMP Stack on CentOS7
 ## One: Getting started
 Follow these steps to make sure your system is up to date and to install and properly configure Apache:
