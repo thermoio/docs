@@ -1,3 +1,6 @@
+title: Updating CentOS
+image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-5.svg
+
 # Updating CentOS
 **Attention:** You must have sudo access to execute the below commands.
 ## CentOS
