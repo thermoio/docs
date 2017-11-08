@@ -12,6 +12,6 @@ truth is out there
 1. Open
 2. Your `mind`
 ```
-Quatto
+Quaid
 ```
 3. Winning
