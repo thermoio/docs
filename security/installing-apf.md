@@ -1,9 +1,11 @@
+---
 title: Installing APF
 image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-6.svg
+---
 
 # Installing APF
 ## Overview
-Advanced Policy Firewall (APF) is an iptables-based firewall system. It allows you to more easily manage the ins and outs of the native Linux firewall without having to learn much about how to filter net traffic. This guide covers installation and basic port-access manipulation. 
+Advanced Policy Firewall (APF) is an iptables-based firewall system. It allows you to more easily manage the ins and outs of the native Linux firewall without having to learn much about how to filter net traffic. This guide covers installation and basic port-access manipulation.
 ## Installation
 1. To install APF, you will make use of `wget`, `tar`, and `gzip`. If these are not already installed on your server, install them with your OS’s package manager:
    * CentOS
@@ -34,11 +36,11 @@ cd apf-1.7.5/
 ```
 sh install.sh
 ```
-This installs APF into `/etc/apf`. 
+This installs APF into `/etc/apf`.
 ## Configuration
 Once installed, you must do some basic configuration and enable APF.
 
-APF’s config file is located in `/etc/apf/conf.apf`, and this is where you will make changes. 
+APF’s config file is located in `/etc/apf/conf.apf`, and this is where you will make changes.
 
 First, open the file with a text editor. This example uses nano:
 ```
@@ -53,6 +55,6 @@ The line with a # is a comment and IG_TCP_CPORTS is the variable for any open po
 ```
 IG_TCP_CPORTS=”22,80,443”
 ```
-Once you have opened the desired ports, you are ready to enable APF from the same config file. Change the value from `1` in `DEVEL_MODE=”1”`to `0`, then save the file. To start the firewall, issue `apf -s`. 
+Once you have opened the desired ports, you are ready to enable APF from the same config file. Change the value from `1` in `DEVEL_MODE=”1”`to `0`, then save the file. To start the firewall, issue `apf -s`.
 
-For additional options, issue `apf --help`. 
+For additional options, issue `apf --help`.

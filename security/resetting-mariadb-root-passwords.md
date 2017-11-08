@@ -1,10 +1,12 @@
+---
 title: Resetting MariaDB Root Passwords
 image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-2.svg
+---
 
 # Resetting MariaDB Root Passwords
 If you forget your password to your MySQL or MariaDB database, this procedure shows you how to gain access in order to reset the password. It requires a user with sudo access to execute.
 ## Step 1: Identify your database version
-Depending on your choice between MySQL and MariaDB as your operating system, some commands, file paths, and system services will differ. If necessary, you can check your version by issuing: 
+Depending on your choice between MySQL and MariaDB as your operating system, some commands, file paths, and system services will differ. If necessary, you can check your version by issuing:
 ```
 mysql --version
 ```
@@ -24,7 +26,7 @@ sudo systemctl stop mariadb
 ```
 ## Step 3: Restart the database server without permissions
 To gain root access without a password, you can start MariaDB while preventing them from loading the grant tables that store user privilege information.
-**Attention:** Because this step contains potential security risk, it is best practice to disable networking as shown below. Additionally, the ampersand at the end is required to allow you to continue to use your console by pushing the process to the background. 
+**Attention:** Because this step contains potential security risk, it is best practice to disable networking as shown below. Additionally, the ampersand at the end is required to allow you to continue to use your console by pushing the process to the background.
 
 To do so, issue:
 ```
@@ -44,7 +46,7 @@ Then, change the root password with one of the following two commands, but repla
 ```
 ALTER USER ‘root’@’localhost’ IDENTIFIED BY ‘<new_password>’;
 ```
-* For MariaDB 10.1.19 and earlier, use: 
+* For MariaDB 10.1.19 and earlier, use:
 ```
 SET PASSWORD FOR ‘root’@’localhost’ = PASSWORD(‘<new_password>’);
 ```

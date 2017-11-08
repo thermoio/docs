@@ -1,16 +1,18 @@
-title: Setting Up Varnish Cache 5.0 Proxy for Apache on CentOS7 
+---
+title: Setting Up Varnish Cache 5.0 Proxy for Apache on CentOS7
 image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-3.svg
+---
 
-# Setting Up Varnish Cache 5.0 Proxy for Apache on CentOS7 
-A reverse proxy can help improve a web server’s performance by redirecting some traffic to a middle man service, reducing some of the load on the main web server. Varnish Cache is an open source caching HTTP reverse proxy designed to improve a web server’s performance. 
+# Setting Up Varnish Cache 5.0 Proxy for Apache on CentOS7
+A reverse proxy can help improve a web server’s performance by redirecting some traffic to a middle man service, reducing some of the load on the main web server. Varnish Cache is an open source caching HTTP reverse proxy designed to improve a web server’s performance.
 
-The following steps assume a CentOS 7 x64 server with a sudo user. 
+The following steps assume a CentOS 7 x64 server with a sudo user.
 1. Install the Extra Packages for Enterprise Linux, update the server, and restart it by chaining a couple of commands together:
 ```
 sudo yum install epel-release -y
 sudo yum clean all && sudo yum update -y && sudo shutdown -r now
 ```
-2. After the server restarts, install Apache, make it listen on port 8080, and enable it to start on-boot. 
+2. After the server restarts, install Apache, make it listen on port 8080, and enable it to start on-boot.
 **Attention:** If you have already set up Apache, skip the first line.
 ```
 sudo yum install httpd -y
@@ -57,6 +59,6 @@ sudo /usr/local/sbin/varnishd -a :80 -b localhost:8080
 ```
 curl -I http://203.0.113.1/1.html
 ```
-   The output should contain `Via: 1.1 varnish (Varnish/5.2)`, or whichever version number you installed. 
-   
-Varnish Cache 5.0 Proxy is now set up and working with Apache on port 8080 and listening for http traffic on port 80. 
+   The output should contain `Via: 1.1 varnish (Varnish/5.2)`, or whichever version number you installed.
+
+Varnish Cache 5.0 Proxy is now set up and working with Apache on port 8080 and listening for http traffic on port 80.

@@ -1,10 +1,12 @@
+---
 title: Getting Started with Thermo
 image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-2.svg
 description: VM creation, how to find your IP address, next steps, and how to navigate the UI.
+---
 
 # Getting Started with Thermo
 ## Overview
-Thank you for choosing Thermo! This guide will help you create your first virtual machine, find your IP address, and point you toward your next steps. 
+Thank you for choosing Thermo! This guide will help you create your first virtual machine, find your IP address, and point you toward your next steps.
 ## Creating your virtual machine
 1. If you haven’t already, go to the [Thermo Sign-Up page](https://www.thermo.io/0) and sign up. Fill the four required fields marked with an asterisk, then click **Sign Up**.
 
@@ -19,7 +21,7 @@ Thank you for choosing Thermo! This guide will help you create your first virtua
 4. Choose your operating system.
    ![Operating system selection](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-10-27_15-22-37.png)
 
-5. Click your desired plan from the eight available. 
+5. Click your desired plan from the eight available.
    ![plan selection](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-10-27_15-29-37.png)
 
 6. Add your SSH key by clicking **Add Key**. If you need to create a key, follow the instructions provided in [Generating and uploading SSH keys](https://github.com/thermoio/docs/blob/master/security/generating-and-uploading-ssh-keys.md)
@@ -27,9 +29,9 @@ Thank you for choosing Thermo! This guide will help you create your first virtua
 
    Enter a name and your SSH key, then click **Add**.
    ![ssh key fields](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-10-27_16-10-24.png)
-   
+
 7. Enter your hostname.
-   
+
    ![hostname entry](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-10-27_16-57-28.png)
 
 8. Check your total, then click **Add Payment Method**.
@@ -44,10 +46,10 @@ To view your IP address information:
 1. Log in to the [Client Portal](https://www.thermo.io/0).
 2. Click **Service > Cloud Servers**.
    ![service to cloud servers](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-10-31_15-28-44.png)
-   
+
 3. Click your desired cloud server.
    ![cloud server selection](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-10-31_15-35-00.png)
-   
+
 4. See the Networking section for your IP address information.
 
    ![networking section](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-10-31_15-39-40.png)

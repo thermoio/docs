@@ -1,5 +1,7 @@
+---
 title: Installing ModSec for nginx on Ubuntu
 image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-3.svg
+---
 
 # Installing ModSec for nginx on Ubuntu
 **Attention:** You need root access and the most current version of Ubuntu.
@@ -100,7 +102,7 @@ systemctl restart nginx.service
    b. Find the following segment within the `http {}` segment:
    ```
    ModSecurityEnabled on;
-   ModSecurityConfig modsec_includes.conf; 
+   ModSecurityConfig modsec_includes.conf;
    #proxy_pass http://localhost:8011;
    #proxy_read_timeout 180s;
    ```
