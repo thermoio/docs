@@ -1,9 +1,11 @@
+---
 title: MySQL Basics
 image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-2.svg
 description: Installation, database creation and deletion, using tables, and other fundamentals.
- 
+---
+
 # MySQL Basics
-MySQL is an open source SQL-based database management system used to store, retrieve, organize, and manipulate data. It is useful for developing web-based software applications. 
+MySQL is an open source SQL-based database management system used to store, retrieve, organize, and manipulate data. It is useful for developing web-based software applications.
 ## Installing MySQL server
 * For Ubuntu, see [Installing MySQL with Ubuntu](https://www.thermo.io/how-to/databases/installing-mysql-with-ubuntu).
 * For CentOS, see [Installing MySQL with CentOS](https://www.thermo.io/how-to/databases/installing-mysql-with-centos).
@@ -69,7 +71,7 @@ Let's create the table:
 ```
 CREATE TABLE `employeeinfo` (`id` INT NOT NULL PRIMARY KEY, `first_name` VARCHAR(20), `last_name` VARCHAR(20), `date_of_birth` DATE, `mobile_number` INT(10), `address` VARCHAR(255));
 ```
-Then take a closer look at this command did: 
+Then take a closer look at this command did:
 * Created a table called `employeeinfo` within the `employee` database.
 * The attribute `id` will be the primary key for this table.
 * Created five rows for you as described earlier.
@@ -92,7 +94,7 @@ Which provides output looking like:
 +---------------+-------------+------+-----+---------+
 ```
 ## Inserting information into tables
-Once created, add information, or rows, to the table employeeinfo by issuing: 
+Once created, add information, or rows, to the table employeeinfo by issuing:
 ```
 INSERT INTO 'employeeinfo` ('id`, 'first_name`, 'last_name`, 'date_of_birth`, 'mobile_number`, 'address`) VALUES ('1`, 'Sam`, 'Shaw`, '1984-02-14`, '1234567890`, '60,Vienna`)
 ```
@@ -122,7 +124,7 @@ To add a column marital_status to your table, issue:
 ```
 ALTER TABLE `employeeinfo` ADD `marital_status` VARCHAR(10)
 ```
-By default, this adds the column `marital_status` to the end of the table. If you wish to place it after `date_of_birth` instead, issue: 
+By default, this adds the column `marital_status` to the end of the table. If you wish to place it after `date_of_birth` instead, issue:
 ```
 ALTER TABLE `employeeinfo` ADD `marital_status` VARCHAR(10) AFTER `date_of_birth`;
 ```
