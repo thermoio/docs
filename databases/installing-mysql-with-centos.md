@@ -4,9 +4,10 @@ image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-4.svg
 ---
 
 # Installing MySQL with CentOS
-To install MySQL with CentOS, issue:
+Issue:
 ```
-sudo yum install mysql-server
-sudo /sbin/service mysqld start
+sudo yum install mariadb mariadb-server
+sudo systemctl enable mariadb
+sudo systemctl start mariadb
 ```
 For additional guidance, see [MySQL basics](https://www.thermo.io/how-to/databases/mysql-basics).
