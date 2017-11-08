@@ -1,5 +1,5 @@
 title: Let's Test Adding Articles
-image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-1.svg
+image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-2.svg
 description: Get your Thermo on!
 
 # Let's Test Adding Articles
@@ -14,4 +14,4 @@ truth is out there
 ```
 Quaid
 ```
-3. Winning
+3. Start the reactor
