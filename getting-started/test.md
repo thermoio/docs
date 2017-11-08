@@ -5,6 +5,8 @@ truth is out there
 ```
 `terrible truth`
 1. Open
-2. Your
-`mind`
-3. Quatto
+2. Your `mind`
+```
+Quatto
+```
+3. Winning
