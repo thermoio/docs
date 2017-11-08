@@ -1,13 +1,15 @@
+---
 title: Creating Sudo Users
 image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-1.svg
-description: User and SSH key creation with Ubuntu, CentOS, Fedora. 
+description: User and SSH key creation with Ubuntu, CentOS, Fedora.
+---
 
 # Creating Sudo Users
 ## Before proceeding
-By default, you will be set up to connect to your virtual machine (VM) as the root user. This user has unlimited privileges and can execute any command on any file in the system. 
+By default, you will be set up to connect to your virtual machine (VM) as the root user. This user has unlimited privileges and can execute any command on any file in the system.
 While we observe best security practices and restrict root login to your key pair, generally you will want to have a limited user to login into your machine and use the sudo command to execute root commands.
 
-To begin, log in to your server using SSH as the root user using your SSH key. 
+To begin, log in to your server using SSH as the root user using your SSH key.
 
 **Attention:** In the following examples, replace `<example_user>` with your actual desired username and without the angled brackets.
 ## 1: Add the user
@@ -32,13 +34,13 @@ Since logins with passwords are disabled by default, you must create SSH keys fo
 
 Once you have generated your new SSH key for this user, open the new PUBLIC keyfile on your local computer and copy the contents to your clipboard.
 
-Next, while logged in as the root user to your VM, create the following file with an editor and paste the key into the file from your clipboard, making sure to replace example_user with the name of the user you created: 
+Next, while logged in as the root user to your VM, create the following file with an editor and paste the key into the file from your clipboard, making sure to replace example_user with the name of the user you created:
 ```
 vi /home/example_user/.ssh/authorized_keys
 ```
 Once you have pasted the text of the key, save and close the file (for vi this is `:wq`)
 
-Finally, log out of the server as the root user and attempt to reconnect with your new user. Be sure to specify the filepath to the new user key and replace example_user and IP with the name of your new user and the IP of your server. 
+Finally, log out of the server as the root user and attempt to reconnect with your new user. Be sure to specify the filepath to the new user key and replace example_user and IP with the name of your new user and the IP of your server.
 ```
 ssh -i /path/to/keyfile example_user@IP
 ```

@@ -1,5 +1,7 @@
+---
 title: Installing MySQL with CentOS
 image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-4.svg
+---
 
 # Installing MySQL with CentOS
 To install MySQL with CentOS, issue:
