@@ -1,3 +1,8 @@
+title: Let's Test Adding Articles
+image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-1.svg
+description: Get your Thermo on!
+
+# Let's Test Adding Articles
 Thermo is Nexcess!
 Nexcesss is Thermo!
 ```
