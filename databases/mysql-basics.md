@@ -5,8 +5,8 @@ description: Installation, database creation and deletion, using tables, and oth
 # MySQL Basics
 MySQL is an open source SQL-based database management system used to store, retrieve, organize, and manipulate data. It is useful for developing web-based software applications. 
 ## Installing MySQL server
-* For Ubuntu, see [Installing MySQL with Ubuntu](https://github.com/thermoio/docs/blob/master/databases/installing-mysql-with-centos.md).
-* For CentOS, see [Installing MySQL with CentOS](https://github.com/thermoio/docs/blob/master/databases/installing-mysql-with-ubuntu.md).
+* For Ubuntu, see [Installing MySQL with Ubuntu](https://www.thermo.io/how-to/databases/installing-mysql-with-ubuntu).
+* For CentOS, see [Installing MySQL with CentOS](https://www.thermo.io/how-to/databases/installing-mysql-with-centos).
 ## Accessing the MySQL server
 MySQL comes with a blank password for the MySQL user. You can set a new password by issuing:
 ```
