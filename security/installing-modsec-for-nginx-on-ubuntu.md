@@ -4,7 +4,7 @@ image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-3.svg
 # Installing ModSec for nginx on Ubuntu
 **Attention:** You need root access and the most current version of Ubuntu.
 ## 1: Update
-See [Updating Ubuntu](https://github.com/thermoio/docs/blob/master/security/updating-ubuntu.md).
+See [Updating Ubuntu](https://www.thermo.io/how-to/security/updating-ubuntu).
 ## 2: Install dependencies
 Install the following packages:
 ```
