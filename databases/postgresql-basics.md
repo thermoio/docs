@@ -4,10 +4,10 @@ description: Installation, connection, database and role creation, and other bas
 
 # PostgreSQL Basics
 ## Overview
-This guide covers how to install PostgreSQL (PgSQL) server on your Ubuntu installation and introduces basic PgSQL commands. We recommend you complete the following steps as a limited sudo user. For more information about setting up limited sudo users, see [Creating sudo users on CentOS](https://github.com/thermoio/docs/blob/master/getting-started/creating-sudo-users-on-centos).
+This guide covers how to install PostgreSQL (PgSQL) server on your Ubuntu installation and introduces basic PgSQL commands. We recommend you complete the following steps as a limited sudo user. For more information about setting up limited sudo users, see [Creating sudo users on CentOS](https://www.thermo.io/how-to/security/creating-sudo-users).
 ## Installing PgSQL
-- [Ubuntu](https://github.com/thermoio/docs/blob/master/getting-started/installing-pgsql-on-ubuntu.md)
-- [CentOS](https://github.com/thermoio/docs/blob/master/getting-started/installing-pgsql-on-centos.md)
+- [Ubuntu](https://www.thermo.io/how-to/databases/installing-pgsql-on-ubuntu)
+- [CentOS](https://www.thermo.io/how-to/databases/installing-pgsql-on-centos)
 
 ## Connecting to PgSQL
 After installation, you must connect to the Postgres server. PgSQL creates a new user on installation called postgres, which you will use to connect. 

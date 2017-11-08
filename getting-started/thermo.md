@@ -52,7 +52,7 @@ To view your IP address information:
 
    ![networking section](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-10-31_15-39-40.png)
 ## Next steps
-Congratulations on creating your first virtual machine with Thermo! For additional guidance about how to manage your cloud server, check the following topics from the Thermo Symposium:
-* [Security](https://github.com/thermoio/docs/tree/master/security)
-* [Databases](https://github.com/thermoio/docs/tree/master/databases)
-* [Web servers](https://github.com/thermoio/docs/tree/master/web-servers)
+Congratulations on creating your first virtual machine with Thermo! For additional guidance about how to manage your cloud server, check the following topics from the Thermo Library:
+* [Security](https://www.thermo.io/how-to/security)
+* [Databases](https://www.thermo.io/how-to/databases)
+* [Web servers](https://www.thermo.io/how-to/web-servers)
