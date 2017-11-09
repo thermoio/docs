@@ -30,6 +30,11 @@
       "title": "Web Servers",
       "image": "https://www.thermo.io/wp-content/themes/thermo/static/images/kb_webservers.png",
       "link": "web-servers"
+    },
+    {
+      "title": "Client Portal",
+      "image": "https://www.thermo.io/wp-content/themes/thermo/static/images/kb_clientportal.png",
+      "link": "client-portal"
     }
   ]
 }
