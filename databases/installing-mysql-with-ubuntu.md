@@ -5,7 +5,7 @@ subject: MySQL
 
 # Installing MySQL with Ubuntu
 Issue:
-```
+```shell
 sudo apt-get install mysql-server
 sudo systemctl enable mysql
 sudo systemctl start mysql
