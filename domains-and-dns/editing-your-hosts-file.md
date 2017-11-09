@@ -4,6 +4,7 @@ subject: General
 ---
 
 # Editing Your Hosts File
+
 ## Overview
 This article shows you how to locate and edit your computer’s hosts file so you can test a site without affecting your production site.
 
@@ -16,6 +17,7 @@ After you save the file, any attempt by your computer to visit example.com will 
 #198.51.100.0 example.com
 ```
 As shown below, the method of accessing the file varies according to your operating system.
+
 ## Linux
 1. Open your terminal.
 2. Edit the hosts file in the etc directory as root:
@@ -23,11 +25,13 @@ As shown below, the method of accessing the file varies according to your operat
 sudo nano /etc/hosts
 ```
 3. Append a line to your hosts file as shown in the Overview, then save the file.
+
 ## Windows
 1. In Windows 10 or 8, search for Notepad. In Windows 7 and earlier, navigate to **All Programs > Accessories**.
 2. Right-click on Notepad, click **Run As Administrator**.
 3. In Notepad, Select **File > Open**, then browse to `C:\Windows\System32\Drivers\etc\hosts`.
 4. Append a line to your hosts file as shown in the Overview, then save the file.
+
 ## Mac
 1. Open your terminal, then issue:
 ```shell
@@ -35,13 +39,16 @@ sudo nano /etc/hosts
 ```
 2. When prompted, enter your admin password.
 3. Append a line to your `hosts` file as shown in the Overview, then save the file.
+
 ## Troubleshooting
 If the redirects do not immediatley take effect, try flushing your DNS cache.
+
 ### Linux (running `ncsd`)
 Issue:
 ```shell
 sudo /etc/init.d/ncsd restart
 ```
+
 ### Windows
 1. Press Windows Logo Key + R.
 2. Type "cmd", then press Enter.
@@ -49,6 +56,7 @@ sudo /etc/init.d/ncsd restart
 ```shell
 ipconfig /flushdns
 ```
+
 ### Mac
 From your terminal, issue:
 ```shell
