@@ -1,6 +1,6 @@
 ---
 title: Setting Up LAMP Stack on CentOS7
-image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-1.svg
+subject: LAMP
 ---
 
 # Setting Up LAMP Stack on CentOS7

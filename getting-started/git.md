@@ -1,7 +1,6 @@
 ---
 title: Git
-image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-6.svg
-description: Installation, basic commands and concepts.
+subject: General
 ---
 
 # Getting into Git

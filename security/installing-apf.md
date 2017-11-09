@@ -1,7 +1,6 @@
 ---
 title: Installing APF
-image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-6.svg
-description: How to install and configure Advanced Policy Firewall (APF) using CentOS or Ubuntu.
+subject: Firewall
 ---
 
 # Installing APF

@@ -1,6 +1,6 @@
 ---
 title: Resetting MariaDB Root Passwords
-image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-2.svg
+subject: Database
 ---
 
 # Resetting MariaDB Root Passwords

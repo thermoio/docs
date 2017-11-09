@@ -1,6 +1,6 @@
 ---
 title: Installing ModSec for Apache on CentOS
-image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-4.svg
+subject: ModSecurity
 ---
 
 # Installing ModSec for Apache on CentOS

@@ -1,7 +1,6 @@
 ---
 title: Thermo
-image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-2.svg
-description: VM creation, how to find your IP address, next steps, and how to navigate the UI.
+subject: General
 ---
 
 # Getting Started with Thermo

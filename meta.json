@@ -1,40 +1,34 @@
 {
-  "title": "Thermo.io Knowledge Base",
+  "title": "Topics",
   "categories": [
     {
       "title": "Getting Started",
-      "image": "https://www.thermo.io/wp-content/themes/thermo/static/images/perks-3.svg",
-      "description": "Need help getting started with Thermo? Read more about it here",
+      "image": "https://www.thermo.io/wp-content/themes/thermo/static/images/kb_gettingstarted.png",
       "link": "getting-started"
     },
     {
       "title": "Applications",
-      "image": "https://www.thermo.io/wp-content/themes/thermo/static/images/perks-6.svg",
-      "description": "Learn about the applications we support",
+      "image": "https://www.thermo.io/wp-content/themes/thermo/static/images/kb_application.png",
       "link": "applications"
     },
     {
       "title": "Databases",
-      "image": "https://www.thermo.io/wp-content/themes/thermo/static/images/perks-5.svg",
-      "description": "Learn about databases",
+      "image": "https://www.thermo.io/wp-content/themes/thermo/static/images/kb_databases.png",
       "link": "databases"
     },
     {
       "title": "Domains and DNS",
-      "image": "https://www.thermo.io/wp-content/themes/thermo/static/images/perks-4.svg",
-      "description": "Learn all about Domains and DNS",
+      "image": "https://www.thermo.io/wp-content/themes/thermo/static/images/kb_domainsDNS.png",
       "link": "domains-and-dns"
     },
     {
       "title": "Security",
-      "image": "https://www.thermo.io/wp-content/themes/thermo/static/images/perks-2.svg",
-      "description": "Security is very important",
+      "image": "https://www.thermo.io/wp-content/themes/thermo/static/images/kb_security.png",
       "link": "security"
     },
     {
       "title": "Web Servers",
-      "image": "https://www.thermo.io/wp-content/themes/thermo/static/images/perks-1.svg",
-      "description": "Learn all about web servers",
+      "image": "https://www.thermo.io/wp-content/themes/thermo/static/images/kb_webservers.png",
       "link": "web-servers"
     }
   ]

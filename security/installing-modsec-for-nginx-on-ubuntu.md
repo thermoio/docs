@@ -1,6 +1,6 @@
 ---
 title: Installing ModSec for nginx on Ubuntu
-image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-3.svg
+subject: ModSecurity
 ---
 
 # Installing ModSec for nginx on Ubuntu
