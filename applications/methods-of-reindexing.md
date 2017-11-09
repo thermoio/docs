@@ -1,6 +1,6 @@
 ---
 title: Methods of Reindexing
-subject: General
+subject: Magento
 ---
 
 # Methods of Reindexing Magento

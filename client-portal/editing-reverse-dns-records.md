@@ -1,7 +1,8 @@
 ---
 title: Editing Reverse DNS Records
-image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-5.svg
+subject: Domains and DNS
 ---
+
 # Editing Reverse DNS Records in the Client Portal
 ## But first...
 You will need your [Client Portal](https://www.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal loging page, or [contact a Thermo Physicist](mailto:physicists@thermo.io).
