@@ -1,5 +1,5 @@
 ---
-title: Methods of Reindexing 
+title: Methods of Reindexing
 subject: General
 ---
 
