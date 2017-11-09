@@ -1,5 +1,5 @@
 ---
-title: Editing your Hosts File
+title: Editing Your Hosts File
 subject: General
 ---
 
