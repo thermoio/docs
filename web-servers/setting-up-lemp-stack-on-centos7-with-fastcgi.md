@@ -1,3 +1,8 @@
+---
+title: Setting Up LEMP Stack on CentOS7 with FastCGI
+subject: LEMP
+---
+
 # Setting Up LEMP Stack on CentOS7 with FastCGI
 ## 1: Install Nginx
 1. Prep the system by making sure everything is up to date:
@@ -40,7 +45,7 @@ location / {
 If you want to host additional websites, you must create a similar entry for each in either its own file in `/etc/nginx/conf.d`, or an additional entry in `/etc/nginx/nginx.conf`.
 ## 3: Create Directories
 After creating the server block entry for Nginx, create the directories for your website files and logs:
- 
+
 **Attention:** Make sure the Nginx user has correct permissions to access those folders.
 ```
 sudo mkdir -p /var/www/example.com/{public_html,logs}
@@ -50,7 +55,7 @@ When using PHP code for your site, you must make sure Nginx can interpret PHP co
 ```
 sudo yum install php php-mysql php-fpm
 ```
-Once installed, it is necessary to tweak a few settings to configure PHP to work with Nginx. To do so: 
+Once installed, it is necessary to tweak a few settings to configure PHP to work with Nginx. To do so:
 1. Open the PHP-FPM configuration file
 ```
 sudo vi /etc/php-fpm.d/www.conf
@@ -106,7 +111,7 @@ sudo systemctl enable mariadb
 ```
 sudo mysql_secure_installation
 ```
-4. When prompted to enter the current root password, press Enter. 
+4. When prompted to enter the current root password, press Enter.
 5. The next prompt will ask to set a root password. Create a password that follows best security practices, then press Enter. For all other prompts, press Enter to accept the default values.
 
 Congratulations! You now have a working LEMP stack.

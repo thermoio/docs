@@ -1,3 +1,8 @@
+---
+title: Setting Up LAMP Stack on CentOS7
+subject: LAMP
+---
+
 # Setting Up LAMP Stack on CentOS7
 ## One: Getting started
 Follow these steps to make sure your system is up to date and to install and properly configure Apache:
@@ -39,4 +44,4 @@ sudo yum install php php-mysql php-pear
 ```
 sudo systemctl restart apache
 ```
-The procedure is complete. 
+The procedure is complete.

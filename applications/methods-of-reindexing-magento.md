@@ -1,12 +1,17 @@
+---
+title: Methods of Reindexing
+subject: Magento
+---
+
 # Methods of Reindexing Magento
 ## Overview
 Magento uses a process called reindexing to send its back-end updates to its front-end interface. This is important for keeping business information like customer accounts and product catalog up-to-date. For example, on a given day, product prices might change by customer type. Performing reindexing on an indexer, or table, that stores pricing information by product and consumer type clears the cache of the current table, inserts updated values, and makes those changes visible in the storefront application.
 
-“Update on Save” is the default reindexing mode in Magento that updates table caches and values in real time every time a site admin makes a change. Although this can work for small sites, it is impractical for large sites and databases because the reindexer will take hours to finish and degrade site performance. 
+“Update on Save” is the default reindexing mode in Magento that updates table caches and values in real time every time a site admin makes a change. Although this can work for small sites, it is impractical for large sites and databases because the reindexer will take hours to finish and degrade site performance.
 
-The solution is to replace the default reindexing mode with a scheduled cron job that reindexes at regular intervals. 
+The solution is to replace the default reindexing mode with a scheduled cron job that reindexes at regular intervals.
 ## Checking current indexer settings
-If you are a site administrator, you may run Magento through their preferred shell, though syntax may vary. 
+If you are a site administrator, you may run Magento through their preferred shell, though syntax may vary.
 
 To run Magento commands from any directory, add its root directory to the directory path:
 
@@ -63,14 +68,14 @@ magento indexer:reindex category_product product_price
 ```
 resulting in:
 ```
-Category Products index has been rebuilt successfully in 00:00:02 
+Category Products index has been rebuilt successfully in 00:00:02
 Product Prices index has been rebuilt successfully in 00:00:02
 ```
 The reindexing process can also occur through a scheduled cron job.
 ## Changing to "Update by Schedule"
 For larger sites, manually reindexing is slow and inefficient. For this reason, it is often more practical to schedule cron jobs to update the indexes at regular intervals.
 
-**Attention:** Because reindexing drastically reduces site performance, it is usually best to perform reindexing during off-hours. 
+**Attention:** Because reindexing drastically reduces site performance, it is usually best to perform reindexing during off-hours.
 
 To change an indexer's reindexing mode to manual, set the value to “Update by Schedule:”
 ```
@@ -81,7 +86,7 @@ resulting in:
 Index mode for Indexer Category Products was changed from 'Update on Save' to 'Update by Schedule'
 Index mode for Indexer Product Prices was changed from 'Update on Save' to 'Update by Schedule'
 ```
-The following PHP command allows you to create a reindexing cron job, where each asterisk (`*`) represents a value: 
+The following PHP command allows you to create a reindexing cron job, where each asterisk (`*`) represents a value:
 ```
 * * * * * php -f /shell/indexer.php reindexall
 ```
@@ -95,7 +100,7 @@ To set a schedule,replace the asterisk (`*`) with values in cron format. For exa
 ```
 where `0` represents the minute, and the `4` represents the hour. The day, month, and week day were ignored because the user wants to run the cron job every day.
 ### Scheduling at certain time intervals
-You may also run the job at certain intervals using `*/x`, where `x` is the interval. 
+You may also run the job at certain intervals using `*/x`, where `x` is the interval.
 #### Example 1
 Create a cron job that reindexes every 4 hours, regardless of day or date:
 ```
@@ -112,13 +117,13 @@ Create a cron job that reindexes every 5 minutes, but only between the hours of 
 */5 0-6,18-23 * * * php -f /shell/indexer.php reindexall
 ```
 #### Example 4
-Specify different intervals for each index, such as reindex category products everyday at 6 a.m., and product prices at 8 a.m.: 
+Specify different intervals for each index, such as reindex category products everyday at 6 a.m., and product prices at 8 a.m.:
 ```
 0 6 * * * php -f /shell/indexer.php --reindex category_product
 0 8 * * * php -f /shell/indexer.php --reindex product_price
 ```
 ## Reverting to default "Update on Save"
-If it becomes necessary to revert to the default “Update on Save” setting, issue: 
+If it becomes necessary to revert to the default “Update on Save” setting, issue:
 ```
 magento indexer:set-mode realtime category_product product_price
 ```

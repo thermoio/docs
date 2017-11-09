@@ -1,4 +1,9 @@
-# Editing your Hosts File
+---
+title: Editing Your Hosts File
+subject: General
+---
+
+# Editing Your Hosts File
 ## Overview
 This article shows you how to locate and edit your computer’s hosts file so you can test a site without affecting your production site.
 
@@ -8,23 +13,23 @@ Editing the hosts file always involve appending a line to the file. For example,
 ```
 After you save the file, any attempt by your computer to visit example.com will be redirected to your development server at 198.51.100.0. The redirection will continue until you either delete that line from your hosts file, or comment that line out by placing a # at the beginning of the line.
 ```
-#198.51.100.0 example.com 
+#198.51.100.0 example.com
 ```
-As shown below, the method of accessing the file varies according to your operating system. 
+As shown below, the method of accessing the file varies according to your operating system.
 ## Linux
 1. Open your terminal.
-2. Edit the hosts file in the etc directory as root: 
+2. Edit the hosts file in the etc directory as root:
 ```
 sudo nano /etc/hosts
 ```
 3. Append a line to your hosts file as shown in the Overview, then save the file.
 ## Windows
 1. In Windows 10 or 8, search for Notepad. In Windows 7 and earlier, navigate to **All Programs > Accessories**.
-2. Right-click on Notepad, click **Run As Administrator**. 
+2. Right-click on Notepad, click **Run As Administrator**.
 3. In Notepad, Select **File > Open**, then browse to `C:\Windows\System32\Drivers\etc\hosts`.
-4. Append a line to your hosts file as shown in the Overview, then save the file. 
+4. Append a line to your hosts file as shown in the Overview, then save the file.
 ## Mac
-1. Open your terminal, then issue: 
+1. Open your terminal, then issue:
 ```
 sudo nano /etc/hosts
 ```

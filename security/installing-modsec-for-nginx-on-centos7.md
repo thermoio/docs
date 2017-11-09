@@ -1,7 +1,12 @@
+---
+title: Installing ModSec for nginx on CentOS7
+subject: ModSecurity
+---
+
 # Installing ModSec for nginx on CentOS7
 **Attention:** You need root access and the most current version of CentOS 7.
 ## 1: Update
-See [Updating CentOS](https://github.com/thermoio/docs/blob/master/security/updating-centos.md).
+See [Updating CentOS](https://www.thermo.io/how-to/security/updating-centos).
 ## 2: Install dependencies
 Install the following packages:
 ```
@@ -59,7 +64,7 @@ sed -i "s/#user  nobody;/user nginx nginx;/" /usr/local/nginx/conf/nginx.conf
    b. Find the following segment within the `http {}` segment:
    ```
    ModSecurityEnabled on;
-   ModSecurityConfig modsec_includes.conf; 
+   ModSecurityConfig modsec_includes.conf;
    #proxy_pass http://localhost:8011;
    #proxy_read_timeout 180s;
    ```

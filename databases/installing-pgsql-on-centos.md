@@ -1,3 +1,8 @@
+---
+title: Installing PgSQL on CentOS
+subject: PostgreSQL
+---
+
 # Installing PgSQL on CentOS
 Using the package manager, perform a system update to ensure you are running the most current version of CentOS before installing it.
 ```

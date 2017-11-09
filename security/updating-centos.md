@@ -1,3 +1,8 @@
+---
+title: Updating CentOS
+subject: Operating System
+---
+
 # Updating CentOS
 **Attention:** You must have sudo access to execute the below commands.
 ## CentOS

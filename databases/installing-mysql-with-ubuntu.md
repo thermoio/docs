@@ -1,6 +1,13 @@
+---
+title: Installing MySQL with Ubuntu
+subject: MySQL
+---
+
 # Installing MySQL with Ubuntu
-To install MySQL with Ubuntu, issue:
+Issue:
 ```
 sudo apt-get install mysql-server
+sudo systemctl enable mysql
+sudo systemctl start mysql
 ```
-For additional guidance, see [MySQL basics](https://github.com/thermoio/docs/blob/master/databases/mysql-basics.md).
+For additional guidance, see [MySQL basics](https://www.thermo.io/how-to/databases/mysql-basics).

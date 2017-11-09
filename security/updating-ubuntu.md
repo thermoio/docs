@@ -1,3 +1,8 @@
+---
+title: Updating Ubuntu
+subject: Operating System
+---
+
 # Updating Ubuntu
 **Attention:** You must have sudo access to execute the below commands.
 ## Ubuntu
