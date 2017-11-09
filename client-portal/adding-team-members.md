@@ -9,5 +9,13 @@ Subject: User Management
 * The email address of the user to be added.
 ## Method
 1. Log in to the [Client Portal](https://www.thermo.io/login/).
+2. From the **<Your Name>** list on the upper right, click **Team**.
+   IMAGE
+
+3. On the Manage Team page, click **ADD A MEMBER**.
+   IMAGE
+   
+4. In the Add User panel, enter the **Email Address** of the person to be added as the user, then click **Add**.
+
 
 **_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://www.thermo.io/login/)._**
