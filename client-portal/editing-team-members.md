@@ -1,6 +1,6 @@
 ---
 title: Editing Team Members
-Subject: User Management
+subject: User Management
 ---
 
 # Editing Team Members in the Client Portal
@@ -12,12 +12,12 @@ Subject: User Management
 2. From the <**Your_Name**> list on the upper right, click **Team**.
    IMAGE
 
-3. Locate the team member, then click the **orange edit icon** or the **red delete icon**, as appropriate. 
+3. Locate the team member, then click the **orange edit icon** or the **red delete icon**, as appropriate.
 
 **Attention:** The system will prevent any change that removes the last Superuser on the account.
 
    IMAGE
-   
+
 4. Click **Save** or **DELETE** to confirm, as desired.
    IMAGE
 

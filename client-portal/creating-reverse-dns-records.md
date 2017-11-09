@@ -1,6 +1,6 @@
 ---
 title: Creating Reverse DNS Records
-General: Domain and DNS
+subject: Domain and DNS
 ---
 
 # Creating Reverse DNS Records in the Client Portal
@@ -10,7 +10,7 @@ You will need your [Client Portal](https://www.thermo.io/login/) username and pa
 Reverse DNS are chiefly used by servers to verify email messages. Many servers will reject email messages from domains or IP addresses that lack a reverse DNS record from the associated IP address
 ## Method
 1. Log in to the [Client Portal](https://www.thermo.io/login/).
-2. From the dashboard, click **DNS > Reverse DNS**. 
+2. From the dashboard, click **DNS > Reverse DNS**.
 IMAGE
 3. Click **Add Record**.
 IMAGE
