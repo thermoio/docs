@@ -1,6 +1,6 @@
 ---
 title: Editing DNS Zones
-subject: Domain and DNS
+subject: Domains and DNS
 ---
 
 # Editing DNS zones in the Client Portal
