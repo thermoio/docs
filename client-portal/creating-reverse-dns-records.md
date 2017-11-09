@@ -1,6 +1,6 @@
 ---
 title: Creating Reverse DNS Records
-General: Domain and DNS
+subject: Domain and DNS
 ---
 
 # Creating Reverse DNS Records in the Client Portal

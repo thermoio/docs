@@ -1,6 +1,6 @@
 ---
 title: Adding Team Members
-Subject: User Management
+subject: User Management
 ---
 
 # Adding Team Members in the Client Portal
