@@ -9,7 +9,7 @@ Subject: User Management
 * The email address of the user to be added.
 ## Method
 1. Log in to the [Client Portal](https://www.thermo.io/login/).
-2. From the **<Your Name>** list on the upper right, click **Team**.
+2. From the <**Your_Name**> list on the upper right, click **Team**.
    IMAGE
 
 3. On the Manage Team page, click **ADD A MEMBER**.
