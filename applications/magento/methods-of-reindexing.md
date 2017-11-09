@@ -1,5 +1,5 @@
 ---
-title: Methods of Reindexing Magento
+title: Methods of Reindexing
 image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-3.svg
 description: How to check indexer settings, several methods of reindexing, and troubleshooting tips.
 ---
