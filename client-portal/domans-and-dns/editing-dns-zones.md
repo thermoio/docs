@@ -16,4 +16,5 @@ IMAGE
 IMAGE
 5. Allow at least 48 hours for propagation. You may check the status of propagation by following the instructions in [How to verify DNS Propagation](URL_pending).
 
+
 **_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://www.thermo.io/login/)._**
