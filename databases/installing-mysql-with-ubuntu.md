@@ -1,6 +1,6 @@
 ---
 title: Installing MySQL with Ubuntu
-image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-1.svg
+subject: MySQL
 ---
 
 # Installing MySQL with Ubuntu

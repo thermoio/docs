@@ -1,6 +1,6 @@
 ---
 title: Resetting MySQL Root Passwords
-image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-4.svg
+subject: Database
 ---
 
 # Resetting MySQL Root Passwords

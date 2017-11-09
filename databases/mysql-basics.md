@@ -1,7 +1,6 @@
 ---
 title: MySQL Basics
-image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-2.svg
-description: Installation, database creation and deletion, using tables, and other fundamentals.
+subject: MySQL
 ---
 
 # MySQL Basics

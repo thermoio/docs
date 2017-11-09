@@ -1,7 +1,6 @@
 ---
 title: Editing your Hosts File
-image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-5.svg
-description: Editing your hosts file with Linux, Windows, Mac; troubleshooting tips.
+subject: General
 ---
 
 # Editing your Hosts File

@@ -1,6 +1,6 @@
 ---
 title: Setting Up Varnish Cache 5.0 Proxy for Apache on CentOS7
-image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-3.svg
+subject: Proxy
 ---
 
 # Setting Up Varnish Cache 5.0 Proxy for Apache on CentOS7

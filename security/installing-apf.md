@@ -1,6 +1,6 @@
 ---
 title: Installing APF
-image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-6.svg
+subject: Firewall
 ---
 
 # Installing APF

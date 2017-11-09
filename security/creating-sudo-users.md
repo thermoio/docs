@@ -1,7 +1,6 @@
 ---
 title: Creating Sudo Users
-image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-1.svg
-description: User and SSH key creation with Ubuntu, CentOS, Fedora.
+subject: General
 ---
 
 # Creating Sudo Users
