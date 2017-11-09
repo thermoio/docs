@@ -6,6 +6,7 @@ subject: PostgreSQL
 # PostgreSQL Basics
 ## Overview
 This guide covers how to install PostgreSQL (PgSQL) server on your Ubuntu installation and introduces basic PgSQL commands. We recommend you complete the following steps as a limited sudo user. For more information about setting up limited sudo users, see [Creating sudo users on CentOS](https://www.thermo.io/how-to/security/creating-sudo-users).
+
 ## Installing PgSQL
 - [Ubuntu](https://www.thermo.io/how-to/databases/installing-pgsql-on-ubuntu)
 - [CentOS](https://www.thermo.io/how-to/databases/installing-pgsql-on-centos)
@@ -24,7 +25,6 @@ You should see the following prompt:
 ```shell
 psql (9.6.2)
 Type "help" for help.
-
 postgres=#
 ```
 2. To quit, input:
@@ -35,6 +35,7 @@ Or, you can execute the `psql` command with sudo and without changing users with
 ```shell
 sudo -u postgres psql
 ```
+
 ## Databases and roles
 PgSQL does not use user and group ownership like a traditional Unix-style account. Rather, it uses the term roles as an all-encompassing term. A role can be either a specific user or a larger group, depending on how it is set up. On our new installation of PgSQL, there is only one role, `postgres`. You can see this from the psql prompt with the *`\du`* command in the below example:
 ```shell
@@ -60,6 +61,7 @@ postgres=# \l
            |          |          |             |             | postgres=CTc/postgres
 (3 rows)
 ```
+
 ## Creating new databases and roles
 Next, this guide demonstrates how to create a new database, a new role, and assign the new role to that database.
 **Attention:** These commands need to be ran as the `postgres` user on the linux system, not from within psql.
@@ -77,12 +79,12 @@ createdb test db
    psql testdb
    ```
    b. Once on the new prompt for psql, create a new table with some basic parameters and insert some data:
-   ```shell
+   ```sql
    CREATE TABLE customers (customer_id int, first_name varchar, last_name varchar);
    INSERT INTO customers VALUES (1, ‘Jane’, ‘Schmuckatelli’);
    ```
    c. Grant the new role all privileges to the new table:
-   ```shell
+   ```sql
    GRANT ALL ON customers TO testrole;
    ```
 ## Asssigning roles to groups
@@ -100,21 +102,21 @@ GRANT testgroup TO testrole;
 ## Cleaning up
 It’s worthwhile to practice “good housekeeping” by removing all of your recent changes.
 1. To start, remove the testrole from the testgroup:
-```shell
+```sql
 REVOKE testgroup FROM testuser;
 ```
 2. Connect to the testdb and revoke privileges from the test role:
-```shell
+```sql
 \c testdb
 REVOKE ALL ON customers FROM testrole;
 ```
 3. Delete our data and then remove the table:
-```shell
+```sql
 DELETE FROM customers WHERE customer_id = 1;
 DROP TABLE customers;
 ```
 4. Remove the user and database. These last commands will be executed from the Linux prompt:
-```shell
+```sql
 dropuser testrole
 dropdb testdb
 ```

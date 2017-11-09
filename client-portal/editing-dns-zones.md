@@ -4,8 +4,10 @@ subject: Domains and DNS
 ---
 
 # Editing DNS zones in the Client Portal
+
 ## But first...
 You will need your [Client Portal](https://www.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal loging page, or [contact a Thermo Physicist](mailto:physicists@thermo.io).
+
 ## Method
 **Attention:** Allow up to 48 hours for full DNS propagation. In rare cases, it may take longer.
 1. Log in to the [Client Portal](https://www.thermo.io/login/).
