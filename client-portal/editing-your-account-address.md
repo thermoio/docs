@@ -5,7 +5,7 @@ subject: Account Management
 
 # Editing Your Account Address in the Client Portal
 ## But first...
-You will need your [Client Portal](https://www.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal loging page, or [contact a Thermo Physicist](mailto:physicists@thermo.io).
+You will need your [Client Portal](https://www.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal logging page, or [contact a Thermo Physicist](mailto:physicists@thermo.io).
 ## Method
 1. Log in to the [Client Portal](https://www.thermo.io/login/).
 2. From the **<Your Name>** list on the upper right, click **Addresses**.
