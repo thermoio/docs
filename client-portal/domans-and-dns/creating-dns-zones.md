@@ -1,6 +1,6 @@
 ---
 title: Creating DNS Zones
-image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-1.svg
+image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-6.svg
 ---
 # Creating DNS Zones in the Client Portal
 ## But first...
