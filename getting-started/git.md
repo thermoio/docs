@@ -1,5 +1,5 @@
 ---
-title: Getting into Git
+title: Git
 subject: General
 ---
 
