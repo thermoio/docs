@@ -1,5 +1,5 @@
 ---
-title: Methods of Reindexing Magento
+title: Methods of Reindexing
 subject: General
 ---
 
