@@ -1,40 +1,34 @@
 {
-  "title": "Thermo.io Knowledge Base",
+  "title": "Topics",
   "categories": [
     {
       "title": "Getting Started",
       "image": "https://www.thermo.io/wp-content/themes/thermo/static/images/kb_gettingstarted.png",
-      "description": "Need help getting started with Thermo? Read more about it here",
       "link": "getting-started"
     },
     {
       "title": "Applications",
       "image": "https://www.thermo.io/wp-content/themes/thermo/static/images/kb_application.png",
-      "description": "Learn about the applications we support",
       "link": "applications"
     },
     {
       "title": "Databases",
       "image": "https://www.thermo.io/wp-content/themes/thermo/static/images/kb_databases.png",
-      "description": "Learn about databases",
       "link": "databases"
     },
     {
       "title": "Domains and DNS",
       "image": "https://www.thermo.io/wp-content/themes/thermo/static/images/kb_domainsDNS.png",
-      "description": "Learn all about Domains and DNS",
       "link": "domains-and-dns"
     },
     {
       "title": "Security",
       "image": "https://www.thermo.io/wp-content/themes/thermo/static/images/kb_security.png",
-      "description": "Security is very important",
       "link": "security"
     },
     {
       "title": "Web Servers",
       "image": "https://www.thermo.io/wp-content/themes/thermo/static/images/kb_webservers.png",
-      "description": "Learn all about web servers",
       "link": "web-servers"
     }
   ]

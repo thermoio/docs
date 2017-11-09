@@ -1,6 +1,6 @@
 ---
 title: Installing PgSQL on Ubuntu
-image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-4.svg
+subject: PostgreSQL
 ---
 
 # Installing PgSQL on Ubuntu

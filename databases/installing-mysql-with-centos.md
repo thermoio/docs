@@ -1,6 +1,6 @@
 ---
 title: Installing MySQL with CentOS
-image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-4.svg
+subject: MySQL
 ---
 
 # Installing MySQL with CentOS

@@ -4,13 +4,11 @@
     {
       "title": "Magento",
       "image": "https://www.thermo.io/wp-content/themes/thermo/static/images/perks-3.svg",
-      "description": "Learn all about Magento. The best E-Commerce Platform on the planet.",
       "link": "applications/magento"
     },
     {
       "title": "Wordpress",
       "image": "https://www.thermo.io/wp-content/themes/thermo/static/images/perks-1.svg",
-      "description": "Are you using Wordpress? Check here for support docs.",
       "link": "applications/wordpress"
     }
   ]

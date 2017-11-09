@@ -1,6 +1,6 @@
 ---
 title: Installing ModSec for nginx on CentOS7
-image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-2.svg
+subject: ModSecurity
 ---
 
 # Installing ModSec for nginx on CentOS7

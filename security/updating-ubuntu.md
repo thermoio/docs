@@ -1,6 +1,6 @@
 ---
 title: Updating Ubuntu
-image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-5.svg
+subject: Operating System
 ---
 
 # Updating Ubuntu

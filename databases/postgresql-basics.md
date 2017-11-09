@@ -1,7 +1,6 @@
 ---
 title: PostgreSQL Basics
-image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-1.svg
-description: Installation, connection, database and role creation, and other basics.
+subject: PostgreSQL
 ---
 
 # PostgreSQL Basics

@@ -1,6 +1,6 @@
 ---
 title: Installing PgSQL on CentOS
-image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-1.svg
+subject: PostgreSQL
 ---
 
 # Installing PgSQL on CentOS

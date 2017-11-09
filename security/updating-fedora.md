@@ -1,6 +1,6 @@
 ---
 title: Updating Fedora
-image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-2.svg
+subject: Operating System
 ---
 
 # Updating Fedora
