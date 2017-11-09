@@ -1,6 +1,6 @@
 ---
 title: Creating Reverse DNS Records
-image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-1.svg
+image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-2.svg
 ---
 # Creating Reverse DNS Records in the Client Portal
 ## But first...
