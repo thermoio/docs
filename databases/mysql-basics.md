@@ -111,10 +111,10 @@ To see output resembling:
 +----+------------+-------------+--------------+--------------+----------+
 | id | first_ name| last_name   | date_of_birth| mobile_number| address  |
 +----+------------+-------------+--------------+--------------+----------+
-| 1 | Sam         | Shaw        | 1984-02-14   | 123456789    | 60,Vienna|
-| 2 | Sandie      | Kranebitter | 1990-04-30   | 124908765    | 82,Vienna|
-| 3 | Tom         | Pynchon     | 1988-05-31   | 987654321    | NULL     |
-| 4 | Tina        | Salzgeber   | 1989-06-23   | 908756342    | 3,Vienna |
+| 1  | Sam        | Shaw        | 1984-02-14   | 123456789    | 60,Vienna|
+| 2  | Sandie     | Kranebitter | 1990-04-30   | 124908765    | 82,Vienna|
+| 3  | Tom        | Pynchon     | 1988-05-31   | 987654321    | NULL     |
+| 4  | Tina       | Salzgeber   | 1989-06-23   | 908756342    | 3,Vienna |
 +----+------------+-------------+--------------+--------------+----------+
 ```
 To retrieve just one row of information based on certain criteria, use the `SELECT` clause  with a `WHERE` condition. For example, if you want to know the address of the employee `Sandie`, then issue:
@@ -157,9 +157,9 @@ This deletes all information for Tina, leaving the table to appear as:
 +----+------------+-------------+--------------+--------------+----------+
 | id | first_ name| last_name   | date_of_birth| mobile_number| address  |
 +----+------------+-------------+--------------+--------------+----------+
-| 1 | Sam         | Shaw        | 1984-02-14   | 123456789    | 60,Vienna|
-| 2 | Sandie      | Kranebitter | 1990-04-30   | 124908765    | 82,Vienna|
-| 3 | Tom         | Pynchon     | 1988-05-31   | 987654321    | NULL     |
+| 1  | Sam        | Shaw        | 1984-02-14   | 123456789    | 60,Vienna|
+| 2  | Sandie     | Kranebitter | 1990-04-30   | 124908765    | 82,Vienna|
+| 3  | Tom        | Pynchon     | 1988-05-31   | 987654321    | NULL     |
 +----+------------+-------------+--------------+--------------+----------+
 ```
 ## Deleting entire tables
