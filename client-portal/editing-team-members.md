@@ -1,6 +1,6 @@
 ---
 title: Editing Team Members
-Subject: User Management
+subject: User Management
 ---
 
 # Editing Team Members in the Client Portal
