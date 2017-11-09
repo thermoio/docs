@@ -11,15 +11,15 @@ ModSecurity (ModSec) is a Web Application Firewall (WAF) that can help protect y
 * A limited user with sudo access; for assistance creating one, see [Creating sudo users on CentOS](https://github.com/thermoio/docs/blob/master/getting-started/creating-sudo-users-on-centos)
 ## Installing ModSec
 1. Issue:
-```
+```shell
 sudo apt-get install libapache2-modsecurity
 ```
 2. Restart Apache:
-```
+```shell
 sudo service httpd restart
 ```
 3. Verify Modsec was installed:
-```
+```shell
 sudo apachectl -M | grep security
 ```
 4. The terminal should return a module named `security2_module (shared)`. If this is the case, then ModSec has been successfully installed.
