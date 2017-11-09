@@ -11,6 +11,7 @@ These article shows how to generate a pair of keys: one public, and one private.
 When a service or a person asks for your SSH key, they are referring to the public key. Find your operating system below, and follow the relevant steps to generate your key pair.
 
 Although the details differ slightly between operating systems, they all involve first generating the key, then uploading the key to the [Thermo Client Portal](https://www.thermo.io/login/).
+
 ## Windows
 1. Download the freely available and open-source tool, PuttyGen, or the full installation of Putty, which contains PuttyGen. These tools can be downloaded [here](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html).
 2. Install and launch PuttyGen, then click **Generate**.
@@ -24,8 +25,10 @@ Although the details differ slightly between operating systems, they all involve
 [ssh keys button](https://raw.githubusercontent.com/thermoio/docs/master/images/placeholder.png)
 9. Add a name for this key and paste the contents of the .pub file into the field.
 [key field](https://raw.githubusercontent.com/thermoio/docs/master/images/placeholder.png)
+
 ## Mac
 **Attention:** Replace angled brackets (`<>`) and everything between them with the indicated information.
+
 1. Open a terminal, then issue:
 ```shell
 ssh-keygen -t rsa -b 4096
@@ -43,6 +46,7 @@ ssh-keygen -t rsa -b 4096
 [ssh keys button](https://raw.githubusercontent.com/thermoio/docs/master/images/placeholder.png)
 8. Add a name for this key, then paste the contents of the `.pub` file into the field.
 [pasting contents](https://raw.githubusercontent.com/thermoio/docs/master/images/placeholder.png)
+
 ## Linux
 **Attention:** Replace angled brackets (`<>`) and everything between them with the indicated information.
 1. Open a terminal, then issue:

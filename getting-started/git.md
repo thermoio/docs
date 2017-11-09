@@ -1,5 +1,5 @@
 ---
-title: Git
+title: Getting into Git
 subject: General
 ---
 
@@ -7,6 +7,7 @@ subject: General
 Git is an essential skill for developers and IT professionals who find themselves consistently working on team projects. Whether it is writing code or collaborating on documentation for a server build, Git is the most popular distributed version control system. Git allows multiple people from all over the world to contribute to open source projects, allowing distant users to come together.
 
 Setting up Git is fairly easy, so let’s explore the basics: how to set it up locally, and how to contribute to remote repositories.
+
 ## Installing Git
 Installing on GNU/Linux is as easy as telling your package manager to install it:
 * For Ubuntu:
@@ -33,6 +34,7 @@ You can also change your default editor with:
 ```shell
 gif config --global core.editor editor-name
 ```
+
 ## Adding Git to current projects
 It’s also possible to start using Git to track projects already in development.
 
@@ -44,6 +46,7 @@ git add filename
 git commit -m “First commit”
 ```
 Next, let’s look at some helpful and common Git commands.
+
 ## Basic commands
 ```shell
 git add
@@ -51,18 +54,21 @@ git rm
 git mv
 ```
 The `rm` and `mv` commands that remove and move files from repos are likely already familiar to you, and the `add` command was discussed above. But what if we want to add a repo from a remote site like Github?
+
 ## Branches
 Say you are working on a project with large team and each commit to the project requires rigorous testing and discussion. This is where branches shine.
 
 Branches are what makes Git such a powerful tool for collaboration. If “too many cooks spoil the broth,” then Git is what allows every cook, or developer, to have their own kitchen, or branch.
 
 Most Repos have a master branch, usually known simply as “master.” Branches are often named after either a feature yet to be added and tested, or an issue requiring a fix. Since Git tracks all changes, working on multiple different branches doesn’t interfere with other developers. Reverting back to a previous version of a branch is possible, and easy.
+
 ### Creating branches
 To create a branch, get a local copy of the remote repository you will be working on. Replace the angled brackets (`<>`) and everything between them with the actual URL of the repository to be cloned:
 ```shell
 git clone <remoteurl>
 ```
 This creates a copy of the remote repository in your current directory. From here, you can begin to manage the files and make your needed changes to the branch.
+
 ### Basic commands
 Replace the angled brackets and everything between them with the indicated information.
 * `git status`: Show any changes to tracked files

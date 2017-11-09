@@ -4,6 +4,7 @@ subject: Magento
 ---
 
 # Methods of Reindexing Magento
+
 ## Overview
 Magento uses a process called reindexing to send its back-end updates to its front-end interface. This is important for keeping business information like customer accounts and product catalog up-to-date. For example, on a given day, product prices might change by customer type. Performing reindexing on an indexer, or table, that stores pricing information by product and consumer type clears the cache of the current table, inserts updated values, and makes those changes visible in the storefront application.
 
@@ -28,12 +29,13 @@ magento indexer:info <indexer>
 ```shell
 magento indexer:status <indexer>
 ```
-*For the updating mode of indexers:
+* For the updating mode of indexers:
 ```shell
 magento indexer:show-mode <indexer>
 ```
 In the above scripts, replace `<indexer>` with the name of indexers separated by spaces, or omit it to include all indexers. For example:
-### Example 1
+
+#### Example 1
 ```shell
 magento indexer:info
 ```
@@ -42,7 +44,7 @@ produces:
 category_product Category Products
 product_price Product Prices
 ```
-### Example 2
+#### Example 2
 ```shell
 magento indexer:status category_product product_price
 ```
@@ -51,7 +53,7 @@ results in:
 Category Products: Reindex required
 Product Prices: Reindex required
 ```
-### Example 3
+#### Example 3
 ```shell
 magento indexer:show-mode category_product product_price
 ```
@@ -61,6 +63,7 @@ Category Products: Update on Save
 Product Prices: Update on Save
 ```
 This last example shows that two indexers, category products and product prices, are set to Update on Save.
+
 ## Reindexing manually
 You can specify a manual reindex with:
 ```shell
@@ -122,6 +125,7 @@ Specify different intervals for each index, such as reindex category products ev
 0 6 * * * php -f /shell/indexer.php --reindex category_product
 0 8 * * * php -f /shell/indexer.php --reindex product_price
 ```
+
 ## Reverting to default "Update on Save"
 If it becomes necessary to revert to the default “Update on Save” setting, issue:
 ```shell
