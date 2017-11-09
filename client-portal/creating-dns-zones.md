@@ -1,6 +1,6 @@
 ---
 title: Creating DNS Zones
-Subject: Domains and DNS
+subject: Domains and DNS
 ---
 
 # Creating DNS Zones in the Client Portal
