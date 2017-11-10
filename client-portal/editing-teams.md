@@ -18,18 +18,16 @@ Your Client Portal uses three default roles: Superuser, Billing, and Technical. 
 2. From the <**Your_Name**> list on the upper right, click **Team**.
    IMAGE
 
-3. To create a new team, click **CREATE A TEAM**.
+3. To edit a team, locate your chosen role and click the **orange edit icon**. To delete a team, click the **red delete icon**. 
    IMAGE
 
-4. In the **Team Name** field, enter your desired name, then in the **Notifications** drop-down list, select one or more notification types for this team to receive: Billing, Technical, Abuse, or Affiliate.
+4. If you chose **delete**, then confirm when prompted. If you chose **edit**, you may now edit the role name, change notifications, or change permissions.
+
+**Attention:** You may not delete the Superuser role or its permissions, though you may designate which notifications the Superuser will receive.
+
    IMAGE
    
-5. Designate which areas this team has access to by choosing the **View**, **Edit**, or **Delete** check box. If you do not select a check box, then that team has no access to that area.
-   IMAGE
+5. Click **SAVE**.
    
-6. Click **SUBMIT**.
-   IMAGE
-   
-You may edit these teams by following the instructions in [Editing Teams in the Client Portal](URL PENDING).
 
 **_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://www.thermo.io/login/)._**
