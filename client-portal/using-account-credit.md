@@ -1,6 +1,6 @@
 ---
 title: Adding Team Members
-Subject: Paying for Your Service
+subject: Paying for Your Service
 ---
 
 # Paying Invoices with Account Credit
