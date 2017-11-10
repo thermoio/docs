@@ -3,7 +3,7 @@ title: Adding Credit Cards
 Subject: Paying for Your Service
 ---
 
-# Paying Invoices with Account Credit
+# Adding Credit Cards to the Client Portal 
 
 ## But first...
 You need your [Client Portal](https://www.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal login page, or [contact a Thermo Physicist](mailto:physicists@thermo.io).
