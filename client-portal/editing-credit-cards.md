@@ -1,6 +1,6 @@
 ---
 title: Editing Credit Cards
-Subject: Paying for Your Service
+subject: Paying for Your Service
 ---
 
 # Editing Credit Cards in the Client Portal
