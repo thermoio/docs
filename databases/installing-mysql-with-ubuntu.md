@@ -5,6 +5,10 @@ subject: MySQL
 
 # Installing MySQL with Ubuntu
 
+## But first...
+You will need A limited user with sudo access. For assistance creating one, see [Creating Sudo Users](https://www.thermo.io/how-to/security/creating-sudo-users).
+
+## Method
 Issue:
 ```shell
 sudo apt-get install mysql-server
