@@ -61,3 +61,5 @@ IG_TCP_CPORTS=”22,80,443”
 Once you have opened the desired ports, you are ready to enable APF from the same config file. Change the value from `1` in `DEVEL_MODE=”1”`to `0`, then save the file. To start the firewall, issue `apf -s`.
 
 For additional options, issue `apf --help`.
+
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://www.thermo.io/login/)._**
