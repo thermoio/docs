@@ -6,11 +6,9 @@ Subject: Paying for Your Service
 # Paying Invoices with Account Credit
 
 ## But first...
-
 You need your [Client Portal](https://www.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal login page, or [contact a Thermo Physicist](mailto:physicists@thermo.io).
 
 ## Method
-
 1. Log in to the [Client Portal](https://www.thermo.io/login/).
 2. From the dashboard, click **Billing > Credit card**.
    IMAGE
