@@ -5,8 +5,9 @@ subject: General
 
 # Creating Sudo Users
 
-## Before proceeding
+## But first...
 By default, you will be set up to connect to your virtual machine (VM) as the root user. This user has unlimited privileges and can execute any command on any file in the system.
+
 While we observe best security practices and restrict root login to your key pair, generally you will want to have a limited user to login into your machine and use the sudo command to execute root commands.
 
 To begin, log in to your server using SSH as the root user using your SSH key.
@@ -53,3 +54,5 @@ To test sudo, you can try a system update from that user with:
 sudo yum update
 ```
 If the process completes after entering the user’s password, then sudo is working.
+
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://www.thermo.io/login/)._**

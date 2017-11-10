@@ -73,3 +73,5 @@ Finally, check your work by confirming the new password works as intended:
 mysql -u root -p
 ```
 Your work is done! You now have regained administrative access to your MySQL server.
+
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://www.thermo.io/login/)._**

@@ -62,3 +62,5 @@ From your terminal, issue:
 ```shell
 sudo dscacheutil -flushcache
 ```
+
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://www.thermo.io/login/)._**

@@ -13,3 +13,5 @@ sudo systemctl enable mariadb
 sudo systemctl start mariadb
 ```
 For additional guidance, see [MySQL basics](https://www.thermo.io/how-to/databases/mysql-basics).
+
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://www.thermo.io/login/)._**

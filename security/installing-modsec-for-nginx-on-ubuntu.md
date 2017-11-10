@@ -177,3 +177,5 @@ The output should include error messages resembling the following:
 5. The procedure is complete. To customize your settings, review and edit the following files:
 * `/usr/local/nginx/conf/modsecurity.conf`
 * `/usr/local/nginx/conf/owasp-modsecurity-crs/crs-setup.conf`
+
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://www.thermo.io/login/)._**

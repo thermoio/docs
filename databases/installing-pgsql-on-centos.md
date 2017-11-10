@@ -10,3 +10,5 @@ Using the package manager, perform a system update to ensure you are running the
 sudo yum update
 sudo yum install postgresql-server postgresql-contrib
 ```
+
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://www.thermo.io/login/)._**
