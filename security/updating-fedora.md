@@ -6,7 +6,7 @@ subject: Operating System
 # Updating Fedora
 
 ## But first...
-You must have sudo access to excecute the below commmands. See [Creating Sudo Users](https://www.thermo.io/how-to/security/creating-sudo-users) for more information.
+You must have sudo access to use the below commmands. See [Creating Sudo Users](https://www.thermo.io/how-to/security/creating-sudo-users) for more information.
 
 ## Fedora
 Perform update and restart the system:
