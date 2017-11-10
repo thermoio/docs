@@ -8,7 +8,7 @@ subject: Paying for Your Service
 ## What you need
 
 * Your [Client Portal](https://www.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal loging page, or [contact a Thermo Physicist](mailto:physicists@thermo.io).
-* A credit balance on your account. To check your credit balance, refer to How to view account credit balance and history.
+* A credit balance on your account. To check your credit balance, refer to [How to view account credit balance and history](LINK PENDING).
 
 ## Method
 
