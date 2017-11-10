@@ -61,3 +61,5 @@ Congratulations on creating your first virtual machine with Thermo! For addition
 * [Security](https://www.thermo.io/how-to/security)
 * [Databases](https://www.thermo.io/how-to/databases)
 * [Web servers](https://www.thermo.io/how-to/web-servers)
+
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://www.thermo.io/login/)._**
