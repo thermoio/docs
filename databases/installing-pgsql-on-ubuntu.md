@@ -5,9 +5,17 @@ subject: PostgreSQL
 
 # Installing PgSQL on Ubuntu
 
-Using the package manager, perform a system update to ensure you are running the most current version of Ubuntu or CentOS before installing it.
+## But first...
+You will need A limited user with sudo access. For assistance creating one, see [Creating Sudo Users](https://www.thermo.io/how-to/security/creating-sudo-users).
+
+## Method
+First, perform a system update to confirm you are using the most current version: 
 ```shell
 sudo apt-get update
+```
+
+Now, install PgSQL:
+```shell
 sudo apt-get install postgresql postgresql-contrib
 ```
 
