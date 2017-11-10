@@ -36,24 +36,26 @@ Then, to connect to the server as the root user without the password, issue:
 ```shell
 mysql -u root
 ```
-## Change the root password
+
+## Step 4: Change the root password
 First, reload the grant tables, which you will need for Step 5:
-```shell
+```sql
 FLUSH PRIVILEGES;
 ```
 Then, change the root password with one of the following two commands, but replace `<new_password>` and the angled brackets (`<>`) with your actual password:
 * For MariaDB 10.1.20 and later, use:
-```shell
+```sql
 ALTER USER ‘root’@’localhost’ IDENTIFIED BY ‘<new_password>’;
 ```
 * For MariaDB 10.1.19 and earlier, use:
-```shell
+```sql
 SET PASSWORD FOR ‘root’@’localhost’ = PASSWORD(‘<new_password>’);
 ```
 If successful, you will see the output:
 ```shell
 Query OK, 0 rows affected (0.00 sec)
 ```
+
 ## Step 5: Restart your database server
 First, stop the database server you launched in Step 3:
 ```shell

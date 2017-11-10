@@ -4,14 +4,18 @@ subject: ModSecurity
 ---
 
 # Installing ModSec for nginx on Ubuntu
+
 **Attention:** You need root access and the most current version of Ubuntu.
+
 ## 1: Update
 See [Updating Ubuntu](https://www.thermo.io/how-to/security/updating-ubuntu).
+
 ## 2: Install dependencies
 Install the following packages:
 ```shell
 apt-get install -y git build-essential libpcre3 libpcre3-dev libssl-dev libtool autoconf apache2-dev libxml2-dev libcurl4-openssl-dev automake pkgconf
 ```
+
 ## 3: Compile ModSec
 ModSec for the Nginx master branch has been reported as currently being unstable; therefore, use the `nginx_refactoring` branch as directed below:
 1. Download the `nghinx_refactoring` branch of ModSecurity for Nginx:
@@ -27,6 +31,7 @@ cd ModSecurity
 ./configure --enable-standalone-module --disable-mlogc
 make
 ```
+
 ## 4: Compile Nginx
 1. Download and unarchive the latest stable release of Nginx. Currently, this is Nginx 1.13.4:
 ```shell
@@ -74,14 +79,11 @@ ExecStartPre=/usr/local/nginx/sbin/nginx -t -c /usr/local/nginx/conf/nginx.conf
 ExecStart=/usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf
 ExecReload=/usr/local/nginx/sbin/nginx -s reload
 KillStop=/usr/local/nginx/sbin/nginx -s stop
-
 KillMode=process
 Restart=on-failure
 RestartSec=42s
-
 PrivateTmp=true
 LimitNOFILE=200000
-
 [Install]
 WantedBy=multi-user.target
 EOF
@@ -92,6 +94,7 @@ systemctl stop nginx.service
 systemctl start nginx.service
 systemctl restart nginx.service
 ```
+
 ## 5: Configure ModSec and Nginx
 1. Configure Nginx:
 **Attention:** The sample Nginx configuration below uses Nginx as a web server rather than a reverse proxy. If you are using Nginx as a reverse proxy, remove the # character in last two lines, then make the appropriate modifications.
@@ -121,8 +124,8 @@ systemctl restart nginx.service
    ```shell
    :wq!
    ```
-2. Create the file ``/usr/local/nginx/conf/modsec_includes.conf``:
-**Attention:** The config below applies all of the OWASP ModSecurity Core Rules in the ``owasp-modsecurity-crs/rules/`` directory. If you want to apply selective rules only, you should remove the include ``owasp-modsecurity-crs/rules/*.conf`` line, and then specify exact rules you need after step 5 of this section.
+2. Create the file `/usr/local/nginx/conf/modsec_includes.conf`:
+**Attention:** The config below applies all of the OWASP ModSecurity Core Rules in the `owasp-modsecurity-crs/rules/` directory. If you want to apply selective rules only, you should remove the include `owasp-modsecurity-crs/rules/*.conf` line, and then specify exact rules you need after step 5 of this section.
 ```shell
 cat <<EOF>> /usr/local/nginx/conf/modsec_includes.conf
 include modsecurity.conf
@@ -149,6 +152,7 @@ cd rules
 mv REQUEST-900-EXCLUSION-RULES-BEFORE-CRS.conf.example REQUEST-900-EXCLUSION-RULES-BEFORE-CRS.conf
 mv RESPONSE-999-EXCLUSION-RULES-AFTER-CRS.conf.example RESPONSE-999-EXCLUSION-RULES-AFTER-CRS.conf
 ```
+
 ## 6: Test ModSec
 1. Start Nginx:
 ```shell
