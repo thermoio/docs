@@ -1,5 +1,5 @@
 ---
-title: Adding Team Members
+title: Using Account Credit
 subject: Paying for Your Service
 ---
 
