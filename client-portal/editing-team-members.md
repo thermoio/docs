@@ -10,6 +10,8 @@ subject: User Management
 * The email address of the user to be added.
 
 ## Method
+**Attention:** It is not possible to reset another team member's password. Instead, that team member must follow the instructions provided in [Changing Your Password in the Client Portal](URL PENDING).
+
 1. Log in to the [Client Portal](https://www.thermo.io/login/).
 2. From the <**Your_Name**> list on the upper right, click **Team**.
    IMAGE
