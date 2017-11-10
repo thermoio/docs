@@ -6,7 +6,7 @@ subject: ModSecurity
 # Installing ModSec for Apache on Ubuntu
 
 ## Overview
-ModSecurity (ModSec) is a Web Application Firewall (WAF) that can help protect your websites and server from many web-based attacks. This guide will instruct you on how to install ModSecurity on an existing Linux, Apache, MySQL, or PHP (LAMP) installation.
+ModSecurity (ModSec) is a Web Application Firewall (WAF) that can help protect your websites and server from many web-based attacks. This guide will instruct you on how to install ModSecurity on an existing Linux, Apache, MySQL, and PHP (LAMP) installation.
 
 ## Requirements
 * An existing LAMP stack; for assistance setting one up, see [Setting up LAMP stack on CentOS 7](https://github.com/thermoio/docs/blob/master/getting-started/setting-up-lamp-stack-on-centos7.md)
