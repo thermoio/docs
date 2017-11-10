@@ -27,5 +27,7 @@ Your Client Portal uses three default roles: Superuser, Billing, and Technical. 
    
 6. Click **SUBMIT**.
    IMAGE
+   
+You may edit these teams by following the instructions in [Editing Teams in the Client Portal](URL PENDING).
 
 **_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://www.thermo.io/login/)._**
