@@ -4,8 +4,10 @@ subject: Firewall
 ---
 
 # Installing APF
+
 ## Overview
 Advanced Policy Firewall (APF) is an iptables-based firewall system. It allows you to more easily manage the ins and outs of the native Linux firewall without having to learn much about how to filter net traffic. This guide covers installation and basic port-access manipulation.
+
 ## Installation
 1. To install APF, you will make use of `wget`, `tar`, and `gzip`. If these are not already installed on your server, install them with your OS’s package manager:
    * CentOS
@@ -37,6 +39,7 @@ cd apf-1.7.5/
 sh install.sh
 ```
 This installs APF into `/etc/apf`.
+
 ## Configuration
 Once installed, you must do some basic configuration and enable APF.
 
