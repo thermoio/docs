@@ -5,7 +5,7 @@ subject: General
 
 # Creating Sudo Users
 
-## Before proceeding
+## But first...
 By default, you will be set up to connect to your virtual machine (VM) as the root user. This user has unlimited privileges and can execute any command on any file in the system.
 
 While we observe best security practices and restrict root login to your key pair, generally you will want to have a limited user to login into your machine and use the sudo command to execute root commands.
