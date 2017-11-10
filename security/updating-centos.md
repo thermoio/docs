@@ -16,3 +16,5 @@ sudo yum install epel-release -y
 ```shell
 sudo yum update -y && sudo shutdown -r now
 ```
+
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://www.thermo.io/login/)._**
