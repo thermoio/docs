@@ -6,7 +6,7 @@ subject: Operating System
 # Updating Ubuntu
 
 ## But first...
-You must have sudo access to excecute the below commmands. See [Creating Sudo Users](https://www.thermo.io/how-to/security/creating-sudo-users) for more information.
+You must have sudo access to use the below commmands. See [Creating Sudo Users](https://www.thermo.io/how-to/security/creating-sudo-users) for more information.
 
 ## Ubuntu
 1. Update the list of packages to be updated:
