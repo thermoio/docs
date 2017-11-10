@@ -19,7 +19,7 @@ You will need your [Client Portal](https://www.thermo.io/login/) username and pa
 3. You will see all current DNS zones associated with your account. If the DNS zone already exists, skip to Step 4. If you wish to create a new one, first follow the instructions in [How to create DNS zones in the Client Portal](URL PENDING). 
    IMAGE
 
-4. On the DNS Zones page, locate the desired domain. Either click the **nam**e, or select the **menu toggle**, then click **View**.
+4. On the DNS Zones page, locate the desired domain. Either click the **name**, or select the **menu toggle**, then click **View**.
    IMAGE
 
 5. From the DNS Record List, select the desired type, then click the corresponding **Add** button.
