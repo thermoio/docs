@@ -1,25 +1,27 @@
 ---
 title: Setting Up LEMP Stack on CentOS7 with FastCGI
-image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-2.svg
+subject: LEMP
 ---
 
 # Setting Up LEMP Stack on CentOS7 with FastCGI
+
 ## 1: Install Nginx
 1. Prep the system by making sure everything is up to date:
-```
+```shell
 sudo yum update
 ```
 2. Set up the common EPEL repository:
-```
+```shell
 sudo yum install epel-release
 sudo yum update
 ```
 3. Install Nginx:
+
 ```
 sudo yum install nginx
 ```
 4. Make sure Nginx is enabled and will start on-boot:
-```
+```shell
 sudo systemctl enable nginx.service
 sudo systemctl start nginx.service
 ```
@@ -27,8 +29,10 @@ sudo systemctl start nginx.service
 ```
 sudo systemctl status nginx.service
 ```
+
 ## 2: Configure server blocks (virtual hosts)
 After completing and testing the Nginx install, you will set up your server blocks. These blocks, which are similar to Apache Virtual Hosts, instruct Nginx where to find data and log files for a specific website.
+
 You can either set up blocks within the primary `/etc/nginx/nginx.conf` file, or create a separate file for each block in the `/etc/nginx/conf.d` directory (i.e. /etc/nginx/conf.d/example.com.conf). The contents of either the file or a block in the main config file will look the same:
 ```
 server {
@@ -43,13 +47,14 @@ location / {
 }
 ```
 If you want to host additional websites, you must create a similar entry for each in either its own file in `/etc/nginx/conf.d`, or an additional entry in `/etc/nginx/nginx.conf`.
+
 ## 3: Create Directories
 After creating the server block entry for Nginx, create the directories for your website files and logs:
-
 **Attention:** Make sure the Nginx user can access these files (permissions should be 755 for directories and 644 for folders)
 ```
 sudo mkdir -p /var/www/example.com/{public_html,logs}
 ```
+
 ## 4: Install and configure PHP with FastCGI
 When using PHP code for your site, you must make sure Nginx can interpret PHP correctly. This can also be installed with yum:
 ```
@@ -99,22 +104,23 @@ location ~ \.php$ {
     }
 ```
 3. Save and close the file, then restart Nginx:
-```
+```shell
 sudo systemctl restart nginx
 ```
+
 ## 6: Install MySQL (MariaDB)
 Now that the webserver is running with PHP support, the final step is to install a database server. This tutorial uses MariaDB as a drop-in replacement for MySQL.
 1. Install MariaDB:
-```
+```shell
 sudo yum install mariadb-server mariadb
 ```
 2. Once completed, activate it and enable on startup:
-```
+```shell
 sudo systemctl start mariadb
 sudo systemctl enable mariadb
 ```
 3. As a best practice, run the MySQL secure installation script to set a MySQL root password and other basic security settings:
-```
+```shell
 sudo mysql_secure_installation
 ```
 4. When prompted to enter the current root password, press Enter.

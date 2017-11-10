@@ -1,12 +1,17 @@
 ---
 title: Updating Fedora
-image: https://www.thermo.io/wp-content/themes/thermo/static/images/perks-2.svg
+subject: Operating System
 ---
 
 # Updating Fedora
-**Attention:** You must have sudo access to execute the below commands.
+
+## But first...
+You must have sudo access to use the below commmands. See [Creating Sudo Users](https://www.thermo.io/how-to/security/creating-sudo-users) for more information.
+
 ## Fedora
 Perform update and restart the system:
-```
+```shell
 sudo dnf upgrade -y && sudo shutdown -r now
 ```
+
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://www.thermo.io/login/)._**
