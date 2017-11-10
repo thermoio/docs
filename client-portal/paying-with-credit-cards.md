@@ -3,7 +3,7 @@ title: Adding Credit Cards
 subject: Paying for Your Service
 ---
 
-# Using credit cards to Pay for Your Service
+# Using Credit Cards to Pay for Your Service
 
 ## What you need
 * Your [Client Portal](https://www.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal login page, or [contact a Thermo Physicist](mailto:physicists@thermo.io).
