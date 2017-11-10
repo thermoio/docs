@@ -5,6 +5,10 @@ subject: PostgreSQL
 
 # Installing PgSQL on CentOS
 
+## But first...
+You will need A limited user with sudo access. For assistance creating one, see [Creating Sudo Users](https://www.thermo.io/how-to/security/creating-sudo-users).
+
+## Method
 Using the package manager, perform a system update to ensure you are running the most current version of CentOS before installing it.
 ```shell
 sudo yum update
