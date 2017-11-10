@@ -13,17 +13,19 @@ subject: Paying for Your Service
 ## Method
 
 1. Log in to the [Client Portal](https://www.thermo.io/login/).
-2. From the <**Your_Name**> list on the upper right, click **Team**.
+2. On the dashboard, either click **Amount Due** or select **Billing > Invoice**.
    IMAGE
 
-3. On the Manage Team page, click **ADD A MEMBER**.
+3. On the Invoices page, locate the invoice to be paid and, from the **menu toggle**, click **Pay**. 
    IMAGE
    
-4. In the Add User panel, enter the **Email Address** of the person to be added as the user, then click **Add**.
+   Or, if you wish to view more details about an invoice, click the **invoice name**, or select the corresponding **menu toggle** and click **View**.
+   IMAGE
+   
+4. In Pay Invoice panel, from the **Payment Method** drop-down list, click **Apply Credit**.
    IMAGE
 
-   * This person will receive an email with a link to a form requiring his or her email address, name, and password to gain access to this account. 
-   * Alternatively, if the user is already active on a separate Client Portal account, they should use the option to use an existing login rather than enter the above information.
+5. In the same panel, click **Pay**.
    
 See [Editing team members in the Client Portal](URL pending) for more information.
 
