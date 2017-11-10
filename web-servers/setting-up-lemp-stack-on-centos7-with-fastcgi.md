@@ -25,7 +25,7 @@ sudo systemctl start nginx.service
 ```
 5. To confirm Nginx is running, issue:
 ```
-sudo cystemctl status nginx.service
+sudo systemctl status nginx.service
 ```
 ## 2: Configure server blocks (virtual hosts)
 After completing and testing the Nginx install, you will set up your server blocks. These blocks, which are similar to Apache Virtual Hosts, instruct Nginx where to find data and log files for a specific website.
@@ -46,7 +46,7 @@ If you want to host additional websites, you must create a similar entry for eac
 ## 3: Create Directories
 After creating the server block entry for Nginx, create the directories for your website files and logs:
 
-**Attention:** Make sure the Nginx user has correct permissions to access those folders.
+**Attention:** Make sure the Nginx user can access these files (permissions should be 755 for directories and 644 for folders)
 ```
 sudo mkdir -p /var/www/example.com/{public_html,logs}
 ```
@@ -63,7 +63,7 @@ Once installed, we will need to make a few new files to initialize php-fgci on b
 /usr/bin/spawn-fcgi -a 127.0.0.1 -p 9000 -C 6 -u nginx -f /usr/bin/php-cgi
 
 ```
-Make sure this new file is executable with chmod +x !
+Make sure this new file is executable with chmod +x /usr/bin/php-fcgi
 
 2. Now we will want this script to initialize on boot. To do so we will create a new service in systemd. Create a new file /etc/systemd/system/php-fastcgi.service and add the following
 ```
