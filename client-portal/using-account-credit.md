@@ -1,6 +1,6 @@
 ---
 title: Adding Team Members
-subject: Paying for Your Service
+subject: User Management
 ---
 
 # Paying Invoices with Account Credit
