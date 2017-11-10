@@ -1,6 +1,6 @@
 ---
 title: Adding Credit Cards
-Subject: Paying for Your Service
+subject: Paying for Your Service
 ---
 
 # Adding Credit Cards to the Client Portal 
