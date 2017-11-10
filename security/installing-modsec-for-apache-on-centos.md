@@ -31,3 +31,5 @@ sudo apachectl -M | grep security
 For additional rulesets that increase security, see the following resources:
 * https://waf.comodo.com/
 * https://www.modsecurity.org/CRS/Documentation/install.html
+
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://www.thermo.io/login/)._**
