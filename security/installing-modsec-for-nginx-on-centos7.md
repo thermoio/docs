@@ -4,9 +4,12 @@ subject: ModSecurity
 ---
 
 # Installing ModSec for nginx on CentOS7
+
 **Attention:** You need root access and the most current version of CentOS 7.
+
 ## 1: Update
 See [Updating CentOS](https://www.thermo.io/how-to/security/updating-centos).
+
 ## 2: Install dependencies
 Install the following packages:
 ```shell
@@ -14,6 +17,7 @@ yum groupinstall -y "Development Tools"
 yum install -y httpd httpd-devel pcre pcre-devel libxml2 libxml2-devel curl curl-devel openssl openssl-devel
 shutdown -r now
 ```
+
 ## 3: Compile ModSec
 ModSec for the Nginx master branch has been reported as currently being unstable; therefore, use the `nginx_refactoring` branch as directed below:
 1. Download the `nghinx_refactoring` branch of ModSecurity for Nginx:
@@ -31,6 +35,7 @@ sed -i '1 i\AUTOMAKE_OPTIONS = subdir-objects' Makefile.am
 ./configure --enable-standalone-module --disable-mlogc
 make
 ```
+
 ## 4: Compile Nginx
 1. Download and unarchive the latest stable release of Nginx. Currently, this is Nginx 1.13.4:
 ```shell
@@ -54,9 +59,11 @@ make install
 ```shell
 sed -i "s/#user  nobody;/user nginx nginx;/" /usr/local/nginx/conf/nginx.conf
 ```
+
 ## 5: Configure ModSec and Nginx
 1. Configure Nginx:
 **Attention:** The sample Nginx configuration below uses Nginx as a web server rather than a reverse proxy. If you are using Nginx as a reverse proxy, remove the # character in last two lines, then make the appropriate modifications.
+
    a. Issue:
    ```shell
    vi /usr/local/nginx/conf/nginx.conf
@@ -111,6 +118,7 @@ cd rules
 mv REQUEST-900-EXCLUSION-RULES-BEFORE-CRS.conf.example REQUEST-900-EXCLUSION-RULES-BEFORE-CRS.conf
 mv RESPONSE-999-EXCLUSION-RULES-AFTER-CRS.conf.example RESPONSE-999-EXCLUSION-RULES-AFTER-CRS.conf
 ```
+
 ## 6: Test ModSec
 1. Start Nginx:
 ```shell
