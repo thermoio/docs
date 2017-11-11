@@ -16,8 +16,9 @@ sudo yum install epel-release
 sudo yum update
 ```
 3. Install Nginx:
-```shell
-sudo yum install ngninx
+
+```
+sudo yum install nginx
 ```
 4. Make sure Nginx is enabled and will start on-boot:
 ```shell
@@ -25,22 +26,23 @@ sudo systemctl enable nginx.service
 sudo systemctl start nginx.service
 ```
 5. To confirm Nginx is running, issue:
-```shell
-sudo cystemctl status nginx.service
+```
+sudo systemctl status nginx.service
 ```
 
 ## 2: Configure server blocks (virtual hosts)
 After completing and testing the Nginx install, you will set up your server blocks. These blocks, which are similar to Apache Virtual Hosts, instruct Nginx where to find data and log files for a specific website.
-You can either set up blocks within the primary `/etc/nginx/nginx.conf` file, or create a separate file for each block in the `/etc/nginx/conf.d` directory. The contents of either the file or a block in the main config file will look the same:
-```shell
+
+You can either set up blocks within the primary `/etc/nginx/nginx.conf` file, or create a separate file for each block in the `/etc/nginx/conf.d` directory (i.e. /etc/nginx/conf.d/example.com.conf). The contents of either the file or a block in the main config file will look the same:
+```
 server {
 listen 80;
 server_name www.example.com example.com;
-access_log /var/www/exapmle.com/logs/access.log
+access_log /var/www/example.com/logs/access.log
 
 location / {
-  root /var/www/example/com/public_html
-  index index.html index htm index.php;
+  root /var/www/example.com/public_html
+  index index.html index.htm index.php;
   }
 }
 ```
@@ -48,53 +50,57 @@ If you want to host additional websites, you must create a similar entry for eac
 
 ## 3: Create Directories
 After creating the server block entry for Nginx, create the directories for your website files and logs:
-
-**Attention:** Make sure the Nginx user has correct permissions to access those folders.
-```shell
+**Attention:** Make sure the Nginx user can access these files (permissions should be 755 for directories and 644 for folders)
+```
 sudo mkdir -p /var/www/example.com/{public_html,logs}
 ```
 
 ## 4: Install and configure PHP with FastCGI
 When using PHP code for your site, you must make sure Nginx can interpret PHP correctly. This can also be installed with yum:
-```shell
-sudo yum install php php-mysql php-fpm
 ```
-Once installed, it is necessary to tweak a few settings to configure PHP to work with Nginx. To do so:
-1. Open the PHP-FPM configuration file
-```shell
-sudo vi /etc/php-fpm.d/www.conf
+sudo yum install php php-mysql php-cli spawn-fgi
 ```
-2. Find the line with the listen parameter and adjust it to the following
-```shell
-listen = /var/run/php-fpm/php-fpm.sock
+Once installed, we will need to make a few new files to initialize php-fgci on boot.
+
+1. Create a new file /usr/bin/php-fastcgi and add the following lines
 ```
-3. Next we will need to alter a few more parameters, specifically `listen.owner`, `listen.group`, `user`, and `group`. Be sure these lines match to the below examples:
-```shell
-listen.owner = nobody
-listen.group = nobody
-user = nginx
-group = nginx
+#!/bin/bash
+/usr/bin/spawn-fcgi -a 127.0.0.1 -p 9000 -C 6 -u nginx -f /usr/bin/php-cgi
+
 ```
-4. Save and quit the editor, then enable PHP and set it to start-on-boot:
-```shell
-sudo systemctl start php-fpm
-sudo systemctl enable php-fpm
+Make sure this new file is executable with chmod +x /usr/bin/php-fcgi
+
+2. Now we will want this script to initialize on boot. To do so we will create a new service in systemd. Create a new file /etc/systemd/system/php-fastcgi.service and add the following
+```
+[Unit]
+Description=php-fastcgi systemd service
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/php-fastcgi start
+
+[Install]
+WantedBy=multi-user.target
+```
+3. Next we will enable and start the new service
+```
+systemctl enable php-fastcgi.service
+systemctl start php-fastcgi.service
 ```
 
 ## 5: Configure Nginx for PHP processing
 To get PHP working with Nginx, you must add additional information to the server block file we edited previously.
-1. Open the PHP-FPM configuration file:
-```shell
-sudo vi /etc/nginx/conf.d/example.com.conf
+1. Open the Nginx configuration file (or if you are using individual site configurations, /etc/nginx/conf.d/example.com.conf)
 ```
-2. Add the following lines to the file right before the final `}`:
-```shell
+sudo vi /etc/nginx/nginx.conf
+```
+2. Add the following lines to the server block for your site right before the final `}`:
+```
 location ~ \.php$ {
-        try_files $uri =404;
-        fastcgi_pass unix:/var/run/php-fpm/php-fpm.sock;
+        include /etc/nginx/fastcgi_params;
+        fastcgi_pass 127.0.0.1:9000;
         fastcgi_index index.php;
         fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
-        include fastcgi_params;
     }
 ```
 3. Save and close the file, then restart Nginx:
