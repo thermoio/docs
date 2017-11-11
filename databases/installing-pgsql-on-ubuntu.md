@@ -18,5 +18,9 @@ Now, install PgSQL:
 ```shell
 sudo apt-get install postgresql postgresql-contrib
 ```
-
+Finally enable and start the postgresql service
+```shell
+sudo systemctl enable postgresql
+sudo systemctl start postgresql
+```
 **_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://www.thermo.io/login/)._**
