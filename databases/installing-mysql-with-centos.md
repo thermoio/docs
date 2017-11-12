@@ -17,6 +17,12 @@ sudo yum install mariadb mariadb-server
 sudo systemctl enable mariadb
 sudo systemctl start mariadb
 ```
+After installation completes, for best practive run the secure installation script to set a root password and other basic security settings:
+```shell
+sudo mysql_secure_installation
+```
+When prompted for the current root password, hit enter as there one has not be set yet. Set your password on the next prompt and hit enter on all the following prompts to select default settings.
+
 For additional guidance, see [MySQL basics](https://www.thermo.io/how-to/databases/mysql-basics).
 
 **_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://www.thermo.io/login/)._**
