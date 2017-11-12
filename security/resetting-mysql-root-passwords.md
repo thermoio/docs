@@ -62,7 +62,7 @@ Query OK, 0 rows affected (0.00 sec)
 ## Step 5: Restart your database server
 First, stop the database server you launched in Step 3:
 ```shell
-sudo kill `cat /var/run/mysqld/mysqld.pid`
+sudo pkill 'mysql'
 ```
 Next, restart the service using `systemctl`:
 ```shell
