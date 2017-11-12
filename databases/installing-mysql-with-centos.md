@@ -21,7 +21,7 @@ After installation completes, for best practive run the secure installation scri
 ```shell
 sudo mysql_secure_installation
 ```
-When prompted for the current root password, hit enter as there one has not be set yet. Set your password on the next prompt and hit enter on all the following prompts to select default settings.
+When prompted for the current root password, hit enter as there has not been one set yet. Set your password on the next prompt and hit enter on all the following prompts to select default settings.
 
 For additional guidance, see [MySQL basics](https://www.thermo.io/how-to/databases/mysql-basics).
 
