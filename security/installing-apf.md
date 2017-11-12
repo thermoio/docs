@@ -6,17 +6,17 @@ subject: Firewall
 # Installing APF
 
 ## Overview
-Advanced Policy Firewall (APF) is an iptables-based firewall system. It allows you to more easily manage the ins and outs of the native Linux firewall without having to learn much about how to filter net traffic. This guide covers installation and basic port-access manipulation.
+Advanced Policy Firewall (APF) is an iptables-based firewall system. It allows you to more easily manage the ins and outs of the native Linux firewall without having to learn much about how to filter net traffic. This guide covers installation and basic port-access manipulation. Note: This guide requires installation as the root user.
 
 ## Installation
 1. To install APF, you will make use of `wget`, `tar`, and `gzip`. If these are not already installed on your server, install them with your OS’s package manager:
    * CentOS
    ```shell
-   sudo yum install wget tar gzip
+   yum install wget tar gzip
    ```
    * Ubuntu
    ```shell
-   sudo apt-get install wget tar gzip
+   apt-get install wget tar gzip
    ```
 2. Change to a directory where you can safely download and install files:
 ```shell
@@ -24,11 +24,11 @@ cd /usr/local/src
 ```
 3. Download the tarball:
 ```shell
-wget http://rfxn.com/downloands/apf-current.tar.gz
+wget http://rfxn.com/downloads/apf-current.tar.gz
 ```
 4. Extract the file:
 ```shell
-sudo tar -xvzf apf-current.tar.gz
+tar -xvzf apf-current.tar.gz
 ```
 5. Change directory into the new `apf` directory. The directory name will change based on the current version, so adjust as needed:
 ```shell
@@ -45,9 +45,9 @@ Once installed, you must do some basic configuration and enable APF.
 
 APF’s config file is located in `/etc/apf/conf.apf`, and this is where you will make changes.
 
-First, open the file with a text editor. This example uses nano:
+First, open the file with a text editor. This example uses vi:
 ```shell
-sudo nano /etc/apf/conf.apf
+vi /etc/apf/conf.apf
 ```
 For the first change, open any ports you want to have enabled on your server. By default, APF only allows connections on port 22, the default port for SSH. Depending on your needs for your server, you can open any other numbered ports by adding them to this line:
 ```shell
