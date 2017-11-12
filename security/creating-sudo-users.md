@@ -45,6 +45,13 @@ vi /home/example_user/.ssh/authorized_keys
 ```
 Once you have pasted the text of the key, save and close the file (for vi this is `:wq`)
 
+Lastly, make sure permissions and ownership are correct on the new user's .ssh files, remember to replace example_user with the new user name.
+```shell
+chown -R example_user.example_user /home/example_user/.ssh
+chmod 700 /home/example_user/.ssh
+chmod 600 /home/example_user/.ssh/authorized_keys
+```
+
 Finally, log out of the server as the root user and attempt to reconnect with your new user. Be sure to specify the filepath to the new user key and replace example_user and IP with the name of your new user and the IP of your server.
 ```shell
 ssh -i /path/to/keyfile example_user@IP
