@@ -35,7 +35,7 @@ usermod -aG wheel <example_user>
 ```
 
 ## 2: Create and add SSH keys
-Since logins with passwords are disabled by default, you must create SSH keys for this user. If you need assistance with creating a new SSH key, see our guide <here>.
+Since logins with passwords are disabled by default, you must create SSH keys for this user. If you need assistance with creating a new SSH key, see our guide [here](https://www.thermo.io/how-to/security/generating-and-uploading-ssh-keys).
 
 Once you have generated your new SSH key for this user, open the new PUBLIC keyfile on your local computer and copy the contents to your clipboard.
 
