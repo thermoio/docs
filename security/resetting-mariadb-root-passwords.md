@@ -54,12 +54,13 @@ SET PASSWORD FOR ‘root’@’localhost’ = PASSWORD(‘<new_password>’);
 If successful, you will see the output:
 ```shell
 Query OK, 0 rows affected (0.00 sec)
-```
 
+```
+Use the 'exit' command to return to the command line.
 ## Step 5: Restart your database server
 First, stop the database server you launched in Step 3:
 ```shell
-sudo kill `cat /var/run/mariadb/mariadb.pid`
+sudo pkill 'mysql'
 ```
 Next, restart the service using `systemctl`:
 ```shell
