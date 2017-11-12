@@ -35,7 +35,7 @@ usermod -aG wheel <example_user>
 ```
 
 ## 2: Create and add SSH keys
-Since logins with passwords are disabled by default, you must create SSH keys for this user. If you need assistance with creating a new SSH key, see our guide <here>.
+Since logins with passwords are disabled by default, you must create SSH keys for this user. If you need assistance with creating a new SSH key, see our guide [here](https://www.thermo.io/how-to/security/generating-and-uploading-ssh-keys).
 
 Once you have generated your new SSH key for this user, open the new PUBLIC keyfile on your local computer and copy the contents to your clipboard.
 
@@ -44,6 +44,13 @@ Next, while logged in as the root user to your VM, create the following file wit
 vi /home/example_user/.ssh/authorized_keys
 ```
 Once you have pasted the text of the key, save and close the file (for vi this is `:wq`)
+
+You will also wamt to make sure permissions and ownership are correct on the new user's .ssh files, remember to replace example_user with the new user name.
+```shell
+chown -R example_user.example_user /home/example_user/.ssh
+chmod 700 /home/example_user/.ssh
+chmod 600 /home/example_user/.ssh/authorized_keys
+```
 
 Finally, log out of the server as the root user and attempt to reconnect with your new user. Be sure to specify the filepath to the new user key and replace example_user and IP with the name of your new user and the IP of your server.
 ```shell
