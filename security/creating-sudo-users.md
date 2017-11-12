@@ -45,7 +45,7 @@ vi /home/example_user/.ssh/authorized_keys
 ```
 Once you have pasted the text of the key, save and close the file (for vi this is `:wq`)
 
-Lastly, make sure permissions and ownership are correct on the new user's .ssh files, remember to replace example_user with the new user name.
+You will also wamt to make sure permissions and ownership are correct on the new user's .ssh files, remember to replace example_user with the new user name.
 ```shell
 chown -R example_user.example_user /home/example_user/.ssh
 chmod 700 /home/example_user/.ssh
