@@ -1,9 +1,9 @@
 ---
-title: Installing ModSec for nginx on CentOS7
+title: Installing ModSecurity with Nginx on CentOS7
 subject: ModSecurity
 ---
 
-# Installing ModSec for nginx on CentOS7
+# Installing ModSecurity with Nginx on CentOS7
 
 **Attention:** You need root access and the most current version of CentOS 7.
 
