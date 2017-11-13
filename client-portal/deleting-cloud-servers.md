@@ -1,6 +1,6 @@
 ---
 title: Deleting Cloud Servers
-subject: User Management
+subject: Account Management
 ---
 
 # Deleting Cloud Servers from the Client Portal
