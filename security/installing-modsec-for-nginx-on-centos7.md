@@ -20,7 +20,7 @@ shutdown -r now
 
 ## 3: Compile ModSec
 ModSec for the Nginx master branch has been reported as currently being unstable; therefore, use the `nginx_refactoring` branch as directed below:
-1. Download the `nghinx_refactoring` branch of ModSecurity for Nginx:
+1. Download the `nginx_refactoring` branch of ModSecurity for Nginx:
 ```shell
 cd /usr/src
 git clone -b nginx_refactoring https://github.com/SpiderLabs/ModSecurity.git
@@ -40,8 +40,8 @@ make
 1. Download and unarchive the latest stable release of Nginx. Currently, this is Nginx 1.13.4:
 ```shell
 cd /usr/src
-wget https://nginx.org/download/nginx-1.10.3.tar.gz
-tar -zxvf nginx-1.10.3.tar.gz && rm -f nginx-1.10.3.tar.gz
+wget https://nginx.org/download/nginx-1.13.4.tar.gz
+tar -zxvf nginx-1.13.4.tar.gz && rm -f nginx-1.13.4.tar.gz
 ```
 2. Create a dedicated nginx user and group for Nginx:
 ```shell
@@ -70,12 +70,12 @@ sed -i "s/#user  nobody;/user nginx nginx;/" /usr/local/nginx/conf/nginx.conf
    ```
    b. Find the following segment within the `http {}` segment:
    ```shell
-   ModSecurityEnabled on;
-   ModSecurityConfig modsec_includes.conf;
-   #proxy_pass http://localhost:8011;
-   #proxy_read_timeout 180s;
+        location / {
+            root   html;
+            index  index.html index.htm;
+        }
    ```
-   The final result should be:
+   Add the lines below so the final result should be:
    ```shell
    location / {
     ModSecurityEnabled on;
@@ -86,7 +86,12 @@ sed -i "s/#user  nobody;/user nginx nginx;/" /usr/local/nginx/conf/nginx.conf
     index  index.html index.htm;
     }
    ```
-   c. Save and quit:
+   c. You also need to change the location of the default PID file to match the systemd script you will make in the following steps. Find the line "#pid    logs/nginx.pid and change it to the following by removing the # and changing the path:
+   ```shell
+   pid .   /var/run/nginx.pid
+   ```
+  
+   d. Save and quit:
    ```shell
    :wq!
    ```
@@ -107,8 +112,14 @@ cp /usr/src/ModSecurity/unicode.mapping /usr/local/nginx/conf/
 4. Modify the file ``/usr/local/nginx/conf/modsecurity.conf``:
 ```shell
 sed -i "s/SecRuleEngine DetectionOnly/SecRuleEngine On/" /usr/local/nginx/conf/modsecurity.conf
+sed -i "s/SecAuditLogType Serial/SecAuditLogType Concurrent/" /usr/local/nginx/conf/modsecurity.conf
+sed -i "s/SecAuditLog \/var\/log\/modsec_audit.log/SecAuditLog \/usr\/local\/nginx\/logs\/modsec_audit.log/" /usr/local/nginx/conf/modsecurity.conf
 ```
-5. Add OWASP ModSecurity Core Rule Set (CRS) files:
+5. Allow Nginx to create Modsec logs in the Nginx log directory:
+```shell
+chown nginx.root /usr/local/nginx/logs
+```
+6. Add OWASP ModSecurity Core Rule Set (CRS) files:
 ```shell
 cd /usr/local/nginx/conf
 git clone https://github.com/SpiderLabs/owasp-modsecurity-crs.git
@@ -119,18 +130,41 @@ mv REQUEST-900-EXCLUSION-RULES-BEFORE-CRS.conf.example REQUEST-900-EXCLUSION-RUL
 mv RESPONSE-999-EXCLUSION-RULES-AFTER-CRS.conf.example RESPONSE-999-EXCLUSION-RULES-AFTER-CRS.conf
 ```
 
-## 6: Test ModSec
+## 6: Create Systemd Script
+
+1. Create the file /lib/systemd/system/nginx.service and add the script:
+```shell
+cat <<EOF>> /lib/systemd/system/nginx.service
+[Unit]
+Description=The NGINX HTTP and reverse proxy server
+After=syslog.target network.target remote-fs.target nss-lookup.target
+
+[Service]
+Type=forking
+PIDFile=/var/run/nginx.pid
+ExecStartPre=/usr/local/nginx/sbin/nginx -t
+ExecStart=/usr/local/nginx/sbin/nginx
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s QUIT $MAINPID
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
+EOF
+```
+2. Reload systemd services:
+```shell
+systemctl daemon-reload
+```
+
+## 7: Test ModSec
 1. Start Nginx:
 ```shell
 systemctl start nginx.service
 ```
-2. Open port 80 to permit outside access:
-```shell
-firewall-cmd --zone=public --permanent --add-service=http
-firewall-cmd --reload
-```
-3. Point your web browser to http://203.0.113.1/?param="><script>alert(1);</script>
-4. Use `grep` to fetch error messages:
+2. Point your web browser to http://<YourServersIP>/?param="><script>alert(1);</script>
+   (Be sure to replace <YourServersIP> with the IP address of your server)
+3. Use `grep` to fetch error messages:
 ```shell
 grep error /usr/local/nginx/logs/error.log
 ```
@@ -138,7 +172,7 @@ The output should include error messages resembling the following:
 ```shell
 2017/02/15 14:07:54 [error] 10776#0: [client 104.20.23.240] ModSecurity: Warning. detected XSS using libinjection. [file "/usr/local/nginx/conf/owasp-modsecurity-crs/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "56"] [id "941100"] [rev "2"] [msg "XSS Attack Detected via libinjection"] [data "Matched Data:  found within ARGS:param: \x22><script>alert(1);</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/3.0.0"] [maturity "1"] [accuracy "9"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-xss"] [tag "OWASP_CRS/WEB_ATTACK/XSS"] [tag "WASCTC/WASC-8"] [tag "WASCTC/WASC-22"] [tag "OWASP_TOP_10/A3"] [tag "OWASP_AppSensor/IE1"] [tag "CAPEC-242"] [hostname ""] [uri "/index.html"] [unique_id "ATAcAcAkucAchGAcPLAcAcAY"]
 ```
-5. The procedure is complete. To customize your settings, review and edit the following files:
+4. The procedure is complete. To customize your settings, review and edit the following files:
 * `/usr/local/nginx/conf/modsecurity.conf`
 * `/usr/local/nginx/conf/owasp-modsecurity-crs/crs-setup.conf`
 
