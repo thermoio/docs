@@ -163,7 +163,7 @@ systemctl daemon-reload
 ```shell
 systemctl start nginx.service
 ```
-2. Point your web browser to http://<YourServersIP>/?param="><script>alert(1);</script>
+2. Point your web browser to `http://<YourServersIP>/?param="><script>alert(1);</script>`
    (Be sure to replace <YourServersIP> with the IP address of your server)
 3. Use `grep` to fetch error messages:
 ```shell
