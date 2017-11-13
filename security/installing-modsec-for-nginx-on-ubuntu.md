@@ -33,15 +33,15 @@ make
 ```
 
 ## 4: Compile Nginx
-1. Download and unarchive the latest stable release of Nginx. Currently, this is Nginx 1.13.4:
+1. Download and unarchive the latest stable release of Nginx. At the time of this writing, this is Nginx 1.13.4:
 ```shell
 cd /usr/src
-wget https://nginx.org/download/nginx-1.10.3.tar.gz
-tar -zxvf nginx-1.10.3.tar.gz && rm -f nginx-1.10.3.tar.gz
+wget https://nginx.org/download/nginx-1.13.4.tar.gz
+tar -zxvf nginx-1.13.4.tar.gz && rm -f nginx-1.13.4.tar.gz
 ```
 2. Using the existing user `www-data` and group `www-data`, compile Nginx and enable ModSecurity and SSL modules:
 ```shell
-cd nginx-1.10.3/
+cd nginx-1.13.4/
 ./configure --user=www-data --group=www-data --add-module=/usr/src/ModSecurity/nginx/modsecurity --with-http_ssl_module
 make
 make install
@@ -104,18 +104,15 @@ systemctl restart nginx.service
    ```
    b. Find the following segment within the `http {}` segment:
    ```shell
-   ModSecurityEnabled on;
-   ModSecurityConfig modsec_includes.conf;
-   #proxy_pass http://localhost:8011;
-   #proxy_read_timeout 180s;
+           location / {
+            root   html;
+            index  index.html index.htm;
    ```
-   The final result should be:
+   Add the lines below so the final result is:
    ```shell
    location / {
     ModSecurityEnabled on;
     ModSecurityConfig modsec_includes.conf;
-    #proxy_pass http://localhost:8011;
-    #proxy_read_timeout 180s;
     root   html;
     index  index.html index.htm;
     }
@@ -141,8 +138,14 @@ cp /usr/src/ModSecurity/unicode.mapping /usr/local/nginx/conf/
 4. Modify the file ``/usr/local/nginx/conf/modsecurity.conf``:
 ```shell
 sed -i "s/SecRuleEngine DetectionOnly/SecRuleEngine On/" /usr/local/nginx/conf/modsecurity.conf
+sed -i "s/SecAuditLogType Serial/SecAuditLogType Concurrent/" /usr/local/nginx/conf/modsecurity.conf
+sed -i "s/SecAuditLog \/var\/log\/modsec_audit.log/SecAuditLog \/usr\/local\/nginx\/logs\/modsec_audit.log/" /usr/local/nginx/conf/modsecurity.conf
 ```
-5. Add OWASP ModSecurity Core Rule Set (CRS) files:
+5. Allow Nginx to create Modsec logs:
+```shell
+chown www-data.root /usr/local/nginx/logs
+```
+6. Add OWASP ModSecurity Core Rule Set (CRS) files:
 ```shell
 cd /usr/local/nginx/conf
 git clone https://github.com/SpiderLabs/owasp-modsecurity-crs.git
@@ -165,7 +168,8 @@ ufw allow 80
 ufw default deny
 ufw enable
 ```
-3. Point your web browser to http://203.0.113.1/?param="><script>alert(1);</script>
+3. Point your web browser to `http://<YourServersIP>/?param="><script>alert(1);</script>`
+(Be sure to change `<YourServersIP>` to the actual IP of your server)
 4. Use `grep` to fetch error messages:
 ```shell
 grep error /usr/local/nginx/logs/error.log
