@@ -62,7 +62,6 @@ sed -i "s/#user  nobody;/user nginx nginx;/" /usr/local/nginx/conf/nginx.conf
 
 ## 5: Configure ModSec and Nginx
 1. Configure Nginx:
-**Attention:** The sample Nginx configuration below uses Nginx as a web server rather than a reverse proxy. If you are using Nginx as a reverse proxy, remove the # character in last two lines, then make the appropriate modifications.
 
    a. Issue:
    ```shell
@@ -80,8 +79,6 @@ sed -i "s/#user  nobody;/user nginx nginx;/" /usr/local/nginx/conf/nginx.conf
    location / {
     ModSecurityEnabled on;
     ModSecurityConfig modsec_includes.conf;
-    #proxy_pass http://localhost:8011;
-    #proxy_read_timeout 180s;
     root   html;
     index  index.html index.htm;
     }
