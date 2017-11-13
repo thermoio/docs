@@ -86,7 +86,7 @@ sed -i "s/#user  nobody;/user nginx nginx;/" /usr/local/nginx/conf/nginx.conf
     index  index.html index.htm;
     }
    ```
-   c. You also need to change the location of the default PID file to match the systemd script you will make in the following steps. Find the line "#pid    logs/nginx.pid and change it to the following by removing the # and changing the path:
+   c. You also need to change the location of the default PID file to match the systemd script you will make in the following steps. Find the line "#pid    logs/nginx.pid" and change it to the following by removing the # and changing the path:
    ```shell
    pid  /var/run/nginx.pid
    ```
