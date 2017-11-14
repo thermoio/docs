@@ -11,10 +11,10 @@ You need your [Client Portal](https://www.thermo.io/login/) username and passwor
 ## Method
 1. Log in to the [Client Portal](https://www.thermo.io/login/).
 2. From the dashboard, click **Billing > Credit card**.
-   IMAGE
+   ![Credit Card selection](https://raw.githubusercontent.com/thermoio/docs/master/images/editing-credit-cards/2017-11-14_17-30-02.png)
 
 3. You will see a list of all credit cards associated with your account. To view, edit, or delete a card, select the **menu toggle** corresponding to that card, then click **View**, **Edit**, or **Delete**.
-   IMAGE
+   ![Menu Toggle](https://raw.githubusercontent.com/thermoio/docs/master/images/editing-credit-cards/2017-11-14_17-31-46.png)
    
    * If you have multiple credit cards on your account and you delete the primary card, then the next card listed will become the primary card. 
    * If you are editing a card, you can only edit the nickname and the expiration date. To change a credit card number, you must add a new credit card and delete the card with the old number.  
