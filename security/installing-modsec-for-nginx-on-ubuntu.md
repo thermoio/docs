@@ -139,7 +139,7 @@ cp /usr/src/ModSecurity/unicode.mapping /usr/local/nginx/conf/
 ```shell
 sed -i "s/SecRuleEngine DetectionOnly/SecRuleEngine On/" /usr/local/nginx/conf/modsecurity.conf
 sed -i "s/SecAuditLogType Serial/SecAuditLogType Concurrent/" /usr/local/nginx/conf/modsecurity.conf
-sed -i "s/SecAuditLog \/var\/log\/modsec_audit.log/SecAuditLog \/usr\/local\/nginx\/logs\/modsec_audit.log/" /usr/local/nginx/conf/modsecurity.conf
+sed -i "s|SecAuditLog /var/log/modsec_audit.log|SecAuditLog /usr/local/nginx/logs/modsec_audit.log|" /usr/local/nginx/conf/modsecurity.conf
 ```
 5. Allow Nginx to create Modsec logs:
 ```shell
