@@ -1,5 +1,5 @@
 ---
-title: Adding Credit Cards
+title: Paying with Credit Cards
 subject: Paying for Your Service
 ---
 
