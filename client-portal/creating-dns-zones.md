@@ -22,6 +22,6 @@ You will need your [Client Portal](https://www.thermo.io/login/) username and pa
 4. In the Add Zone panel, fill the **Domain** field, then click **Add**.
    ![Add Zone panel](https://raw.githubusercontent.com/thermoio/docs/master/images/creating-dns-zones/2017-11-14_15-56-44.png)
 
-5. Allow at least 48 hours for propagation. You may check the status of propagation by following the instructions in [How to verify DNS Propagation](URL_pending).
+To delete a DNS Zone, follow the instructions in [Deleting DNS Zones in the Client Portal](https://www.thermo.io/how-to/client-portal/deleting-dns-zones).
 
 **_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://www.thermo.io/login/)._**
