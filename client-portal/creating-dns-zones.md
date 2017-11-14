@@ -14,7 +14,7 @@ You will need your [Client Portal](https://www.thermo.io/login/) username and pa
 
 1. Log in to the [Client Portal](https://www.thermo.io/login/).
 2. Click **DNS > DNS Zone**.
-   ![DNS Zones selection])(https://raw.githubusercontent.com/thermoio/docs/master/images/creating-dns-zones/2017-11-14_15-17-48.png)
+   ![DNS Zones selection](https://raw.githubusercontent.com/thermoio/docs/master/images/creating-dns-zones/2017-11-14_15-17-48.png)
    
 3. You will see all current DNS associated with your account. To add a DNS records, click **Add Zone**.
    ![Add Zone button](https://raw.githubusercontent.com/thermoio/docs/master/images/creating-dns-zones/2017-11-14_15-55-15.png)
