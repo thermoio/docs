@@ -10,7 +10,7 @@ subject: User Management
 * An existing team ; see [Creating Teams in the Client Portal](URL PENDING) for more information.
 
 ## Method
-Your Client Portal uses three default roles: Superuser, Billing, and Technical. If you prefer, you can create your own teams and associated permissions by using the method below. Alternatively, you can modify the Billing and Technical teams by following the instructions provided in the Editing roles section below. 
+Your Client Portal uses three default roles: Superuser, Billing, and Technical. If you prefer, you can create your own teams and associated permissions by using the method below. 
 
 **Attention:** This method edits team permissions; if you want to instead assign someone to a team, see [Assigning Team Members in the Client Portal](URL PENDING) for more information.
 
