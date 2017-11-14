@@ -9,7 +9,6 @@ subject: Domains and DNS
 You will need your [Client Portal](https://www.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal loging page, or [contact a Thermo Physicist](mailto:physicists@thermo.io).
 
 ## Method
-**Attention:** Allow up to 48 hours for full DNS propagation. In rare cases, it may take longer.
 1. Log in to the [Client Portal](https://www.thermo.io/login/).
 2. Click **DNS > DNS Zone**.
    ![DNS Zone selection](https://raw.githubusercontent.com/thermoio/docs/master/images/editing-dns-zones/2017-11-14_17-42-38.png)
