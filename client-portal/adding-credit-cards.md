@@ -14,10 +14,10 @@ You need your [Client Portal](https://www.thermo.io/login/) username and passwor
    ![Credit Card selection](https://raw.githubusercontent.com/thermoio/docs/master/images/adding-credit-cards/2017-11-14_10-19-42.png)
 
 3. On the Credit Cards page, click **Add Card**.
-   ! [Add Card button](https://raw.githubusercontent.com/thermoio/docs/master/images/adding-credit-cards/2017-11-14_10-23-15.png)
+   ![Add Card button](https://raw.githubusercontent.com/thermoio/docs/master/images/adding-credit-cards/2017-11-14_10-23-15.png)
    
 4. In the Add Card panel, fill the **Nickname**, **Credit Card Number**, and **Expiration Date** fields. If this wish this card to be charged for automatic payments, select the **Make Primary** check box. Click **SUBMIT** when done.
-   ! [Add Card panel](https://raw.githubusercontent.com/thermoio/docs/master/images/adding-credit-cards/2017-11-14_10-24-27.png)
+   ![Add Card panel](https://raw.githubusercontent.com/thermoio/docs/master/images/adding-credit-cards/2017-11-14_10-24-27.png)
 
 See [How to pay invoices with credit cards](link pending) for additional information.
 
