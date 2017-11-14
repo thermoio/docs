@@ -10,13 +10,13 @@ You need your [Client Portal](https://www.thermo.io/login/) username and passwor
 
 ## Method
 1. Log in to the [Client Portal](https://www.thermo.io/login/).
-2. From the dashboard, click **Billing > Credit card**.
-   IMAGE
+2. From the dashboard, click **Billing > Credit cards**.
+   ![credit card selection](
 
 3. On the Credit Cards page, click **Add Card**.
    IMAGE
    
-4. In the New Credit Card panel, fill the **Nickname**, **Credit Card Number**, and **Expiration Date** fields. If this wish this card to be charged for automatic payments, select the **Make Primary** check box. Click **SUBMIT** when done.
+4. In the Add Card panel, fill the **Nickname**, **Credit Card Number**, and **Expiration Date** fields. If this wish this card to be charged for automatic payments, select the **Make Primary** check box. Click **SUBMIT** when done.
    IMAGE
 
 See [How to pay invoices with credit cards](link pending) for additional information.
