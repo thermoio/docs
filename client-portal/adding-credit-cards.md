@@ -19,6 +19,6 @@ You need your [Client Portal](https://www.thermo.io/login/) username and passwor
 4. In the Add Card panel, fill the **Nickname**, **Credit Card Number**, and **Expiration Date** fields. If this wish this card to be charged for automatic payments, select the **Make Primary** check box. Click **SUBMIT** when done.
    ![Add Card panel](https://raw.githubusercontent.com/thermoio/docs/master/images/adding-credit-cards/2017-11-14_10-24-27.png)
 
-See [How to pay invoices with credit cards](link pending) for additional information.
+See [Paying for Your Service with Credit Cards](https://www.thermo.io/how-to/client-portal/paying-with-credit-cards) for additional information.
 
 **_For assistance, contact the Thermo Billing Team [by email](mailto:billing@thermo.io) or [through the Client Portal](https://www.thermo.io/login/) between 9 a.m. - 5 p.m. eastern time (ET), Monday - Friday._**
