@@ -11,15 +11,14 @@ You will need your [Client Portal](https://www.thermo.io/login/) username and pa
 ## Method
 1. Log in to the [Client Portal](https://www.thermo.io/login/).
 2. From the **<Your Name>** list on the upper right, click **Addresses**.
-IMAGE
+   ![Selecting Addresses](https://raw.githubusercontent.com/thermoio/docs/master/images/editing-your-account-address/2017-11-14_18-29-55.png)
 3. On the Addresses page, you can either:
    * Add a new address by clicking **Add Address**.
-     IMAGE
+     ![Add Address button](https://raw.githubusercontent.com/thermoio/docs/master/images/editing-your-account-address/2017-11-14_18-32-36.png)
 
-     Then, fill all fields and click **ADD**.
-     IMAGE
+     Then, fill all fields, then click **ADD**.
 
    * Or, you can edit an address by clicking the **menu toggle**, then clicking **Edit**.
-     IMAGE
+     ![Edit selection](https://raw.githubusercontent.com/thermoio/docs/master/images/editing-your-account-address/2017-11-14_18-36-08.png)
 
 **_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://www.thermo.io/login/)._**
