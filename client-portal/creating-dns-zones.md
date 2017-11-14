@@ -14,11 +14,14 @@ You will need your [Client Portal](https://www.thermo.io/login/) username and pa
 
 1. Log in to the [Client Portal](https://www.thermo.io/login/).
 2. Click **DNS > DNS Zone**.
-IMAGE
-3. You will see all current DNS associated with your account. To add a DNS records, click **Add DNS Zone**.
-IMAGE
-4. Fill the **Domain**, **Contact Email**, and **Namerserver** fields with the appropriate information, then click **DNS Zone**.
-IMAGE
+   ![DNS Zones selection](https://raw.githubusercontent.com/thermoio/docs/master/images/creating-dns-zones/2017-11-14_15-17-48.png)
+   
+3. You will see all current DNS associated with your account. To add a DNS records, click **Add Zone**.
+   ![Add Zone button](https://raw.githubusercontent.com/thermoio/docs/master/images/creating-dns-zones/2017-11-14_15-55-15.png)
+
+4. In the Add Zone panel, fill the **Domain** field, then click **Add**.
+   ![Add Zone panel](https://raw.githubusercontent.com/thermoio/docs/master/images/creating-dns-zones/2017-11-14_15-56-44.png)
+
 5. Allow at least 48 hours for propagation. You may check the status of propagation by following the instructions in [How to verify DNS Propagation](URL_pending).
 
 **_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://www.thermo.io/login/)._**
