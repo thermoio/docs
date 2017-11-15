@@ -10,7 +10,7 @@ You need your [Client Portal](https://www.thermo.io/login/) username and passwor
 
 ## Method
 1. Log in to the [Client Portal](https://www.thermo.io/login/).
-2. CFrom the dashboard, either click **Amount Due** or select **Billing > Invoice**.
+2. From the dashboard, either click **Amount Due** or select **Billing > Invoice**.
    ![Invoice selection](https://raw.githubusercontent.com/thermoio/docs/master/images/paying-with-account-credit/2017-11-14_19-14-12.png)
 3. To view invoice details, either click the the desired **invoice number**, or click the **menu toggle**, then **View**. 
    ![View invoice selection](https://raw.githubusercontent.com/thermoio/docs/master/images/viewing-invoices/2017-11-14_19-57-54.png)
