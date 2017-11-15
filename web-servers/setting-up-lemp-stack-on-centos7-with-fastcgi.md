@@ -127,3 +127,6 @@ sudo mysql_secure_installation
 5. The next prompt will ask to set a root password. Create a password that follows best security practices, then press Enter. For all other prompts, press Enter to accept the default values.
 
 Congratulations! You now have a working LEMP stack.
+
+
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [through the Client Portal](https://core.thermo.io/login/)._**
