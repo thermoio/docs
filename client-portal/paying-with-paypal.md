@@ -6,7 +6,7 @@ subject: Paying for Your Service
 # Paying for Your Service with PayPal
 
 ## What You Need
-* Your [Client Portal](https://core.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal login page, or [contact a Thermo Physicist](mailto:physicists@thermo.io).
+* Your [Client Portal](https://core.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal login page.
 * A PayPal account.
 
 ## Method
