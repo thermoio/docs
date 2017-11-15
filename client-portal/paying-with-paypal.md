@@ -21,7 +21,7 @@ subject: Paying for Your Service
    ![Pay button](https://raw.githubusercontent.com/thermoio/docs/master/images/paying-with-account-credit/2017-11-14_19-18-31.png)
    
 4. From the Pay Invoice window, in the **Payment Method** drop-down list, click **PayPal**
-   ![PayPal selection]  (https://raw.githubusercontent.com/thermoio/docs/master/images/paying-with-paypal/2017-11-14_19-47-00.png).
+   ![PayPal selection](https://raw.githubusercontent.com/thermoio/docs/master/images/paying-with-paypal/2017-11-14_19-47-00.png)
    
 5. Click **Pay**, then log in to your PayPal account and follow their instructions to complete your payment.
 
