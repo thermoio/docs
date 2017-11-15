@@ -6,7 +6,7 @@ subject: Paying for Your Service
 # Editing Credit Cards in the Client Portal
 
 ## But first...
-You need your [Client Portal](https://core.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal login page, or [contact a Thermo Physicist](mailto:physicists@thermo.io).
+You need your [Client Portal](https://core.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal login page.
 
 ## Method
 1. Log in to the [Client Portal](https://core.thermo.io/login/).
