@@ -6,7 +6,7 @@ subject: User Management
 # Adding Team Members in the Client Portal
 
 ## What you need
-* Your [Client Portal](https://core.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal loging page, or [contact a Thermo Physicist](mailto:physicists@thermo.io).
+* Your [Client Portal](https://core.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal loging page.
 * The email address of the user to be added.
 
 ## Method
