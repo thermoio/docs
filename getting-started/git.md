@@ -84,4 +84,4 @@ Replace the angled brackets and everything between them with the indicated infor
 * `git remote rename <old_name> <new_name>`: Rename a remo
 * `git remote rm <name>`: Remove the specified remote repo
 
-**_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://www.thermo.io/login/)._**
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [through the Client Portal](https://core.thermo.io/login/)._**

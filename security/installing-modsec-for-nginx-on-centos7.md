@@ -111,7 +111,7 @@ cp /usr/src/ModSecurity/unicode.mapping /usr/local/nginx/conf/
 ```shell
 sed -i "s/SecRuleEngine DetectionOnly/SecRuleEngine On/" /usr/local/nginx/conf/modsecurity.conf
 sed -i "s/SecAuditLogType Serial/SecAuditLogType Concurrent/" /usr/local/nginx/conf/modsecurity.conf
-sed -i "s/SecAuditLog \/var\/log\/modsec_audit.log/SecAuditLog \/usr\/local\/nginx\/logs\/modsec_audit.log/" /usr/local/nginx/conf/modsecurity.conf
+sed -i "s|SecAuditLog /var/log/modsec_audit.log|SecAuditLog /usr/local/nginx/logs/modsec_audit.log|" /usr/local/nginx/conf/modsecurity.conf
 ```
 5. Allow Nginx to create Modsec logs in the Nginx log directory:
 ```shell
@@ -172,4 +172,4 @@ The output should include error messages resembling the following:
 * `/usr/local/nginx/conf/modsecurity.conf`
 * `/usr/local/nginx/conf/owasp-modsecurity-crs/crs-setup.conf`
 
-**_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://www.thermo.io/login/)._**
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [through the Client Portal](https://core.thermo.io/login/)._**

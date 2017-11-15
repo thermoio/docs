@@ -6,10 +6,10 @@ subject: Paying for Your Service
 # Editing Credit Cards in the Client Portal
 
 ## But first...
-You need your [Client Portal](https://www.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal login page, or [contact a Thermo Physicist](mailto:physicists@thermo.io).
+You need your [Client Portal](https://core.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal login page.
 
 ## Method
-1. Log in to the [Client Portal](https://www.thermo.io/login/).
+1. Log in to the [Client Portal](https://core.thermo.io/login/).
 2. From the dashboard, click **Billing > Credit card**.
    ![Credit Card selection](https://raw.githubusercontent.com/thermoio/docs/master/images/editing-credit-cards/2017-11-14_17-30-02.png)
 
@@ -23,3 +23,4 @@ You need your [Client Portal](https://www.thermo.io/login/) username and passwor
 4. Confirm your choices by either clicking **DELETE** or **SUBMIT**, as appropriate.
 
 **_For 24-hour assistance any day of the year, contact a Thermo Physicist [through the Client Portal](https://core.thermo.io/login/)._**
+

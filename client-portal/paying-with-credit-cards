@@ -6,11 +6,11 @@ subject: Paying for Your Service
 # Paying for Your Service with Credit Cards
 
 ## What you need
-* Your [Client Portal](https://www.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal login page, or [contact a Thermo Physicist](mailto:physicists@thermo.io).
+* Your [Client Portal](https://core.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal login page.
 * A credit card assigned to your account. To learn how to do so, see [Adding Credit Cards to the Client Portal](https://www.thermo.io/how-to/client-portal/adding-credit-cards).
 
 ## Method
-1. Log in to the [Client Portal](https://www.thermo.io/login/).
+1. Log in to the [Client Portal](https://core.thermo.io/login/).
 2. On the dashboard, either click **Amount Due** or select **Billing > Invoice**.
    ![Invoice selection](https://raw.githubusercontent.com/thermoio/docs/master/images/paying-with-account-credit/2017-11-14_19-14-12.png)
 

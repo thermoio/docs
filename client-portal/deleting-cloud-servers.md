@@ -6,11 +6,11 @@ subject: Account Management
 # Deleting Cloud Servers from the Client Portal
 
 ## But first...
-You will need your [Client Portal](https://www.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal loging page, or [contact a Thermo Physicist](mailto:physicists@thermo.io).
+You will need your [Client Portal](https://core.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal loging page.
 
 ## Method
 
-1. Log in to the [Client Portal](https://www.thermo.io/login/).
+1. Log in to the [Client Portal](https://core.thermo.io/login/).
 2. From the dashboard, click **Service > Cloud Servers**.
    ![Cloud Servers selection](https://raw.githubusercontent.com/thermoio/docs/master/images/deleting-cloud-servers/2017-11-14_21-46-38.png)
 

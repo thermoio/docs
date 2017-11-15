@@ -6,13 +6,13 @@ subject: Domains and DNS
 # Creating DNS Records in the Client Portal
 
 ## But first...
-You will need your [Client Portal](https://www.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal loging page, or [contact a Thermo Physicist](mailto:physicists@thermo.io).
+You will need your [Client Portal](https://core.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal loging page.
 
 ## Method
 
 **Attention:** Afterward, allow up to 48 hours for full DNS propagation. In rare cases, it make take longer.
 
-1. Log in to the [Client Portal](https://www.thermo.io/login/).
+1. Log in to the [Client Portal](https://core.thermo.io/login/).
 2. From the dashboard, click **DNS > DNS Zones**.
    ![DNS Zones selection](https://raw.githubusercontent.com/thermoio/docs/master/images/creating-dns-records/2017-11-14_15-17-48.png)
    
@@ -27,4 +27,4 @@ You will need your [Client Portal](https://www.thermo.io/login/) username and pa
    
 6. The fields will vary according to your choice. Fill all fields, then click **ADD**.
    
-**_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://www.thermo.io/login/)._**
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [through the Client Portal](https://core.thermo.io/login/)._**

@@ -6,14 +6,14 @@ subject: Paying for Your Service
 # Paying for Your Service with PayPal
 
 ## What You Need
-* Your [Client Portal](https://www.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal login page, or [contact a Thermo Physicist](mailto:physicists@thermo.io).
+* Your [Client Portal](https://core.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal login page.
 * A PayPal account.
 
 ## Method
 
 **Attention:** We cannot process this payment until you dispense funds into your PayPal account. 
 
-1. Log in to the [Client Portal](https://www.thermo.io/login/).
+1. Log in to the [Client Portal](https://core.thermo.io/login/).
 2. From the dashboard, either click **Amount Due** or select **Billing > Invoice**.
    ![Invoice selection](https://raw.githubusercontent.com/thermoio/docs/master/images/paying-with-account-credit/2017-11-14_19-14-12.png)
 

@@ -6,13 +6,13 @@ subject: Domains and DNS
 # Creating DNS Zones in the Client Portal
 
 ## But first...
-You will need your [Client Portal](https://www.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal loging page, or [contact a Thermo Physicist](mailto:physicists@thermo.io).
+You will need your [Client Portal](https://core.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal loging page, or [contact a Thermo Physicist](mailto:physicists@thermo.io).
 
 ## Method
 
 **Attention:** Allow up to 48 hours for full DNS propagation. In rare cases, it may take longer.
 
-1. Log in to the [Client Portal](https://www.thermo.io/login/).
+1. Log in to the [Client Portal](https://core.thermo.io/login/).
 2. Click **DNS > DNS Zone**.
    ![DNS Zones selection](https://raw.githubusercontent.com/thermoio/docs/master/images/creating-dns-zones/2017-11-14_15-17-48.png)
    
@@ -24,4 +24,4 @@ You will need your [Client Portal](https://www.thermo.io/login/) username and pa
 
 To delete a DNS Zone, follow the instructions in [Deleting DNS Zones in the Client Portal](https://www.thermo.io/how-to/client-portal/deleting-dns-zones).
 
-**_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://www.thermo.io/login/)._**
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [through the Client Portal](https://core.thermo.io/login/)._**

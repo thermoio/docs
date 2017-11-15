@@ -6,10 +6,10 @@ subject: Paying for Your Service
 # Viewing Your Credit Balance and History in the Client Portal
 
 ## But first...
-* You will need your [Client Portal](https://www.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal loging page, or [contact a Thermo Physicist](mailto:physicists@thermo.io).
+* You will need your [Client Portal](https://core.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal loging page.
 
 ## Method
-1. Log in to the [Client Portal](https://www.thermo.io/login/).
+1. Log in to the [Client Portal](https://core.thermo.io/login/).
 2. From the dashboard, select **Billing > Credits**.
    ![Selecting Credits](https://raw.githubusercontent.com/thermoio/docs/master/images/viewing-your-credit-balance-and-history/2017-11-14_19-01-40.png)
 

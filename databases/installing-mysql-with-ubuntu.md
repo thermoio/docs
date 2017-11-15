@@ -23,4 +23,4 @@ Use the following prompts to activate password strength checking, add a new root
 
 For additional guidance, see [MySQL basics](https://www.thermo.io/how-to/databases/mysql-basics).
 
-**_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://www.thermo.io/login/)._**
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [through the Client Portal](https://core.thermo.io/login/)._**
