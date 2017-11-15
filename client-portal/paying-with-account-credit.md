@@ -1,5 +1,5 @@
 ---
-title: Using Account Credit
+title: Paying with Account Credit
 subject: Paying for Your Service
 ---
 
