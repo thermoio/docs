@@ -10,11 +10,10 @@ subject: Paying for Your Service
 
 ## Method
 1. Log in to the [Client Portal](https://www.thermo.io/login/).
-2. From the dashboard, select **Billing > Credit**.
-   IMAGE
+2. From the dashboard, select **Billing > Credits**.
+   ![Selecting Credits](https://raw.githubusercontent.com/thermoio/docs/master/images/viewing-your-credit-balance-and-history/2017-11-14_19-01-40.png)
 
-3. You will now see your credit history details, including amount, date of issuance, and status.
-   IMAGE
+3. You will now see your credit history details, including amount, date of issuance, and status. Click the credit to see more information.
    
 For information regarding how to apply account credit to an unpaid invoice, see [Paying for Your Service with Account Credit](URL PENDING).
 
