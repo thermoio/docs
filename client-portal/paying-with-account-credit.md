@@ -8,22 +8,18 @@ subject: Paying for Your Service
 ## What you need
 
 * Your [Client Portal](https://www.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal loging page, or [contact a Thermo Physicist](mailto:physicists@thermo.io).
-* A credit balance on your account. To check your credit balance, refer to [How to view account credit balance and history](LINK PENDING).
+* A credit balance on your account. To check your credit balance, refer to [Viewing Your Account Credit Balance and History](LINK PENDING).
 
 ## Method
 
 1. Log in to the [Client Portal](https://www.thermo.io/login/).
 2. On the dashboard, either click **Amount Due** or select **Billing > Invoice**.
-   IMAGE
+   ![Invoice selection](https://raw.githubusercontent.com/thermoio/docs/master/images/paying-with-account-credit/2017-11-14_19-14-12.png)
 
 3. On the Invoices page, locate the invoice to be paid and, from the **menu toggle**, click **Pay**. 
-   IMAGE
-   
-   Or, if you wish to view more details about an invoice, click the **invoice name**, or select the corresponding **menu toggle** and click **View**.
-   IMAGE
+   ![Pay button](https://raw.githubusercontent.com/thermoio/docs/master/images/paying-with-account-credit/2017-11-14_19-18-31.png)
    
 4. In Pay Invoice panel, from the **Payment Method** drop-down list, click **Apply Credit**.
-   IMAGE
 
 5. In the same panel, click **Pay**.
 
