@@ -24,4 +24,4 @@ Your Client Portal uses three default roles: Superuser, Billing, and Technical. 
 4. The user’s current role will be shown in the **Belongs To Team(s)** field. Click the **menu toggle** to see the list of teams. Click on a team name to assign it, or to remove it.  Cick **Save** when done.
    ![Editing Team Members](https://raw.githubusercontent.com/thermoio/docs/master/images/assigning-teams/2017-11-14_14-31-34.png)
    
-**_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://core.thermo.io/login/)._**
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [through the Client Portal](https://core.thermo.io/login/)._**
