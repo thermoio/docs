@@ -18,4 +18,4 @@ You need your [Client Portal](https://www.thermo.io/login/) username and passwor
 
 To pay for your service, see our articles about paying by [credit card](https://www.thermo.io/how-to/client-portal/paying-with-credit-cards), [PayPal](https://www.thermo.io/how-to/client-portal/paying-with-paypal), and with [account credit](https://www.thermo.io/how-to/client-portal/paying-with-account-credit).
 
-**_For assistance, contact the Thermo Billing Team [by email](mailto:billing@thermo.io) or [through the Client Portal](https://www.thermo.io/login/) between 9 a.m. - 5 p.m. eastern time (ET), Monday - Friday._**
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [through the Client Portal](https://core.thermo.io/login/)._**
