@@ -23,12 +23,9 @@ If you instead wish to make a manual payment for amount shown on the due date of
 2. On the Invoices page, locate the invoice to be paid. From the **menu toggle**, click **Pay**. 
    ![Pay button](https://raw.githubusercontent.com/thermoio/docs/master/images/paying-with-account-credit/2017-11-14_19-18-31.png)
    
-3. On the Pay Invoice panel, the **Credit Card** field defaults to your primary credit card. If you want to use a different credit card, select the **Credit Card** drop-down list.
-   ![Pay Invoice panel](BOOM)
+3. On the Pay Invoice panel, the **Credit Card** field defaults to your primary credit card. If you want to use a different credit card, select the **Credit Card** drop-down list, then either select the card, or select **One-time Payment** if you want to use a card not on file.
+   ![Pay Invoice panel](https://raw.githubusercontent.com/thermoio/docs/master/images/paying-with-credit-cards/2017-11-15_14-38-37.png)
 
-4. If your desired card is already on file, enter the **CCV**, click **PAY**, then confirm your payment if prompted. 
-   !IMAGE
-   
-5. For the new card, fill the **Credit Card Number**, **Expiration Date**, and **CCV** fields, then click **PAY**.
-
+4. Enter all required information, then click **Pay**.If your desired card is already on file, enter the **CCV**, click **PAY**. 
+  
 **_For 24-hour assistance any day of the year, contact a Thermo Physicist [through the Client Portal](https://core.thermo.io/login/)._**
