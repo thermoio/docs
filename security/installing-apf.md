@@ -62,4 +62,4 @@ Once you have opened the desired ports, you are ready to enable APF from the sam
 
 For additional options, issue `apf --help`.
 
-**_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://core.thermo.io/login/)._**
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [through the Client Portal](https://core.thermo.io/login/)._**
