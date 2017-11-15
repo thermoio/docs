@@ -9,7 +9,7 @@ subject: General
 Thank you for choosing Thermo! This guide will help you create your first virtual machine, find your IP address, and point you toward your next steps.
 
 ## Creating your virtual machine
-1. If you haven’t already, go to the [Thermo Sign-Up page](https://www.thermo.io/0) and sign up. Fill the four required fields marked with an asterisk, then click **Sign Up**.
+1. If you haven’t already, go to the [Thermo Sign-Up page](https://core.thermo.io/sign-up) and sign up. Fill the four required fields marked with an asterisk, then click **Sign Up**.
 
    ![Sign up panel](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-10-27_14-36-44.png)
 
@@ -45,7 +45,7 @@ Thank you for choosing Thermo! This guide will help you create your first virtua
 
 ## Finding your IP address
 To view your IP address information:
-1. Log in to the [Client Portal](https://www.thermo.io/0).
+1. Log in to the [Client Portal](https://core.thermo.io/login).
 2. Click **Service > Cloud Servers**.
    ![service to cloud servers](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-10-31_15-28-44.png)
 
