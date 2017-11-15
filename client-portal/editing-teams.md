@@ -19,6 +19,7 @@ Your Client Portal uses three default roles: Superuser, Billing, and Technical. 
    ![Selecting Team](https://raw.githubusercontent.com/thermoio/docs/master/images/editing-teams/2017-11-14_18-03-15.png)
 
 3. To edit a team, locate your chosen role and click the **orange edit icon**. To delete a team, click the **red delete icon**. 
+
    ![Edit and Delete icons](https://raw.githubusercontent.com/thermoio/docs/master/images/editing-teams/2017-11-14_18-15-59.png)
 
 4. If you chose **delete**, then confirm when prompted. If you chose **edit**, you may now edit the role name, change notifications, or change permissions.
