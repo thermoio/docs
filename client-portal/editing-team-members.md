@@ -20,7 +20,7 @@ subject: User Management
 
 **Attention:** The system will prevent any change that removes the last Superuser on the account.
 
-   ![Edit and Delete icons](https://raw.githubusercontent.com/thermoio/docs/master/images/editing-team-members/2017-11-14_18-05-20.png)
+   ![Edit and Delete icons](https://raw.githubusercontent.com/thermoio/docs/master/images/editing-team-members/2017-11-15_15-25-45.png)
 
 4. Click **Save** or **Delete** to confirm, as desired.
 
