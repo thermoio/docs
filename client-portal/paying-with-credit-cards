@@ -11,17 +11,17 @@ subject: Paying for Your Service
 
 ## Method
 1. Log in to the [Client Portal](https://www.thermo.io/login/).
-2. From the dashboard, click **Amount Due**.
-   IMAGE
+2. On the dashboard, either click **Amount Due** or select **Billing > Invoice**.
+   ![Invoice selection](https://raw.githubusercontent.com/thermoio/docs/master/images/paying-with-account-credit/2017-11-14_19-14-12.png)
 
-3. On the Invoices page, click the **menu toggle** corresponding to the invoice to be paid, then click **Pay**.
-   IMAGE
+3. On the Invoices page, locate the invoice to be paid. From the **menu toggle**, click **Pay**. 
+   ![Pay button](https://raw.githubusercontent.com/thermoio/docs/master/images/paying-with-account-credit/2017-11-14_19-18-31.png)
    
 4. On the Pay Invoice panel, the **Credit Card** field defaults to your primary credit card. If you want to use a different credit card, select the **Credit Card** drop-down list.
-   IMAGE
+   ![Pay Invoice panel](BOOM)
 
-5. If your desired card is already one file, enter the **CCV**, click **PAY**, then confirm your payment if prompted. If it is not, click **One-time payment** and continue to Step 6.
-   IMAGE
+5. If your desired card is already on file, enter the **CCV**, click **PAY**, then confirm your payment if prompted. 
+   !IMAGE
    
 6. For the new card, fill the **Credit Card Number**, **Expiration Date**, and **CCV** fields, then click **PAY**.
 
