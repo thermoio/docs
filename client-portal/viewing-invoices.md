@@ -10,14 +10,11 @@ You need your [Client Portal](https://www.thermo.io/login/) username and passwor
 
 ## Method
 1. Log in to the [Client Portal](https://www.thermo.io/login/).
-2. Click **Billing > Invoice**. 
-   IMAGE
+2. CFrom the dashboard, either click **Amount Due** or select **Billing > Invoice**.
+   ![Invoice selection](https://raw.githubusercontent.com/thermoio/docs/master/images/paying-with-account-credit/2017-11-14_19-14-12.png)
+3. To view invoice details, either click the the desired **invoice number**, or click the **menu toggle**, then **View**. 
+   ![View invoice selection](https://raw.githubusercontent.com/thermoio/docs/master/images/viewing-invoices/2017-11-14_19-57-54.png)
 
-3. From this page, you may use the **menu toggle** to **View**, **Pay**, or **Export** any invoice of your choice. 
-   IMAGE
-   
-   * **View** shows more detailed information about the invoice. 
-   * **Pay** allows you to make a manual payment instead of your automatic payment. For more information, see our articles about paying by [credit card](URL PENDING), [PayPal](URL PENDING), and with [account credit](URL PENDING).
-   * **Export** converts your invoice into a web-based PDF file, which you can download or print.
+To pay for your service, see our articles about paying by [credit card](https://www.thermo.io/how-to/client-portal/paying-with-credit-cards), [PayPal](https://www.thermo.io/how-to/client-portal/paying-with-paypal), and with [account credit](https://www.thermo.io/how-to/client-portal/paying-with-account-credit).
 
 **_For assistance, contact the Thermo Billing Team [by email](mailto:billing@thermo.io) or [through the Client Portal](https://www.thermo.io/login/) between 9 a.m. - 5 p.m. eastern time (ET), Monday - Friday._**
