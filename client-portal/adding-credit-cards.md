@@ -20,7 +20,8 @@ You need your [Client Portal](https://www.thermo.io/login/) username and passwor
    ![Add Card panel](https://raw.githubusercontent.com/thermoio/docs/master/images/adding-credit-cards/2017-11-14_10-24-27.png)
    
 Once added, you may make the new card your primary card for automatic payments by repeating Step 2, then select the **menu toggle**, followed by **Make Primary**. Click **Confirm**.
-   ![Make Primary selection](https://raw.githubusercontent.com/thermoio/docs/master/images/adding-credit-cards/2017-11-15_14-06-48.png)
+
+![Make Primary selection](https://raw.githubusercontent.com/thermoio/docs/master/images/adding-credit-cards/2017-11-15_14-06-48.png)
 
 See [Paying for Your Service with Credit Cards](https://www.thermo.io/how-to/client-portal/paying-with-credit-cards) for additional information.
 
