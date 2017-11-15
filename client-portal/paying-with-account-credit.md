@@ -1,9 +1,9 @@
 ---
-title: Using Account Credit
+title: Paying with Account Credit
 subject: Paying for Your Service
 ---
 
-# Paying Invoices with Account Credit
+# Paying for Your Service with Account Credit
 
 ## What you need
 
