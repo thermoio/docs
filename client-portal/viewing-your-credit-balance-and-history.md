@@ -15,6 +15,6 @@ subject: Paying for Your Service
 
 3. You will now see your credit history details, including amount, date of issuance, and status. Click the credit to see more information.
    
-For information regarding how to apply account credit to an unpaid invoice, see [Paying for Your Service with Account Credit](URL PENDING).
+For information regarding how to apply account credit to an unpaid invoice, see [Paying for Your Service with Account Credit](https://www.thermo.io/how-to/client-portal/paying-with-account-credit).
 
 **_For assistance, contact the Thermo Billing Team [by email](mailto:billing@thermo.io) or [through the Client Portal](https://www.thermo.io/login/) between 9 a.m. - 5 p.m. eastern time (ET), Monday - Friday._**
