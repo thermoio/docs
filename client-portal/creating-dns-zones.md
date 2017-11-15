@@ -24,4 +24,4 @@ You will need your [Client Portal](https://core.thermo.io/login/) username and p
 
 To delete a DNS Zone, follow the instructions in [Deleting DNS Zones in the Client Portal](https://www.thermo.io/how-to/client-portal/deleting-dns-zones).
 
-**_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://core.thermo.io/login/)._**
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [through the Client Portal](https://core.thermo.io/login/)._**
