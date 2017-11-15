@@ -16,7 +16,7 @@ subject: User Management
 2. From the <**Your_Name**> list on the upper right, click **Team**.
    ![Team selection](https://raw.githubusercontent.com/thermoio/docs/master/images/editing-team-members/2017-11-14_18-03-15.png)
 
-3. Locate the team member, then click the **orange edit icon** or the **red delete icon**, as appropriate.
+3. Locate the team member, then click the **orange edit icon** or the **red delete icon**, as desired.
 **Attention:** The system will prevent any change that removes the last Superuser on the account.
    ![Edit and Delete icons](https://raw.githubusercontent.com/thermoio/docs/master/images/editing-team-members/2017-11-14_18-05-20.png)
 

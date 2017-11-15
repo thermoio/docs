@@ -23,4 +23,5 @@ subject: Paying for Your Service
 
 5. In the same panel, click **Pay**.
 
-**_For assistance, contact the Thermo Billing Team [through the Client Portal](https://core.thermo.io/login/) between 9 a.m. - 5 p.m. eastern time (ET), Monday - Friday._**
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [through the Client Portal](https://core.thermo.io/login/)._**
+
