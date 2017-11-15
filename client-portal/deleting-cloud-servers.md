@@ -12,9 +12,12 @@ You will need your [Client Portal](https://core.thermo.io/login/) username and p
 
 1. Log in to the [Client Portal](https://core.thermo.io/login/).
 2. From the dashboard, click **Service > Cloud Servers**.
-   IMAGE
+   ![Cloud Servers selection](https://raw.githubusercontent.com/thermoio/docs/master/images/deleting-cloud-servers/2017-11-14_21-46-38.png)
 
 3. Locate the desired server. From the **menu toggle**, click **Delete**.
-   IMAGE
+   ![Delete button](https://raw.githubusercontent.com/thermoio/docs/master/images/deleting-cloud-servers/2017-11-14_21-48-32.png)
+   
+4. Click **Delete** again to confirm.
+   ![Delete confirmation](https://raw.githubusercontent.com/thermoio/docs/master/images/deleting-cloud-servers/2017-11-14_21-49-49.png)
 
 **_For assistance, contact our Billing Team, available Monday - Friday, from 9 a.m. - 5 p.m., eastern time (ET)._**
