@@ -21,4 +21,4 @@ You will need your [Client Portal](https://core.thermo.io/login/) username and p
    * Or, you can edit an address by clicking the **menu toggle**, then clicking **Edit**.
      ![Edit selection](https://raw.githubusercontent.com/thermoio/docs/master/images/editing-your-account-address/2017-11-14_18-36-08.png)
 
-**_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://core.thermo.io/login/)._**
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [through the Client Portal](https://core.thermo.io/login/)._**

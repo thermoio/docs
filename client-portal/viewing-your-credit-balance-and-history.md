@@ -17,4 +17,4 @@ subject: Paying for Your Service
    
 For information regarding how to apply account credit to an unpaid invoice, see [Paying for Your Service with Account Credit](https://www.thermo.io/how-to/client-portal/paying-with-account-credit).
 
-**_For assistance, contact the Thermo Billing Team [by email](mailto:billing@thermo.io) or [through the Client Portal](https://core.thermo.io/login/) between 9 a.m. - 5 p.m. eastern time (ET), Monday - Friday._**
+**_For assistance, contact the Thermo Billing Team [through the Client Portal](https://core.thermo.io/login/) between 9 a.m. - 5 p.m. eastern time (ET), Monday - Friday._**

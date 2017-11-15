@@ -27,4 +27,4 @@ Your Client Portal uses three default roles: Superuser, Billing, and Technical. 
 
 6. Assign your desired team members to the new team. See [Assigning Team Members in the Client Portal](https://www.thermo.io/how-to/client-portal/assigning-teams) for more information. You may also edit these teams by following the instructions in [Editing Teams in the Client Portal](https://www.thermo.io/how-to/client-portal/editing-team-members).
 
-**_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://core.thermo.io/login/)._**
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [through the Client Portal](https://core.thermo.io/login/)._**

@@ -28,4 +28,4 @@ Your Client Portal uses three default roles: Superuser, Billing, and Technical. 
 5. Click **Save**.
    
 
-**_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://core.thermo.io/login/)._**
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [through the Client Portal](https://core.thermo.io/login/)._**

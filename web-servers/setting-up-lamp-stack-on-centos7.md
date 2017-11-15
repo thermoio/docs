@@ -48,3 +48,6 @@ sudo yum install php php-mysql php-pear
 sudo systemctl restart apache
 ```
 The procedure is complete.
+
+
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [through the Client Portal](https://core.thermo.io/login/)._**

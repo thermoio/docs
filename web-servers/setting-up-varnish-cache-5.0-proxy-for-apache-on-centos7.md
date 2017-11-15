@@ -63,3 +63,6 @@ curl -I http://203.0.113.1/1.html
    The output should contain `Via: 1.1 varnish (Varnish/5.2)`, or whichever version number you installed.
 
 Varnish Cache 5.0 Proxy is now set up and working with Apache on port 8080 and listening for http traffic on port 80.
+
+
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [through the Client Portal](https://core.thermo.io/login/)._**

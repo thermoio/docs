@@ -28,4 +28,4 @@ You may edit or delete team members by following the instructions in [Editing te
 It is also possible to [create your own teams](https://www.thermo.io/how-to/client-portal/creating-teams) and [edit them as desired](https://www.thermo.io/how-to/client-portal/editing-teams).
 
 
-**_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://core.thermo.io/login/)._**
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [through the Client Portal](https://core.thermo.io/login/)._**
