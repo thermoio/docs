@@ -22,4 +22,4 @@ You need your [Client Portal](https://core.thermo.io/login/) username and passwo
    
 4. Confirm your choices by either clicking **DELETE** or **SUBMIT**, as appropriate.
 
-**_For assistance, contact the Thermo Billing Team [by email](mailto:billing@thermo.io) or [through the Client Portal](https://core.thermo.io/login/) between 9 a.m. - 5 p.m. eastern time (ET), Monday - Friday._**
+**_For assistance, contact the Thermo Billing Team [through the Client Portal](https://core.thermo.io/login/) between 9 a.m. - 5 p.m. eastern time (ET), Monday - Friday._**
