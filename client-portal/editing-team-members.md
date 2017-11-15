@@ -17,11 +17,9 @@ subject: User Management
    ![Team selection](https://raw.githubusercontent.com/thermoio/docs/master/images/editing-team-members/2017-11-14_18-03-15.png)
 
 3. Locate the team member, then click the **orange edit icon** or the **red delete icon**, as appropriate.
-
 **Attention:** The system will prevent any change that removes the last Superuser on the account.
-
    ![Edit and Delete icons](https://raw.githubusercontent.com/thermoio/docs/master/images/editing-team-members/2017-11-14_18-05-20.png)
 
-4. Click **Save** or **DELETE** to confirm, as desired.
+4. Click **Save** or **Delete** to confirm, as desired.
 
 **_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://core.thermo.io/login/)._**

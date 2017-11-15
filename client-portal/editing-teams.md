@@ -24,8 +24,6 @@ Your Client Portal uses three default roles: Superuser, Billing, and Technical. 
 4. If you chose **delete**, then confirm when prompted. If you chose **edit**, you may now edit the role name, change notifications, or change permissions.
 
 **Attention:** You may not delete the Superuser role or its permissions, though you may designate which notifications the Superuser will receive.
-
-   [Editing roles](https://raw.githubusercontent.com/thermoio/docs/master/images/editing-teams/2017-11-14_18-19-15.png)
    
 5. Click **Save**.
    
