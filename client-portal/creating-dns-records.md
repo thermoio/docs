@@ -27,4 +27,4 @@ You will need your [Client Portal](https://core.thermo.io/login/) username and p
    
 6. The fields will vary according to your choice. Fill all fields, then click **ADD**.
    
-**_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://core.thermo.io/login/)._**
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [through the Client Portal](https://core.thermo.io/login/)._**
