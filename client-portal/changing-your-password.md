@@ -17,4 +17,4 @@ If you simply need to reset a password, navigate to the [Client Portal login pag
 3. In the **Current Password** field, enter your old password. In the **New Password** and **New Password Again** fields, enter your chosen password; these fields must match.
    ![Password entry](https://raw.githubusercontent.com/thermoio/docs/master/images/changing-your-password/2017-11-14_14-59-51.png)
 
-**_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://core.thermo.io/login/)._**
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [through the Client Portal](https://core.thermo.io/login/)._**
