@@ -66,4 +66,4 @@ cd /Users/<yourusername?/.ssh/id_rsa
 8. Add a name for this key, then paste the contents of the `.pub` file into the field.
 [pasting contents](https://raw.githubusercontent.com/thermoio/docs/master/images/placeholder.png)
 
-**_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://core.thermo.io/login/)._**
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [through the Client Portal](https://core.thermo.io/login/)._**
