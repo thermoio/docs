@@ -25,4 +25,4 @@ When prompted for the current root password, hit enter as there has not been one
 
 For additional guidance, see [MySQL basics](https://www.thermo.io/how-to/databases/mysql-basics).
 
-**_For 24-hour assistance any day of the year, contact a Thermo Physicist [by email](mailto:physicists@thermo.io) or [through the Client Portal](https://core.thermo.io/login/)._**
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [through the Client Portal](https://core.thermo.io/login/)._**
