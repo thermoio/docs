@@ -3,7 +3,7 @@ title: Accessing your server console
 subject: Account Management
 ---
 
-# Deleting Cloud Servers from the Client Portal
+# Accessing Your Server Console from the Client Portal
 
 ## But first...
 You will need your [Client Portal](https://core.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal login page.
@@ -16,3 +16,5 @@ You will need your [Client Portal](https://core.thermo.io/login/) username and p
    ![Selecting Your Server](https://raw.githubusercontent.com/thermoio/docs/master/images/accessing-your-cloud-server-console/2017-11-16_12-36-33.png)
 4. Click the **Console** tab. 
    ![Console tab](https://raw.githubusercontent.com/thermoio/docs/master/images/accessing-your-cloud-server-console/2017-11-16_12-39-41.png)
+
+**_For 24-hour assistance any day of the year, contact a Thermo Physicist [through the Client Portal](https://core.thermo.io/login/)._**
