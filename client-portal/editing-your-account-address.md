@@ -6,7 +6,7 @@ subject: Account Management
 # Editing Your Account Address in the Client Portal
 
 ## But first...
-You will need your [Client Portal](https://core.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal loging page.
+You will need your [Client Portal](https://core.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal login page.
 
 ## Method
 1. Log in to the [Client Portal](https://core.thermo.io/login/).
