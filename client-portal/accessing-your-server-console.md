@@ -1,5 +1,5 @@
 ---
-title: Accessing your server console
+title: Accessing Your Server Console
 subject: Account Management
 ---
 
