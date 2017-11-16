@@ -1,6 +1,5 @@
 ---
-title: Thermo
-subject: General
+title: Getting Started
 ---
 
 # Getting Started with Thermo
