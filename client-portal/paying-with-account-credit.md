@@ -7,7 +7,7 @@ subject: Paying for Your Service
 
 ## What you need
 
-* Your [Client Portal](https://core.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal loging page.
+* Your [Client Portal](https://core.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal login page.
 * A credit balance on your account. To check your credit balance, refer to [Viewing Your Account Credit Balance and History](https://www.thermo.io/how-to/client-portal/viewing-your-credit-balance-and-history).
 
 ## Method
