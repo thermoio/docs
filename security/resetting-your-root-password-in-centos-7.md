@@ -1,9 +1,9 @@
 ---
-title: Updating CentOS
+title: Resetting Your Root Password in CentOS 7 
 subject: Operating System
 ---
 
-# Updating CentOS
+# Resetting Your Root Password in CentOS 7 
 
 ## What you need
 * Your [Client Portal](https://core.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal login page.
