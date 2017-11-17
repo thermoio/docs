@@ -6,7 +6,7 @@ subject: User Management
 # Editing Team Members in the Client Portal
 
 ## What you need
-* Your [Client Portal](https://core.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal loging page.
+* Your [Client Portal](https://core.thermo.io/login/) username and password. If you cannot locate this information, click **Forget Password?** on the Client Portal login page.
 * The email address of the user to be added.
 
 ## Method
