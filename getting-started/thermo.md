@@ -35,13 +35,16 @@ Thank you for choosing Thermo! This guide will help you create your first virtua
 
    ![hostname entry](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-10-27_16-57-28.png)
 
-8. If you have not yet entered you billing information, click **BILLING INFORMATION**.
-   ![add payment method button](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-10-27_16-59-03.png)
+8. If you have not yet entered you billing information, click **BILLING INFORMATION**. 
+   !
 
-9. Fill all required fields, then click **Add**.
+   Fill all required fields, then click **Add**.
+   !
 
-10. In the Add Card panel, fill all fields. If you want to use this card for future payments, select the **Use this for future invoices, and any currently unpaid** checkbox. Click **Add** when done.
-   ![add card fields](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-10-27_17-02-43.png)
+9. Click **Create**.
+   !
+
+10. If you chose **Generate Password** in Step 6, check your email for a message from Thermo.io with the subject "Secure Password Share and follow the instructions provided in [Retrieving Your Cloud Server Password](URL PENDING).
 
 ## Finding your IP address
 To view your IP address information:
