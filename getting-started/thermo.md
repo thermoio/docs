@@ -26,10 +26,10 @@ Thank you for choosing Thermo! This guide will help you create your first virtua
    ![plan selection](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-10-27_15-29-37.png)
 
 6. Select whether you want to use a password or an SSH key for accessing your server. 
-   ![Generate Password and My SSH Key selections](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-11-20_15-03-14%20copy.png)
+   ![Generate Password and My SSH Key selections](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-11-20_15-03-14%20copy%20(1).png)
 
    If you choose **My SSH Key**, add your SSH key by clicking **Add Key**. If you need to create a key, follow the instructions provided in [Generating and uploading SSH keys](https://github.com/thermoio/docs/blob/master/security/generating-and-uploading-ssh-keys.md).
-   ![ssh keys button](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-10-27_15-31-37.png)
+   ![ssh keys button](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-11-20_16-35-31.png)
 
    Enter a name and your SSH key, then click **CREATE KEY**. Paste your SSH key into the **Key** field.
    ![ssh key fields](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-10-27_16-10-24.png)
@@ -39,13 +39,12 @@ Thank you for choosing Thermo! This guide will help you create your first virtua
    ![hostname entry](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-10-27_16-57-28.png)
 
 8. If you have not yet entered you billing information, click **BILLING INFORMATION**. 
-   !
+   ![Billing Information button](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-11-20_15-05-40.png)
 
    Fill all required fields, then click **Add**.
-   !
 
 9. Click **Create**.
-   !
+   ![Create button](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-11-20_16-40-39.png)
 
 10. If you chose **Generate Password** in Step 6, check your email for a message from Thermo.io with the subject "Secure Password Share and follow the instructions provided in [Retrieving Your Cloud Server Password](URL PENDING).
 
