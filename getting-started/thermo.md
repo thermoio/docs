@@ -63,6 +63,7 @@ If you chose to generate a password in Step 6 above, follow these instructions t
    ![Plus icon](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-11-20_17-05-54.png)
 
 5. In the Contact Support panel, fill the **Subject** and **Type your reply** fields. From the **Service** drop-down list, click your service. Click **Add**.
+
    ![Contact Support panel fields](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-11-20_17-11-30.png)
    
 6. Click **Secure Data Share**.
