@@ -39,12 +39,12 @@ Thank you for choosing Thermo! This guide will help you create your first virtua
    ![hostname entry](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-10-27_16-57-28.png)
 
 8. If you have not yet entered you billing information, click **BILLING INFORMATION**. 
-   ![Billing Information button](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-11-20_15-05-40.png)
+   ![Billing Information button](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-11-20_15-05-40%20copy%20(1).png)
 
    Fill all required fields, then click **Add**.
 
 9. Click **Create**.
-   ![Create button](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-11-20_16-40-39.png)
+   ![Create button](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-11-20_16-40-39%20copy.png)
 
 10. If you chose **Generate Password** in Step 6, check your email for a message from Thermo.io with the subject "Secure Password Share and follow the instructions provided in [Retrieving Your Cloud Server Password](URL PENDING).
 
