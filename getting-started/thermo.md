@@ -25,7 +25,7 @@ Thank you for choosing Thermo! This guide will help you create your first virtua
 5. Click your desired plan from the eight available.
    ![plan selection](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-10-27_15-29-37.png)
 
-6. Add your SSH key by clicking **Add Key**. If you need to create a key, follow the instructions provided in [Generating and uploading SSH keys](https://github.com/thermoio/docs/blob/master/security/generating-and-uploading-ssh-keys.md)
+6. Select whether you want to use a password, or an SSH key for accessing your server. If you choose **My SSH Key**, add your SSH key by clicking **Add Key**. If you need to create a key, follow the instructions provided in [Generating and uploading SSH keys](https://github.com/thermoio/docs/blob/master/security/generating-and-uploading-ssh-keys.md)
    ![ssh keys button](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-10-27_15-31-37.png)
 
    Enter a name and your SSH key, then click **CREATE KEY**.Paste your SSH key into the **Key** field.
@@ -35,7 +35,7 @@ Thank you for choosing Thermo! This guide will help you create your first virtua
 
    ![hostname entry](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-10-27_16-57-28.png)
 
-8. Check your total, then click **Add Payment Method**.
+8. If you have not yet entered you billing information, click **BILLING INFORMATION**.
    ![add payment method button](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-10-27_16-59-03.png)
 
 9. Fill all required fields, then click **Add**.
