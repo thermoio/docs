@@ -1,6 +1,6 @@
 ---
 title: Creating Sudo Users
-subject: General
+subject: SSH
 ---
 
 # Creating Sudo Users
