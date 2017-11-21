@@ -46,7 +46,7 @@ Thank you for choosing Thermo! This guide will help you create your first virtua
 9. Click **Create**.
    ![Create button](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-11-20_16-40-39%20copy.png)
 
-10. If you chose **Generate Password** in Step 6, check your email for a message from Thermo.io with the subject "Secure Password Share and follow the instructions provided in [Retrieving your cloud server password](#retrieving-your-cloud-server-password)section.
+10. If you chose **Generate Password** in Step 6, check your email for a message from Thermo.io with the subject "Secure Password Share" and follow the instructions provided in [Retrieving your cloud server password](#retrieving-your-cloud-server-password) section.
 
 ## Retrieving your cloud server password
 If you chose to generate a password in Step 6 above, follow these instructions to retrieve that password:
@@ -59,18 +59,7 @@ If you chose to generate a password in Step 6 above, follow these instructions t
 3. Click the password to copy it, then save it in a password manager or other secure place. 
    ![Password](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-11-20_14-41-52.png)
    
-4. If you want to grant Thermo Physicists access to your server, on the dashboard, click the + icon, then **Contact Support**.
-   ![Plus icon](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-11-20_17-05-54.png)
-
-5. In the Contact Support panel, fill the **Subject** and **Type your reply** fields. From the **Service** drop-down list, click your service. Click **Add**.
-
-   ![Contact Support panel fields](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-11-20_17-11-30.png)
-   
-6. Click **Secure Data Share**.
-   ![Secure Data Share button](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-11-20_17-15-44.png)
-   
-7. Paste your password into the **Password** field, then click **Share**.
-   ![Password field and Share button](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-11-20_17-14-27.png)
+If it becomes necessary to give a Thermo Physicist access to your server for support, then follow the instructions provided in [name](URL). 
 
 ## Finding your IP address
 To view your IP address information:
