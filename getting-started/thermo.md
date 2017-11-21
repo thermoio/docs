@@ -59,7 +59,7 @@ If you chose to generate a password in Step 6 above, follow these instructions t
 3. Click the password to copy it, then save it in a password manager or other secure place. 
    ![Password](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-11-20_14-41-52.png)
    
-If it becomes necessary to give a Thermo Physicist access to your server for support, then follow the instructions provided in [name](URL). 
+If it becomes necessary to give a Thermo Physicist access to your server for support, then follow the instructions provided in [Sending Secure Data to Thermo Physicists](https://www.thermo.io/how-to/client-portal/sending-secure-data-to-thermo-physicists). 
 
 ## Finding your IP address
 To view your IP address information:
