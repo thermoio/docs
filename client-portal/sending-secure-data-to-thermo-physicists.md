@@ -23,6 +23,6 @@ You will need your [Client Portal](https://core.thermo.io/login/) username and p
    ![Secure Data Share button](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-11-20_17-15-44.png)
    
 4. Paste your password into the **Password** field, then click **Share**.
-   ![Password field and Share button](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-11-20_17-14-27.png)
+   ![Password field and Share button](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-11-20_17-14-27.png)For 
    
-5. When your issue is resolved, it is best practice to change your password to lock out unnecessary users. See [link
+5. When your issue is resolved, it is best practice to change your password to lock out unnecessary users. For assistance, see [Changing Your SSH Password](https://www.thermo.io/how-to/security/changing-your-ssh-password).
