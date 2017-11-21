@@ -56,7 +56,7 @@ If you chose to generate a password in Step 6 above, follow these instructions t
 2. Read and understand the warning, then click **View Password**.
    ![View Password button](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-11-20_14-41-34.png)
 
-3. Click the password to copy it and save it in a password manager or other secure place. 
+3. Click the password to copy it, then save it in a password manager or other secure place. 
    ![Password](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-11-20_14-41-52.png)
    
 4. If you want to grant Thermo Physicists access to your server, on the dashboard, click the + icon, then **Contact Support**.
