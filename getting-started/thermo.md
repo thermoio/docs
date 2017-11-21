@@ -46,11 +46,20 @@ Thank you for choosing Thermo! This guide will help you create your first virtua
 9. Click **Create**.
    ![Create button](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-11-20_16-40-39%20copy.png)
 
-10. If you chose **Generate Password** in Step 6, check your email for a message from Thermo.io with the subject "Secure Password Share and follow the instructions provided in [Retrieving your cloud server password](#retrieving-your-cloud-server-password)section.
+10. If you chose **Generate Password** in Step 6, check your email for a message from Thermo.io with the subject "Secure Password Share" and follow the instructions provided in [Retrieving your cloud server password](#retrieving-your-cloud-server-password) section.
 
 ## Retrieving your cloud server password
 If you chose to generate a password in Step 6 above, follow these instructions to retrieve that password:
-1. 
+1. When you receive the “Secure Password Share” email, click **View Password**.
+   ![View Password link](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-11-20_14-37-21.png)
+
+2. Read and understand the warning, then click **View Password**.
+   ![View Password button](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-11-20_14-41-34.png)
+
+3. Click the password to copy it, then save it in a password manager or other secure place. 
+   ![Password](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-11-20_14-41-52.png)
+   
+If it becomes necessary to give a Thermo Physicist access to your server for support, then follow the instructions provided in [name](URL). 
 
 ## Finding your IP address
 To view your IP address information:
