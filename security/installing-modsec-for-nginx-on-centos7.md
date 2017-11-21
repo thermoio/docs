@@ -93,8 +93,8 @@ sed -i "s/#user  nobody;/user nginx nginx;/" /usr/local/nginx/conf/nginx.conf
    ```shell
    :wq!
    ```
-2. Create the file ``/usr/local/nginx/conf/modsec_includes.conf``:
-**Attention:** The config below applies all of the OWASP ModSecurity Core Rules in the ``owasp-modsecurity-crs/rules/`` directory. If you want to apply selective rules only, you should remove the include ``owasp-modsecurity-crs/rules/*.conf`` line, and then specify exact rules you need after step 5 of this section.
+2. Create the file `/usr/local/nginx/conf/modsec_includes.conf`:
+**Attention:** The config below applies all of the OWASP ModSecurity Core Rules in the `owasp-modsecurity-crs/rules/` directory. If you want to apply selective rules only, you should remove the include `owasp-modsecurity-crs/rules/*.conf` line, and then specify exact rules you need after step 5 of this section.
 ```shell
 cat <<EOF>> /usr/local/nginx/conf/modsec_includes.conf
 include modsecurity.conf
