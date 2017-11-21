@@ -25,4 +25,4 @@ You will need your [Client Portal](https://core.thermo.io/login/) username and p
 4. Paste your password into the **Password** field, then click **Share**.
    ![Password field and Share button](https://raw.githubusercontent.com/thermoio/docs/master/images/getting-started-thermo/2017-11-20_17-14-27.png)
    
-5. When your issue is resolved, it is best practice to change your password
+5. When your issue is resolved, it is best practice to change your password to lock out unnecessary users. See [link
