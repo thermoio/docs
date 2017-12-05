@@ -29,3 +29,30 @@ Much of this process will be familiar to anyone familiar with GitHub. This secti
 3. The editor reviews your PR for adherence to our conventions and Style Guide, as well as checks it for accuracy, completeness, and originality. The editor may direct you to make further changes that must be resolved before proceeding to Step 4.
 4. Our team conducts a final review. Upon acceptance, the editor sends you the IP Agreement in DocuSign.
 5. Upon completion of the IP Agreement, our team merges your PR and publishes your submission to the Thermo Library.
+
+## Style guide
+We advise all contributors to review our Style Guide before submitting PRs; otherwise, our SMEs or editor will direct you to make such changes and prolong the effort.
+
+**Attention:** All submissions must be in Markdown to be considered eligible for review.
+
+### Active voice
+Avoid passive voice; favor active voice. For example:
+
+“Save your progress to prevent data loss.”
+
+    NOT
+
+“Progress must be saved or data will be lost.”
+
+### Commands
+* Use code blocks for all input and output, and designate the correct programming language. When presenting commands in a sentence, use `monospace font`. 
+* When inserting code blocks in ordered lists, use the same indent as the copy in each step. For example:
+  1. Install ModSec
+     ```shell
+     sudo yum install mod_security
+     ```
+  2. Restart Apache
+     ```shell
+     sudo service httpd restart
+     ```
+     
