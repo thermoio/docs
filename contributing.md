@@ -38,11 +38,11 @@ We advise all contributors to review our Style Guide before submitting PRs; othe
 ### Active voice
 Avoid passive voice; favor active voice. For example:
 
-“Save your progress to prevent data loss.”
+    “Save your progress to prevent data loss.”
 
-    NOT
+        NOT
 
-“Progress must be saved or data will be lost.”
+    “Progress must be saved or data will be lost.”
 
 ### Commands
 * Use code blocks for all input and output, and designate the correct programming language. When presenting commands in a sentence, use `monospace font`. 
@@ -55,4 +55,54 @@ Avoid passive voice; favor active voice. For example:
      ```shell
      sudo service httpd restart
      ```
+### Dates
+Spell out all dates. For example:
+
+    "November 15, 2018"
      
+        NOT
+     
+    "11/15/18"
+ 
+### File and folders
+Use `monospace font` for all files, folders, paths, and directories.
+ 
+### Format
+See Templates.
+ 
+### Headers
+Use headline-style capitalization for the title; use sentence-style for all others. Use H1 for the title, H2 for sections, H3 for sub-sections, and so on.
+
+### Images
+Any content relating to a UI other than the CLI requires images. If the UI-related content involves a procedure, use an image for each step. See Using Images for more information.
+
+### Language
+As a general tip, please use direct, simple language. Omit needless words and phrases. 
+
+### Lists
+Use numbered lists for procedures. Break longer or complex procedures into sections with clear headers.
+
+### Point of view
+Use second-person language ("you"). Implied is favored in most cases. For example:
+
+    "Click **Save** to continue."
+    
+        NOT
+        
+    "You'll want to click **Save** to continue."
+    
+## Template
+(working)
+
+## Using Images
+Before uploading any images to the Thermo Repo:
+1. Crop the image appropriately. Balance size with the need to guide the reader.
+2. Make minimal but effective use of arrows, highlights, blurs, and other graphical tools to direct the reader. 
+
+To embed an image in your article, you will create a file in the images folder in your fork, then submit this file along with your article in the PR.
+
+1. In your fork, `<your_fork>/docs/images`, create a file that matches your article's name without the `.md` extension.
+2. In that file, click **Upload files**, then upload the images.
+3. In that same file, select the iamge, then click **Download**. Copy the URL in your browser, which you will use in Step 4 for `<URL_for_image_download>.
+4. In your article, use the following Markdown, but replace the angled brackets (`<>`) with the URL you copied in Step 3.
+```
