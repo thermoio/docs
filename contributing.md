@@ -9,7 +9,7 @@ Welcome to the Thermo Repo! Here, you will find everything you need to start con
 * A GitHub account and a fork of the Thermo repo.
 
 ## Table of contents
-* Crucial criteria
+* [Crucial criteria](#crucial-criteria)
 * Payments
 * Submission process
 * Style guide
