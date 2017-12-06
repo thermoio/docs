@@ -32,7 +32,7 @@ Much of this process will be familiar to anyone familiar with GitHub. This secti
 
 1. Submit your PR to the [thermo.io/docs master branch](https://github.com/thermoio/docs).
 2. One or more subject matter experts (SMEs) reviews your PR and evaluates it for accuracy and completeness. They may direct your to make changes to your PR that must be resolved before proceeding to Step 3, or they may reject it.
-3. The editor reviews your PR for adherence to our conventions and Style Guide, as well as checks it for accuracy, completeness, and originality. The editor may direct you to make further changes that must be resolved before proceeding to Step 4.
+3. The editor reviews your PR for adherence to our conventions and [Style Guide](#style-guide), as well as checks it for accuracy, completeness, and originality. The editor may direct you to make further changes that must be resolved before proceeding to Step 4.
 4. Our team conducts a final review. Upon acceptance, the editor sends you the IP Agreement in DocuSign.
 5. Upon completion of the IP Agreement, our team merges your PR and publishes your submission to the Thermo Library.
 
@@ -75,13 +75,13 @@ Spell out all dates. For example:
 Use `monospace font` for all files, folders, paths, and directories.
  
 ### Format
-See Templates.
+See [Templates](#templates).
  
 ### Headers
 Use headline-style capitalization for the title; use sentence-style for all others. Use H1 for the title, H2 for sections, H3 for sub-sections, and so on.
 
 ### Images
-Any content relating to a UI other than the CLI requires images. If the UI-related content involves a procedure, use an image for each step. See Using Images for more information.
+Any content relating to a UI other than the CLI requires images. If the UI-related content involves a procedure, use an image for each step. See [Using Images](#using-images) for more information.
 
 ### Language
 As a general tip, please use direct, simple language. Omit needless words and phrases. 
