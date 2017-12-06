@@ -110,6 +110,6 @@ To embed an image in your article, you will create a file in the images folder i
 
 1. In your fork, `<your_fork>/docs/images`, create a file that matches your article's name without the `.md` extension.
 2. In that file, click **Upload files**, then upload the images.
-3. In that same file, select the iamge, then click **Download**. Copy the URL in your browser, which you will use in Step 4 for `<URL_for_image_download>.
+3. In that same file, select the iamge, then click **Download**. Copy the URL in your browser, which you will use in Step 4 for `<URL_for_image_download>`.
 4. In your article, use the following Markdown, but replace the angled brackets (`<>`) with the URL you copied in Step 3.
 ```
