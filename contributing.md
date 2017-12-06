@@ -10,11 +10,11 @@ Welcome to the Thermo Repo! Here, you will find everything you need to start con
 
 ## Table of contents
 * [Crucial criteria](#crucial-criteria)
-* Payments
-* Submission process
-* Style guide
-* Template
-* Using images
+* [Payments](#payments)
+* [Submission process](#submission-process)
+* [Style guide](#style-guide)
+* [Template](#template)
+* [Using images](#using-images)
 
 ## Crucial criteria
 * **Accuracy:** Your procedures are straightforward, correct, and tested. For each action, include the “why” as well as the “what.” Explain the purpose behind each action.
