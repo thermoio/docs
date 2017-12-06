@@ -53,6 +53,7 @@ Avoid passive voice; favor active voice. For example:
 ### Commands
 * Use code blocks for all input and output, and designate the correct programming language. When presenting commands in a sentence, use `monospace font`. 
 * When inserting code blocks in ordered lists, use the same indent as the copy in each step. For example:
+  
   1. Install ModSec
      ```shell
      sudo yum install mod_security
