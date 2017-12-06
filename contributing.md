@@ -1,6 +1,12 @@
 # Contributing to Thermo
 
+## Overview
 Welcome to the Thermo Repo! Here, you will find everything you need to start contributing to the Thermo Library. All you need is a GitHub account and the ability to explain how to solve a problem. If we accept your submission, our editors will review your content and direct you to make necessary changes before merging your content with the Library.
+
+## What you need
+* Expertise in your topic
+* A tested, verified procedure or procedures for a topic related to Thermo
+* A GitHub account and a fork of the Thermo repo.
 
 ## Table of contents
 * Crucial criteria
