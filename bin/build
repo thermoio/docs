@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
-var md = require('meta-marked'),
-    fs = require('fs'),
-    json = require('jsonfile'),
-    path = require('path');
+var md = require('meta-marked');
+var fs = require('fs');
+var json = require('jsonfile');
+var path = require('path');
 
 if (! fs.existsSync('meta.json')) {
   throw new Error('meta.json does not exist!');
@@ -54,7 +54,7 @@ function getArticlesFromPath(link) {
   for (var file of fs.readdirSync(link)) {
     var file_name = link + '/' + file;
     if (
-      excluded_files.indexOf(file) > -1 ||
+      excluded_files.includes(file) ||
       fs.lstatSync(file_name).isDirectory() ||
       path.extname(file_name) !== '.md'
     ) {
