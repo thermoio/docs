@@ -89,6 +89,17 @@ As a general tip, please use direct, simple language. Omit needless words and ph
 ### Lists
 Use numbered lists for procedures. Break longer or complex procedures into sections with clear headers.
 
+### Naming conventions
+When creating the path for your article, do not include your metadata subject. For example, if you article was "Methods of Reindexing" Magento:
+
+    `docs/applications/methods-of-reindexing.md`
+
+        NOT
+        
+    `docs/applications/methods-of-reindexing-magento.md`
+    
+When creating the title of your article, provide more information. Continung the above example, the title would read as "Methods of Reindexing Magento" in H1 at the top of your article, after the metadata.
+
 ### Point of view
 Use second-person language ("you"). Implied is favored in most cases. For example:
 
@@ -99,14 +110,14 @@ Use second-person language ("you"). Implied is favored in most cases. For exampl
     "You'll want to click **Save** to continue."
     
 ## Template
-(working)
+See [Article Template](link)
 
 ## Using Images
 Before uploading any images to the Thermo Repo:
 1. Crop the image appropriately. Balance size with the need to guide the reader.
 2. Make minimal but effective use of arrows, highlights, blurs, and other graphical tools to direct the reader. 
 
-To embed an image in your article, you will create a file in the images folder in your fork, then submit this file along with your article in the PR.
+To embed an image in your article, create a file in the images folder in your fork, then submit this file along with your article in the PR.
 
 1. In your fork, `<your_fork>/docs/images`, create a file that matches your article's name without the `.md` extension.
 2. In that file, click **Upload files**, then upload the images.
