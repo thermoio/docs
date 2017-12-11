@@ -13,7 +13,7 @@ ModSecurity (ModSec) is a Web Application Firewall (WAF) that can help protect y
 * A limited user with sudo access; for assistance creating one, see [Creating Sudo Users](https://www.thermo.io/how-to/security/creating-sudo-users)
 
 ## Installing ModSec
-1. Issue:
+1. Install ModSec:
 ```shell
 sudo yum install mod_security
 ```
