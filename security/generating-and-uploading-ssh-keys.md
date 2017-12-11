@@ -36,7 +36,7 @@ ssh-keygen -t rsa -b 4096
 2. When prompted to save your keys, the default location is `/Users/<yourusername?/.ssh/id_rsa`. Either press Enter to accept the default, or change the directory as desired.
 3. When prompted to enter a secure passphrase, either type one and press Enter, or just press Enter if you don’t want one.
 4. To retrieve your key, open Finder and browse to the location you chose in Step 2. If you used the default location, issue:
-```shell
+```markdown
 /Users/<your_username>/.ssh/id_rsa
 ```
 5. Copy the entire SSH key to your clipboard.
