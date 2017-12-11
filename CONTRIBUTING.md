@@ -37,7 +37,7 @@ Much of this process will be familiar to anyone familiar with GitHub. This secti
 5. Upon completion of the IP Agreement, our team merges your PR and publishes your submission to the Thermo Library.
 
 ## Style guide
-We advise all contributors to review our Style Guide before submitting PRs; otherwise, our SMEs or editor will direct you to make such changes and prolong the effort.
+We advise all contributors to review our Style Guide before submitting PRs; otherwise, our SMEs or editor will direct you to make such changes and prolong the effort. For additional guidance, see our [Article Template](URL PENDING).
 
 **Attention:** All submissions must be in Markdown to be considered eligible for review.
 
@@ -109,9 +109,6 @@ Use second-person language ("you"). Implied is favored in most cases. For exampl
         NOT
         
     "You'll want to click **Save** to continue."
-    
-## Template
-See [Article Template](link)
 
 ## Using Images
 Before uploading any images to the Thermo Repo:
