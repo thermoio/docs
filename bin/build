@@ -1,0 +1,82 @@
+#!/usr/bin/env node
+
+var md = require('meta-marked');
+var fs = require('fs');
+var json = require('jsonfile');
+var path = require('path');
+
+if (! fs.existsSync('meta.json')) {
+  throw new Error('meta.json does not exist!');
+}
+var meta = json.readFileSync('meta.json');
+
+var excluded_files = [
+  'CONTRIBUTING.md',
+  'README.md'
+];
+
+var output = {
+  title: meta.title,
+  route: '/',
+  articles: getArticlesFromPath('.'),
+  routes: []
+}
+
+// Check if we have any top level articles
+
+for (var cat of meta.categories) {
+  output.routes.push({
+    route: cat.link,
+    title: cat.title,
+    articles: getArticlesFromPath(cat.link)
+  });
+}
+
+json.writeFileSync('./build/data.json', output, {spaces: 2});
+
+function getArticlesFromPath(link) {
+  var articles = {};
+  if (! fs.existsSync(link)) {
+    // Check if we have a file by this name
+    var file_name = link + '.md';
+    if (! fs.existsSync(file_name)) {
+      return {};
+    }
+    var contents = md(fs.readFileSync(file_name).toString());
+    var article = [{
+      file: path.resolve(file_name),
+      title: contents.meta.title,
+      subject: contents.meta.subject,
+      route: getRouteFromFilename(file_name)
+    }];
+    return article;
+  }
+  for (var file of fs.readdirSync(link)) {
+    var file_name = link + '/' + file;
+    if (
+      excluded_files.includes(file) ||
+      fs.lstatSync(file_name).isDirectory() ||
+      path.extname(file_name) !== '.md'
+    ) {
+      continue;
+    }
+
+    var contents = md(fs.readFileSync(file_name).toString());
+    var article = {
+      file: path.resolve(file_name),
+      title: contents.meta.title,
+      subject: contents.meta.subject,
+      route: getRouteFromFilename(file_name)
+    };
+    if (! articles.hasOwnProperty(contents.meta.subject)) {
+      articles[contents.meta.subject] = [];
+    }
+    articles[contents.meta.subject].push(article);
+  }
+
+  return articles;
+};
+
+function getRouteFromFilename(file_name) {
+  return file_name.slice(0, -3);
+}
