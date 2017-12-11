@@ -6,7 +6,7 @@ Welcome to the Thermo Repo! Here, you will find everything you need to start con
 ## What you need
 * Expertise in your topic
 * A tested, verified procedure or procedures for a topic related to Thermo
-* A GitHub account and a fork of the Thermo repo.
+* A GitHub account and a fork of the thermo/docs repository.
 
 ## Table of contents
 * [Crucial criteria](#crucial-criteria)
@@ -18,7 +18,7 @@ Welcome to the Thermo Repo! Here, you will find everything you need to start con
 
 ## Crucial criteria
 * **Accuracy:** Your procedures are straightforward, correct, and tested. For each action, include the “why” as well as the “what.” Explain the purpose behind each action.
-* **Completeness:** Your guide produces a complete, functional configuration. When appropriate, your guide also gives readers of what to do next and provides all critical elements of security and other best practices.
+* **Completeness:** Your guide produces a complete, functional configuration. When appropriate, your guide also gives readers ideas about what to do next and provides all critical elements of security and other best practices.
 * **Originality:** Anything that is not raw code is original content written exclusively for Thermo.
 
 ## Payments
@@ -62,6 +62,7 @@ Avoid passive voice; favor active voice. For example:
      ```shell
      sudo service httpd restart
      ```
+     
 ### Dates
 Spell out all dates. For example:
 
@@ -117,10 +118,12 @@ Before uploading any images to the Thermo Repo:
 1. Crop the image appropriately. Balance size with the need to guide the reader.
 2. Make minimal but effective use of arrows, highlights, blurs, and other graphical tools to direct the reader. 
 
-To embed an image in your article, create a file in the images folder in your fork, then submit this file along with your article in the PR.
+To embed an image in your article, create a directory in the images folder in your fork, then submit this file along with your article in the PR.
 
-1. In your fork, `<your_fork>/docs/images`, create a file that matches your article's name without the `.md` extension.
-2. In that file, click **Upload files**, then upload the images.
+1. In your fork, `<your_fork>/docs/images`, create a directory that matches your article's name without the `.md` extension.
+2. In that directory, click **Upload files**, then upload the images.
 3. In that same file, select the iamge, then click **Download**. Copy the URL in your browser, which you will use in Step 4 for `<URL_for_image_download>`.
-4. In your article, use the following Markdown, but replace the angled brackets (`<>`) with the URL you copied in Step 3.
-```
+4. In your article, use the following Markdown, but replace the angled brackets (`<>`) and everything between them with the URL you copied in Step 3.
+   ```markdown
+   ![text_description](<URL_for_image_download>)
+   ```
