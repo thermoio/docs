@@ -23,10 +23,12 @@ Welcome to the Thermo Repo! Here, you will find everything you need to start con
 
 ## Payments
 We dispense all payments via PayPal. In most cases, we process payment within 30 days of publication, though in some cases in may take longer.
-  Updates under 500 words (for example, CentOS 6 > 7) $100
-  Simple guides, 500 - 999 words                      $200
-  Complex guides, 1000+ words                         $300
-
+  | Type                                                | Compensation |
+  | --------------------------------------------------- | ------------ |
+  | Updates under 500 words (for example, CentOS 6 > 7) |     $100     |
+  | Simple guides, 500 - 999 words                      |     $200     |
+  | Complex guides, 1000+ words                         |     $300     |
+ 
 ## Submission process
 Much of this process will be familiar to anyone familiar with GitHub. This section outlines the entire process, from your pull request (PR) to publication.
 
