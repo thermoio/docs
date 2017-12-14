@@ -11,6 +11,11 @@ Magento uses a process called reindexing to send its back-end updates to its fro
 “Update on Save” is the default reindexing mode in Magento that updates table caches and values in real time every time a site admin makes a change. Although this can work for small sites, it is impractical for large sites and databases because the reindexer will take hours to finish and degrade site performance.
 
 The solution is to replace the default reindexing mode with a scheduled cron job that reindexes at regular intervals.
+
+## What you need
+* Administrator access to your Magento store
+* SSH credentials
+
 ## Checking current indexer settings
 If you are a site administrator, you may run Magento through their preferred shell, though syntax may vary.
 
@@ -75,6 +80,7 @@ Category Products index has been rebuilt successfully in 00:00:02
 Product Prices index has been rebuilt successfully in 00:00:02
 ```
 The reindexing process can also occur through a scheduled cron job.
+
 ## Changing to "Update by Schedule"
 For larger sites, manually reindexing is slow and inefficient. For this reason, it is often more practical to schedule cron jobs to update the indexes at regular intervals.
 
@@ -102,6 +108,7 @@ To set a schedule,replace the asterisk (`*`) with values in cron format. For exa
 0 4 * * * php -f /shell/indexer.php reindexall
 ```
 where `0` represents the minute, and the `4` represents the hour. The day, month, and week day were ignored because the user wants to run the cron job every day.
+
 ### Scheduling at certain time intervals
 You may also run the job at certain intervals using `*/x`, where `x` is the interval.
 #### Example 1
