@@ -5,7 +5,7 @@ subject: topic, use existing topics in Thermo Library whenever possible
 # Article Template
 
 ## Overview (if necessary)
-This is a one-to-two paragraph description of the article's objective. Include any useful background information. Omit this section for very simple or clear-cut procedures.
+This is a short description of the article's objective. Include any useful background information. Omit this section for very simple or clear-cut procedures.
 
 ## What you need (or) But first... 
 * If only one requirement, use "But first..." as shown [here](https://github.com/thermoio/docs/blob/master/security/updating-centos.md).
