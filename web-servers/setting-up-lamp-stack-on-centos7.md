@@ -6,7 +6,7 @@ subject: LAMP
 # Setting Up LAMP Stack on CentOS 7
 
 ## But first...
-You need root access and the most current version of CentOS 7.
+You need root access and the most current version of CentOS 7. See [Creating sudo users on CentOS](https://github.com/thermoio/docs/blob/master/getting-started/creating-sudo-users-on-centos) for more information.
 
 ## One: Getting started
 Follow these steps to make sure your system is up to date and to install and properly configure Apache:
