@@ -4,20 +4,37 @@ subject: MySQL
 ---
 
 # MySQL Basics
-MySQL is an open source SQL-based database management system used to store, retrieve, organize, and manipulate data. It is useful for developing web-based software applications
+
+## Overview
+MySQL is an open source SQL-based database management system used to store, retrieve, organize, and manipulate data. It is useful for developing web-based software applications. This article will teach you how to install MySQL and some basic operations.
+
+## But first...
+We recommend you complete the following steps as a limited sudo user. For more information about setting up limited sudo users, see [Creating sudo users on CentOS](https://www.thermo.io/how-to/security/creating-sudo-users).
+
+## Table of contents
+[Installing MySQL server](#installing-mysql-server)
+[Accessing MySQL servers](#accessing-mysql-servers)
+[Creating databases](#creating-databases)
+[Deleting databases](#deleting-databases)
+[Creating tables](#creating-tables)
+[Inserting information into tables](#inserting-information-into-tables)
+[Adding and deleting columns in tables](#adding-and-deleting-columns-in-tables)
+[Updating table information](#updating-table-information)
+[Deleting information in tables](#deleting-information-in-tables)
+[Deleting entire tables](#deleting-entire-tables)
 
 ## Installing MySQL server
 * For Ubuntu, see [Installing MySQL with Ubuntu](https://www.thermo.io/how-to/databases/installing-mysql-with-ubuntu).
 * For CentOS, see [Installing MySQL with CentOS](https://www.thermo.io/how-to/databases/installing-mysql-with-centos).
 
-## Accessing the MySQL server
+## Accessing MySQL servers
 MySQL comes with a blank password for the MySQL user. You can set a new password by issuing:
 ```shell
-mysqladmin -u root password "new password";
+sudo mysqladmin -u root password "new password";
 ```
 After you have installed MySQL, you can connect to the server by typing the following command:
 ```shell
-mysql -u root -p
+sudo mysql -u root -p
 ```
 Type a secure password, then re-enter it when prompted.
 
@@ -70,11 +87,11 @@ Empty set
 ```
 To the table `employees`, we can add certain types of information like their ID, first name, last name, date of birth, mobile number, and address. These fields are called attributes and make up the columns of a table.
 
-Let's create the table:
+Create the table:
 ```sql
 CREATE TABLE `employeeinfo` (`id` INT NOT NULL PRIMARY KEY, `first_name` VARCHAR(20), `last_name` VARCHAR(20), `date_of_birth` DATE, `mobile_number` INT(10), `address` VARCHAR(255));
 ```
-Then take a closer look at this command did:
+Then take a closer look at what this command did:
 * Created a table called `employeeinfo` within the `employee` database.
 * The attribute `id` will be the primary key for this table.
 * Created five rows for you as described earlier.
@@ -136,6 +153,7 @@ To delete the column address, use the `DROP` command:
 ```sql
 ALTER TABLE `employeeinfo` DROP `address`;
 ```
+
 ## Updating table information
 It is possible to change information in tables as needed by using the `UPDATE` command.
 For example, you can change the `mobile_number` of `Tom` to `124567230` by issuing:

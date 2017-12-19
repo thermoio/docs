@@ -11,33 +11,33 @@ Advanced Policy Firewall (APF) is an iptables-based firewall system. It allows y
 ## Installation
 1. To install APF, you will make use of `wget`, `tar`, and `gzip`. If these are not already installed on your server, install them with your OS’s package manager:
    * CentOS
-   ```shell
-   yum install wget tar gzip
-   ```
+     ```shell
+     yum install wget tar gzip
+     ```
    * Ubuntu
-   ```shell
-   apt-get install wget tar gzip
-   ```
+     ```shell
+     apt-get install wget tar gzip
+     ```
 2. Change to a directory where you can safely download and install files:
-```shell
-cd /usr/local/src
-```
+   ```shell
+   cd /usr/local/src
+   ```
 3. Download the tarball:
-```shell
-wget http://rfxn.com/downloads/apf-current.tar.gz
-```
+   ```shell
+   wget http://rfxn.com/downloads/apf-current.tar.gz
+   ```
 4. Extract the file:
-```shell
-tar -xvzf apf-current.tar.gz
-```
+   ```shell
+   tar -xvzf apf-current.tar.gz
+   ```
 5. Change directory into the new `apf` directory. The directory name will change based on the current version, so adjust as needed:
-```shell
-cd apf-1.7.5/
-```
+   ```shell
+   cd apf-1.7.5/
+   ```
 6. Install APF :
-```shell
-sh install.sh
-```
+   ```shell
+   sh install.sh
+   ```
 This installs APF into `/etc/apf`.
 
 ## Configuration

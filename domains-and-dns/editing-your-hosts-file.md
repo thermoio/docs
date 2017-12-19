@@ -18,12 +18,15 @@ After you save the file, any attempt by your computer to visit example.com will 
 ```
 As shown below, the method of accessing the file varies according to your operating system.
 
+## But first...
+We recommend you complete the following steps as a limited sudo user. For more information about setting up limited sudo users, see Creating sudo users on CentOS.
+
 ## Linux
 1. Open your terminal.
 2. Edit the hosts file in the etc directory as root:
-```shell
-sudo nano /etc/hosts
-```
+   ```shell 
+   sudo nano /etc/hosts
+   ```
 3. Append a line to your hosts file as shown in the Overview, then save the file.
 
 ## Windows
@@ -34,9 +37,9 @@ sudo nano /etc/hosts
 
 ## Mac
 1. Open your terminal, then issue:
-```shell
-sudo nano /etc/hosts
-```
+   ```shell
+   sudo nano /etc/hosts
+  ```
 2. When prompted, enter your admin password.
 3. Append a line to your `hosts` file as shown in the Overview, then save the file.
 
@@ -53,9 +56,9 @@ sudo /etc/init.d/ncsd restart
 1. Press Windows Logo Key + R.
 2. Type "cmd", then press Enter.
 3. Issue:
-```shell
-ipconfig /flushdns
-```
+   ```shell
+   ipconfig /flushdns
+   ```
 
 ### Mac
 From your terminal, issue:
