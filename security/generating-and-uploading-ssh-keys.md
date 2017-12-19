@@ -18,7 +18,6 @@ Although the details differ slightly between operating systems, they all involve
 1. Download the freely available and open-source tool, PuttyGen, or the full installation of Putty, which contains PuttyGen. These tools can be downloaded [here](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html).
 2. Install and launch PuttyGen, then click **Generate**.
 3. Move your mouse around the blank area. This will fill a green line which will let you know when you've completed generating a key.
-   ![key creation](https://raw.githubusercontent.com/thermoio/docs/master/images/placeholder.png)
 4. Click the **Save public key** button to save the public key in a location of your choosing on your computer.
 5. To retrieve your key, open File Explorer and browse to the location where you chose to save the keys in Step 4.
 6. Open the `.pub` file, then copy its contents to your clipboard.
