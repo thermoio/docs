@@ -6,7 +6,7 @@ subject: LEMP
 # Setting Up LEMP Stack on CentOS7 with FastCGI
 
 ## But first...
-You need root access and the most current version of CentOS 7.
+You need sudo access and the most current version of CentOS 7.
 
 ## 1: Install Nginx
 1. Prep the system by making sure everything is up to date:
