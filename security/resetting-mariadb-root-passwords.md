@@ -4,7 +4,13 @@ subject: Database
 ---
 
 # Resetting MariaDB Root Passwords
+
+## Overview
 If you forget your password to your MySQL or MariaDB database, this procedure shows you how to gain access in order to reset the password. It requires a user with sudo access to execute.
+
+## But first...
+You need sudo access; for assistance creating one, see [Creating Sudo Users](https://www.thermo.io/how-to/security/creating-sudo-users).
+
 ## Step 1: Identify your database version
 Depending on your choice between MySQL and MariaDB as your operating system, some commands, file paths, and system services will differ. If necessary, you can check your version by issuing:
 ```shell
@@ -19,6 +25,7 @@ If you're running MariaDB, it will be something like:
 mysql  Ver 15.1 Distrib 5.5.52-MariaDB, for Linux (x86_64) using readline 5.1
 ```
 If you're using MariaDB, continue to Step 2 below. If you're using MySQL, see Step 2 in [Resetting MySQL root passwords](https://www.thermo.io/how-to/security/resetting-mysql-root-passwords).
+
 ## Step 2: Stop the database server
 Before changing the root password, you must first terminate the database server:
 ```shell

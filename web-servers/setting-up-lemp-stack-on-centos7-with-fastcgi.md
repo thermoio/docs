@@ -5,6 +5,9 @@ subject: LEMP
 
 # Setting Up LEMP Stack on CentOS7 with FastCGI
 
+## But first...
+You need sudo access and the most current version of CentOS 7. See [Creating sudo users on CentOS](https://github.com/thermoio/docs/blob/master/getting-started/creating-sudo-users-on-centos) for more information.
+
 ## 1: Install Nginx
 1. Prep the system by making sure everything is up to date:
    ```shell
@@ -80,11 +83,11 @@ Make sure this new file is executable with chmod +x /usr/bin/php-fcgi
    [Install]
    WantedBy=multi-user.target
    ```
-3. Next we will enable and start the new service
-```
-systemctl enable php-fastcgi.service
-systemctl start php-fastcgi.service
-```
+3. Enable and start the new service
+   ```
+   systemctl enable php-fastcgi.service
+   systemctl start php-fastcgi.service
+   ```
 
 ## 5: Configure Nginx for PHP processing
 To get PHP working with Nginx, you must add additional information to the server block file we edited previously.
