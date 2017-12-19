@@ -6,7 +6,7 @@ subject: ModSecurity
 # Installing ModSecurity with Nginx on CentOS7
 
 ## But first...
-You need root access and the most current version of CentOS 7.
+You need sudo access and the most current version of CentOS 7. See [Creating sudo users on CentOS](https://github.com/thermoio/docs/blob/master/getting-started/creating-sudo-users-on-centos) for more information.
 
 ## 1: Update
 See [Updating CentOS](https://www.thermo.io/how-to/security/updating-centos).
