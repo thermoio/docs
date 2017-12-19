@@ -31,21 +31,21 @@ subject: Operating System
 
 7. Press **ctrl-x** to boot into single user mode. 
 8. At the `switch_root:/#` prompt, issue:
-```shell
-chroot /sysroot
-```
+   ```shell
+   chroot /sysroot
+   ```
 9. To reset your password, issue:
-```shell
-passwd root 
-```
+   ```shell
+   passwd root 
+   ```
    Enter your password twice when prompted.
 10. Update selinux information by issuing:
-```shell
-touch /.autorelabel
-```
+   ```shell
+   touch /.autorelabel
+   ```
 11. Exit chroot, then reboot your server by issuing:
-```shell
-exit
-reboot
-```
+   ```shell
+   exit
+   reboot
+   ```
 Your server should now reboot normally. After rebooting, you can use your newly created password both in the console and over SSH, which is enabled by default.
