@@ -23,7 +23,7 @@ Although the details differ slightly between operating systems, they all involve
 6. Open the `.pub` file, then copy its contents to your clipboard.
 7. Log in to the [Client Portal](https://core.thermo.io/login/)
 8. In the Client Portal, click your account name, then click **SSH Keys**.
-   ![ssh keys button](https://raw.githubusercontent.com/thermoio/docs/master/images/placeholder.png)
+   ![ssh keys button](https://raw.githubusercontent.com/thermoio/docs/master/images/generating-and-uploading-ssh-keys/2017-12-19_11-29-42.png)
 9. Click **Add Key**. 
    ![Add key button](https://raw.githubusercontent.com/thermoio/docs/master/images/generating-and-uploading-ssh-keys/2017-12-19_11-41-29.png)
 10. In the **Name** field, add the name. In the **Key** field, paste the contents of the `.pub` file. When done, click **Add**.
