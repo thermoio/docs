@@ -117,7 +117,7 @@ Which provides output looking like:
 ## Inserting information into tables
 Once created, add information, or rows, to the table employeeinfo by issuing:
 ```sql
-INSERT INTO 'employeeinfo` ('id`, 'first_name`, 'last_name`, 'date_of_birth`, 'mobile_number`, 'address`) VALUES ('1`, 'Sam`, 'Shaw`, '1984-02-14`, '1234567890`, '60,Vienna`)
+INSERT INTO `employeeinfo` (`id`, `first_name`, `last_name`, `date_of_birth`, `mobile_number`, `address`) VALUES ('1', 'Sam', 'Shaw', '1984-02-14', '1234567890', '60,Vienna')
 ```
 This will add the entire row to your table. You can add as many rows as you want. To view the entire table, issue:
 ```sql
@@ -137,8 +137,8 @@ To see output resembling:
 To retrieve just one row of information based on certain criteria, use the `SELECT` clause  with a `WHERE` condition. For example, if you want to know the address of the employee `Sandie`, then issue:
 ```sql
 SELECT `address`
-FROM 'emplyeeinfo`
-WHERE `id` = '1`;
+FROM `emplyeeinfo`
+WHERE `id` = 1;
 ```
 ## Adding and deleting columns in tables
 To add a column marital_status to your table, issue:
@@ -158,17 +158,17 @@ ALTER TABLE `employeeinfo` DROP `address`;
 It is possible to change information in tables as needed by using the `UPDATE` command.
 For example, you can change the `mobile_number` of `Tom` to `124567230` by issuing:
 ```sql
-UPDATE 'employeeinfo`
+UPDATE `employeeinfo`
 SET
-'Mobile_number` = '124567230`
-WHERE 'employeeinfo`.`name` = 'Tom`;
+`Mobile_number` = '124567230'
+WHERE `employeeinfo`.`name` = 'Tom';
 ```
 While you can issue this query in one line, writing in this way gives more clarity.
 
 ## Deleting information from tables
 To delete all information for the employee `Tina` from the table `employeeinfo`, issue:
 ```sql
-DELETE from 'employeeinfo` where `first_name` = `Tina`;
+DELETE from `employeeinfo` where `first_name` = 'Tina';
 ```
 This deletes all information for Tina, leaving the table to appear as:
 ```shell
@@ -183,7 +183,7 @@ This deletes all information for Tina, leaving the table to appear as:
 ## Deleting entire tables
 To delete the entire `employeeinfo` table, issue:
 ```sql
-DROP TABLE IF EXISTS 'employeeinfo';
+DROP TABLE IF EXISTS `employeeinfo`;
 ```
 
 **_For 24-hour assistance any day of the year, contact a Thermo Physicist [through the Client Portal](https://core.thermo.io/login/)._**

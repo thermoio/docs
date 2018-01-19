@@ -45,11 +45,21 @@ function getArticlesFromPath(link) {
     if (! fs.existsSync(file_name)) {
       return {};
     }
-    var contents = md(fs.readFileSync(file_name).toString());
+    var contents = md(
+      fs.readFileSync(file_name).toString(),
+      {
+        gfm: true,
+        highlight: function (code) {
+          return require('highlight.js').highlightAuto(code).value;
+        }
+      }
+    );
+
     var article = [{
       file: path.resolve(file_name),
       title: contents.meta.title,
       subject: contents.meta.subject,
+      html: contents.html,
       github: getGitLog(path.resolve(file_name)),
       route: getRouteFromFilename(file_name)
     }];
@@ -65,7 +75,15 @@ function getArticlesFromPath(link) {
       continue;
     }
 
-    var contents = md(fs.readFileSync(file_name).toString());
+    var contents = md(
+      fs.readFileSync(file_name).toString(),
+      {
+        gfm: true,
+        highlight: function (code) {
+          return require('highlight.js').highlightAuto(code).value;
+        }
+      }
+    );
 
     // Skip files without meta data
     if (contents.meta === null) {
@@ -76,6 +94,7 @@ function getArticlesFromPath(link) {
       file: path.resolve(file_name),
       title: contents.meta.title,
       subject: contents.meta.subject,
+      html: contents.html,
       github: getGitLog(path.resolve(file_name)),
       route: getRouteFromFilename(file_name)
     };
