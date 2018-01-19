@@ -5,6 +5,7 @@ var fs = require('fs');
 var os = require('os');
 var json = require('jsonfile');
 var path = require('path');
+var hljs = require('highlight.js');
 var execSync = require('child_process').execSync;
 
 if (! fs.existsSync('meta.json')) {
@@ -45,15 +46,7 @@ function getArticlesFromPath(link) {
     if (! fs.existsSync(file_name)) {
       return {};
     }
-    var contents = md(
-      fs.readFileSync(file_name).toString(),
-      {
-        gfm: true,
-        highlight: function (code) {
-          return require('highlight.js').highlightAuto(code).value;
-        }
-      }
-    );
+    var contents = getMarkdown(file_name);
 
     var article = [{
       file: path.resolve(file_name),
@@ -75,15 +68,7 @@ function getArticlesFromPath(link) {
       continue;
     }
 
-    var contents = md(
-      fs.readFileSync(file_name).toString(),
-      {
-        gfm: true,
-        highlight: function (code) {
-          return require('highlight.js').highlightAuto(code).value;
-        }
-      }
-    );
+    var contents = getMarkdown(file_name);
 
     // Skip files without meta data
     if (contents.meta === null) {
@@ -121,4 +106,16 @@ function getGitLog(file_name) {
 
 function getRouteFromFilename(file_name) {
   return file_name.slice(0, -3);
+}
+
+function getMarkdown(file_name) {
+  return md(
+    fs.readFileSync(file_name).toString(),
+    {
+      gfm: true,
+      highlight: function (code) {
+        return hljs.highlightAuto(code).value;
+      }
+    }
+  );
 }
