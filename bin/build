@@ -2,8 +2,11 @@
 
 var md = require('meta-marked');
 var fs = require('fs');
+var os = require('os');
 var json = require('jsonfile');
 var path = require('path');
+var hljs = require('highlight.js');
+var execSync = require('child_process').execSync;
 
 if (! fs.existsSync('meta.json')) {
   throw new Error('meta.json does not exist!');
@@ -12,7 +15,8 @@ var meta = json.readFileSync('meta.json');
 
 var excluded_files = [
   'CONTRIBUTING.md',
-  'README.md'
+  'README.md',
+  'ARTICLE_TEMPLATE.md'
 ];
 
 var output = {
@@ -42,11 +46,14 @@ function getArticlesFromPath(link) {
     if (! fs.existsSync(file_name)) {
       return {};
     }
-    var contents = md(fs.readFileSync(file_name).toString());
+    var contents = getMarkdown(file_name);
+
     var article = [{
       file: path.resolve(file_name),
       title: contents.meta.title,
       subject: contents.meta.subject,
+      html: contents.html,
+      github: getGitLog(path.resolve(file_name)),
       route: getRouteFromFilename(file_name)
     }];
     return article;
@@ -61,11 +68,19 @@ function getArticlesFromPath(link) {
       continue;
     }
 
-    var contents = md(fs.readFileSync(file_name).toString());
+    var contents = getMarkdown(file_name);
+
+    // Skip files without meta data
+    if (contents.meta === null) {
+      continue;
+    }
+
     var article = {
       file: path.resolve(file_name),
       title: contents.meta.title,
       subject: contents.meta.subject,
+      html: contents.html,
+      github: getGitLog(path.resolve(file_name)),
       route: getRouteFromFilename(file_name)
     };
     if (! articles.hasOwnProperty(contents.meta.subject)) {
@@ -77,6 +92,30 @@ function getArticlesFromPath(link) {
   return articles;
 };
 
+function getGitLog(file_name) {
+  var cmd = 'git log --format=format:"%H%n%h%n%an%n%aD" -n 1 ' + file_name + ' 2>&1';
+  var output = execSync(cmd, { cwd: path.dirname(file_name) }).toString().split(os.EOL);
+  return {
+    'commit': output[0] || '',
+    'shortcommit': output[1] || '',
+    'author': output[2] || 'Unknown',
+    'date': output[3] || 'Unknown',
+    'file': file_name.replace(path.resolve(__dirname + '/../') + '/', '')
+  };
+}
+
 function getRouteFromFilename(file_name) {
   return file_name.slice(0, -3);
+}
+
+function getMarkdown(file_name) {
+  return md(
+    fs.readFileSync(file_name).toString(),
+    {
+      gfm: true,
+      highlight: function (code) {
+        return hljs.highlightAuto(code).value;
+      }
+    }
+  );
 }
