@@ -20,7 +20,7 @@ To add the user, choose the below method that applies to your operating system.
 ### Ubuntu
 1. Add the user:
 ```shell
-adduser <example_user> sudo
+adduser <example_user> 
 ```
 2. When prompted, add the new user to the sudo group:
 ```shell
