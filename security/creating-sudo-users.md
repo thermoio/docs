@@ -18,15 +18,10 @@ To begin, log in to your server using SSH as the root user using your SSH key.
 To add the user, choose the below method that applies to your operating system.
 
 ### Ubuntu
-1. Add the user:
+Add the user, and place them in the `sudo` group:
 ```shell
 adduser <example_user> sudo
 ```
-2. When prompted, add the new user to the sudo group:
-```shell
-adduser <example_user> sudo
-```
-
 ### CentOS/Fedora
 To add the user, issue:
 ```shell
