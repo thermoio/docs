@@ -66,7 +66,8 @@ This step uses the previously installed Wget to install WordPress.
    ```shell
    sudo chown -R apache:apache /var/www/html/*
    ```
-## 4: This step configures your new WordPress installation to connect to the MySQL database you created in Section 2.
+## 4: Configure WordPress
+This step configures your new WordPress installation to connect to the MySQL database you created in Section 2.
 1. Change to the Apache root directory storing the configuration file:
    ```shell
    cd /var/www/html
