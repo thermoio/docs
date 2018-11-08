@@ -10,8 +10,8 @@ subject: Two-Factor Authentication
 * A two-factor authentication application on your mobile device. This article [Duo Mobile](https://duo.com/product/trusted-users/two-factor-authentication/duo-mobile), but many other options are available, such as [LastPass Authenticator](https://lastpass.com/auth/) and {Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US), among others. 
 ## Contents
 * [Setup](#Setup)
-* [Authenticating With the App](#Authenticating With the App)
-* [Authenticating with SMS](#Authenticating with SMS)
+* [Authenticating With the App](#Authenticating-With-the-App)
+* [Authenticating with SMS](#Authenticating-with-SMS)
 ## Setup
 This procedure uses Duo Mobile on an Android operating system. Steps 4 - 7 may vary according to your chosen two-factor authentication application.
 
