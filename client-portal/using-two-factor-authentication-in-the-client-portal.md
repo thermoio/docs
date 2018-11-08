@@ -7,7 +7,7 @@ subject: Account Management
 
 ## What you need...
 * Your [Client Portal](https://core.thermo.io/login/). If you cannot locate this information, click **Forget Password?** on the Client Portal login page.
-* A two-factor authentication application on your mobile device. This article [Duo Mobile](https://duo.com/product/trusted-users/two-factor-authentication/duo-mobile), but many other options are available, such as [LastPass Authenticator](https://lastpass.com/auth/) and [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US), among others. 
+* A two-factor authentication application on your mobile device. This article uses [Duo Mobile](https://duo.com/product/trusted-users/two-factor-authentication/duo-mobile), but many other options are available, such as [LastPass Authenticator](https://lastpass.com/auth/) and [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US), among others. 
 
 ## Contents
 * [Setup](#Setup)
