@@ -48,7 +48,7 @@ This procedure uses Duo Mobile on an Android operating system. Your precise meth
 3. On the Client Portal login page, enter the six-digit code in **Authentication Code** field. If desired, select the **Remember this device for 30 days** check box. Click **Log In** when ready.
    ![Entering authentication code, remembering device, and logging in](https://raw.githubusercontent.com/jasondobry/docs/master/images/how-to-use-two-factor-authentication-in-the-client-portal/image%208.png)
    
-** Authenticating with SMS
+## Authenticating with SMS
 If you prefer not to use a two-factor application to authenticate when logging in, you may instead choose to receive a code via SMS. The method sends the code directly to your phone, which you may then enter into the **Authentication Code** field.
 
 ![Send SMS code button upon login](https://raw.githubusercontent.com/jasondobry/docs/master/images/how-to-use-two-factor-authentication-in-the-client-portal/image%209.png)
