@@ -50,6 +50,7 @@ This procedure uses Duo Mobile on an Android operating system. Your precise meth
    
 ** Authenticating with SMS
 If you prefer not to use a two-factor application to authenticate when logging in, you may instead choose to receive a code via SMS. The method sends the code directly to your phone, which you may then enter into the **Authentication Code** field.
+
 ![Send SMS code button upon login](https://raw.githubusercontent.com/jasondobry/docs/master/images/how-to-use-two-factor-authentication-in-the-client-portal/image%209.png)
 
 For this method to function, your current cell phone number must be assigned to your Client Portal user. If the Send SMS Code button is not present, or is present but you do not receive SMS messages after clicking it, then you must update your cell phone number. To do so:
