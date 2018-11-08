@@ -10,7 +10,7 @@ subject: Two-Factor Authentication
 * A two-factor authentication application on your mobile device. This article [Duo Mobile](https://duo.com/product/trusted-users/two-factor-authentication/duo-mobile), but many other options are available, such as [LastPass Authenticator](https://lastpass.com/auth/) and [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en_US), among others. 
 ## Contents
 * [Setup](#Setup)
-* [Authenticating With the App](#Authenticating-With-the-App)
+* [Authenticating with the App](#Authenticating-with-the-app)
 * [Authenticating with SMS](#Authenticating-with-SMS)
 ## Setup
 This procedure uses Duo Mobile on an Android operating system. Steps 4 - 7 may vary according to your chosen two-factor authentication application.
@@ -38,7 +38,7 @@ This procedure uses Duo Mobile on an Android operating system. Steps 4 - 7 may v
 8. In the Client Portal, enter the six-digit code into the **Authentication Field**, then click **Update**.
    ![Code entry field and Update button](https://raw.githubusercontent.com/jasondobry/docs/master/images/how-to-use-two-factor-authentication-in-the-client-portal/image%206.png) 
    
-## Authenticating With the App
+## Authenticating with the app
 This procedure uses Duo Mobile on an Android operating system. Your precise method may vary according to your chosen two-factor authentication application and operating system.
 
 1. Log in to the [Client Portal](https://core.thermo.io/login/).
@@ -63,4 +63,5 @@ For this method to function, your current cell phone number must be assigned to 
    ![Orange edit icon in Client Portal](https://raw.githubusercontent.com/jasondobry/docs/master/images/how-to-use-two-factor-authentication-in-the-client-portal/image%2011.png)
 
 4. From the **Country Code** drop-down list, select your country. In the Cell Phone field, enter your area code and phone number. Click **Save** when done.
+
 **_For 24-hour assistance any day of the year, contact a Thermo Physicist [through the Client Portal](https://core.thermo.io/login/)._**
