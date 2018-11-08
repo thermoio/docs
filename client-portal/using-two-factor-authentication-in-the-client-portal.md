@@ -1,6 +1,6 @@
 ---
 title: Using Two-Factor Authentication in the Client Portal
-subject: Two-Factor Authentication
+subject: Account Management
 ---
 
 # Using Two-Factor Authentication in the Client Portal
